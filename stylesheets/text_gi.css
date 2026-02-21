@@ -1,0 +1,171 @@
+header {
+    display: none;
+}
+
+h3 {
+    margin: 0px auto 10px;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h3 span {
+    position: relative;
+}
+
+h3 span {
+    color: #fff;
+}
+
+.showtop {
+    font-size: 38px;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.load-ver-select {
+    width: 100px;
+    padding: 6px;
+    font-size: 16px;
+    text-align: center;
+}
+
+h3 .subtitle {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    font-style: normal;
+    margin-bottom: -20px;
+}
+
+h3 a {
+    color: #df903b;
+}
+
+h3 .tlsub {
+    margin-bottom: 15px;
+    font-style: normal;
+    cursor: pointer;
+    display: block;
+}
+
+h3 .links {
+    font-style: normal;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+container {
+    display: block;
+}
+
+.content {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    min-height: 600px;
+}
+
+popheader {
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.content p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#INPUT {
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.but {
+    height: 40px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #27363e;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #27363e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.hits {
+    text-align: center;
+}
+
+.result_single p {
+    line-height: 1.6;
+}
+
+.result_single {
+    border-top: 1px solid black;
+    margin: 0px 6px;
+    padding: 0px 6px;
+    font-size: 14px;
+}
+
+.results {
+    padding-bottom: 50px;
+}
+
+.ttl {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    #INPUT {
+        width: 250px;
+    }
+    .result_single {
+        border-top: 1px solid black;
+        margin: 0px 8px;
+        padding: 0px 8px;
+        font-size: 15px;
+    }
+
+    .ttl {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #INPUT {
+        width: 300px;
+    }
+    .result_single {
+        border-top: 1px solid black;
+        margin: 0px 10px;
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    .ttl {
+        font-size: 22px;
+    }
+}
