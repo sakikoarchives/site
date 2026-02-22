@@ -23,7 +23,7 @@ $(function () {
     ]);
 
     $('body').on('click', '._menu_', function () {
-        popLinks(lang)
+        
     })
 
     var cur_ver = 'All'

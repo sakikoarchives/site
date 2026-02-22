@@ -23,7 +23,7 @@ $(function () {
     $('h3 .links').css('margin-top', '23px')
 
     $('body').on('click', '._menu_', function () {
-        popLinks(lang)
+        
     })
 
     var desc = [

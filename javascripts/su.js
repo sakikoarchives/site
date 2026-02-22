@@ -21,7 +21,7 @@ $(function () {
     ]);
 
     $('body').on('click', '._menu_', function () {
-        popLinks(lang)
+        
     })
 
     let script_computer = document.createElement('script')

@@ -253,7 +253,7 @@ $(function() {
     ]);
 
     $('body').on('click', '._menu_', function () {
-        popLinks(lang)
+        
     })
 
     $('h3 .lang').html(txt.Home_Lang_)

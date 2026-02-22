@@ -24,7 +24,7 @@ $(function () {
     ]);
 
     $('body').on('click', '._menu_', function () {
-        popLinks(lang)
+        
     })
 
     var EG = 1

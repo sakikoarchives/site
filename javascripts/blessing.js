@@ -5,7 +5,7 @@ else{$('body').css('font-family',"'Microsoft YaHei', sans-serif")}
 $('h3 .title').html(txt.Title[lang]+"<color style='font-size: 28px;'><br><b>"+VER_SR+"</b></color>")
 $('h3 .subtitle').html(txt.Subtitle[lang]);$('h3 .lang').html(txt.Home_Lang)
 $('h3 .lang').hide()
-$('h3 .links').render([{img:imgpre+'images/menu.png',class:'_menu_'},{img:imgpre+'images/translate.png',class:'_translate_'}]);$('body').on('click','._menu_',function(){popLinks(lang)})
+$('h3 .links').render([{img:imgpre+'images/menu.png',class:'_menu_'},{img:imgpre+'images/translate.png',class:'_translate_'}]);$('body').on('click','._menu_',function(){})
 let script_computer=document.createElement('script')
 script_computer.src='/data/'+lang3+'/Blessing.js'
 document.head.append(script_computer)
