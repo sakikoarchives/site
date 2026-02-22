@@ -1,5 +1,5 @@
 var April_1st = 0
-var enable_about = 1
+var enable_about = 0
 
 var quest_allow = 1
 

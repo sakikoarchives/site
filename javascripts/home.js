@@ -226,11 +226,6 @@ $(function() {
     else {$('body').css('font-family', "'Microsoft YaHei', sans-serif")}
 
     default_game = 'SR'
-    document.cookie.split(";").forEach(function (c) { 
-        if ((c.includes('game=')) && !(c.includes('session'))) {
-            default_game = c.substring(c.indexOf('game=') + 5, c.indexOf('game=') + 7)
-        }
-    });
 
     var cur_select = 1
     var l = didyouknow.length
