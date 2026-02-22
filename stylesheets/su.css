@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -28,7 +28,7 @@ schedule {
     margin-top: 11px;
     width: calc(100% - 50px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
 }
@@ -41,7 +41,7 @@ schedule {
     margin-right: 5px;
     width: calc((100% / 1) - 50px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
 }

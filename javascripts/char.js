@@ -7,9 +7,9 @@ $(function () {
 
     var download_cd = 0
 
-    var ehe = ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'homdgcat.wiki | t.me/homdgcat <b>')
+    var ehe = ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/homdgcat <b>')
     if (April_1st) {
-        ehe = ((lang == 'CH') ? '铌钶钞钕 库据数杯衡玉 yuhengcup.wiki <b>' : 'homdgcat.wiki | t.me/homdgcat <b>')
+        ehe = ((lang == 'CH') ? '铌钶钞钕 库据数杯衡玉 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/homdgcat <b>')
     }
     var meow = April_1st ? ((lang == 'CH') ? '帕' : '~') : ''
     var meow2 = April_1st ? ((lang == 'CH') ? '喵喵喵' : ' Meow Meow~') : ''
@@ -359,7 +359,7 @@ $(function () {
                                         'font-weight': 'bold',
                                         border: '2px solid #df903b',
                                         'background-color': boss_show ? '#27363E' : 'transparent',
-                                        'color': boss_show ? '#eee' : '#000',
+                                        'color': boss_show ? '#eee' : '#ffffff',
                                     },
                                     class: '__boss'
                                 },
@@ -455,7 +455,7 @@ $(function () {
                                         'font-weight': 'bold',
                                         border: '2px solid #df903b',
                                         'background-color': hn_show ? '#27363E' : 'transparent',
-                                        'color': hn_show ? '#eee' : '#000',
+                                        'color': hn_show ? '#eee' : '#ffffff',
                                     },
                                     class: '__hn',
                                     when: is_show_hn
@@ -492,7 +492,7 @@ $(function () {
                                         'font-weight': 'bold',
                                         border: '2px solid #df903b',
                                         'background-color': pic_show ? '#27363E' : 'transparent',
-                                        'color': pic_show ? '#eee' : '#000',
+                                        'color': pic_show ? '#eee' : '#ffffff',
                                     },
                                     class: '__pic',
                                     when: lang == 'CH'
@@ -524,7 +524,7 @@ $(function () {
                                         'font-weight': 'bold',
                                         border: '2px solid #df903b',
                                         'background-color': vid_show ? '#27363E' : 'transparent',
-                                        'color': vid_show ? '#eee' : '#000',
+                                        'color': vid_show ? '#eee' : '#ffffff',
                                     },
                                     class: '__vid',
                                     when: _vid_index.length
@@ -563,7 +563,7 @@ $(function () {
                                         'font-weight': 'bold',
                                         border: '2px solid #dd0000',
                                         'background-color': ann_show ? '#27363E' : 'transparent',
-                                        'color': ann_show ? '#eee' : '#000',
+                                        'color': ann_show ? '#eee' : '#ffffff',
                                     },
                                     class: '__ann',
                                     when: anniversary_show
