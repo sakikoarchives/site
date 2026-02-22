@@ -2479,7 +2479,7 @@ $('body').on('click', '._menu_', function () {
                         schedule: {
                             a: '/sr/anniversary',
                             t: {
-                                span: (lang == 'CH') ? '云璃一周年' : 'Yunli 1st Anniversary',
+                                span: (lang == 'CH') ? '雪衣二周年' : 'Xueyi 2nd Anniversary',
                                 style: {
                                     'margin': 'auto',
                                     'font-weight': 'bold',
