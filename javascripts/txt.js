@@ -1087,16 +1087,3 @@ if ($('#NOLAZY').val()) {
     $('html').css('overflow-y', 'scroll')
     $('html').css('scrollbar-width', 'none')
 }
-
-if (enable_about) {
-    $('.links').render({
-        span: {
-            a: '/about',
-            t: {
-                span: (lang == 'CH') ? '关于我' : 'About Me'
-            },
-            class: 'hover-shadow about_button'
-        },
-        class: 'about_button_wrap'
-    })
-}
