@@ -14,16 +14,7 @@ $(function () {
     $('h3 .subtitle').html(txt.Subtitle[lang]);
     $('h3 .lang').html(txt.Home_Lang.replaceAll("'>", `${window.location.hash}'>`))
     $('h3 .lang').hide()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
+
 
     var rarity_color = {
         1: "#919299",

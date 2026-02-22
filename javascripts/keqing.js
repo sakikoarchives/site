@@ -9,16 +9,7 @@ $(function () {
     $('h3 .subtitle').html(computer_.MiscText.Subtitle[lang]);
     $('h3 .tlsub').html(computer_.MiscText.Translate_);
     $('h3 .tlsub').hide()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
+
 
     var tip = {
         CH: "玩家为角色付出的一切努力都值得被记录<br>「玉衡杯」曾经是刻晴玩家追求刻晴极致的地方<br>虽然玉衡杯已不再举办，但刻晴仍会陪伴我们走向未来",

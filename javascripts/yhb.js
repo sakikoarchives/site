@@ -9,16 +9,7 @@ $(function () {
     $('h3 .subtitle').html(computer_.MiscText.Subtitle[lang]);
     $('h3 .tlsub').html(computer_.MiscText.Translate_);
     $('h3 .tlsub').hide()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
+
 
     var cur_time = Date.now()
     var days_1 = Math.round((cur_time - Date.parse('2022-04-01T12:00:00+08:00')) / 86400000).toString()

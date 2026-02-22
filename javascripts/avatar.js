@@ -165,16 +165,7 @@ $(function () {
     $('h3 .title').html(computer_.MiscText.Title[lang] + "<color style='font-size: 26px;'><br>" + computer_.MiscText.game_img[lang] + VER_GI + "</b></color>");
     $('h3 .subtitle').html(computer_.MiscText.Subtitle[lang]);
     $('h3 .tlsub').hide()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
+
 
     function start_cntd() {
         countdown_ver = ""

@@ -241,23 +241,6 @@ $(function() {
     $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 28px;'><br><b>" + VER_GI + " / " + VER_SR + "</b></color>")
     
     var imgpre = $('#IMGPRE').val()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
-
-    $('body').on('click', '._menu_', function () {
-        
-    })
-
-    $('h3 .lang').html(txt.Home_Lang_)
-    $('.lang').hide()
 
     $('container').render({
         div: [

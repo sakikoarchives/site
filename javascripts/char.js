@@ -36,16 +36,7 @@ $(function () {
     $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 26px;'><br>" + txt.game_img[lang] + VER_SR + "</b></color>")
     $('h3 .subtitle').html(txt.Subtitle[lang]);
     $('h3 .lang').hide()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
+
 
     var _yes = '✔'
     var _no = ''

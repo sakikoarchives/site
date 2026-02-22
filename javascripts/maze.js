@@ -11,16 +11,7 @@ $(function () {
     $('h3 .subtitle').html(computer_.MiscText.Subtitle[lang]);
     $('h3 .tlsub').html(computer_.MiscText.Translate_);
     $('h3 .tlsub').hide()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
+
 
     var show_minion_hp = 0
 

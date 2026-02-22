@@ -30,16 +30,7 @@ $(function () {
     $('h3 .subtitle').html(txt.Subtitle[lang]);
     $('h3 .lang').html(txt.Home_Lang)
     $('h3 .lang').hide()
-    $('h3 .links').render([
-        {
-            img: imgpre + 'images/menu.png',
-            class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
-        }
-    ]);
+
 
     $('body').on('click', '._menu_', function () {
         
