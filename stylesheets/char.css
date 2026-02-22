@@ -107,7 +107,7 @@ popdialog {
 popheader {
     height: 40px;
     line-height: 40px;
-    background: #fff;
+    background: #ffffff;
     color: #33333300;
     font-size: 18px;
     font-weight: 600;
@@ -205,7 +205,7 @@ schedule {
 
 .select_parts_size_3 schedule {
     background-color: #000000;
-    color: #00000000;
+    color: #ffffff;
     width: 30px;
     height: 30px;
     padding: 5px;
@@ -214,7 +214,7 @@ schedule {
 
 .select_parts_size_4 schedule {
     background-color: #000000;
-    color: #ffffff00;
+    color: #ffffff;
     width: 28px;
     height: 28px;
     padding: 4px;
@@ -270,7 +270,7 @@ schedule {
     width: calc(50% - 38px);
     line-height: 2;
     background-color: #000000;
-    color: #eeeeee00;
+    color: #ffffff;
     position: relative;
     text-align: center;
     cursor: pointer;
@@ -284,7 +284,7 @@ schedule {
     width: calc(33% - 34px);
     line-height: 2;
     background-color: #000000;
-    color: #eeeeee00;
+    color: rgb(238, 238, 238);
     position: relative;
     text-align: center;
     cursor: pointer;
@@ -392,7 +392,7 @@ schedule {
     display: inline-block;
     border-radius: 10px;
     background-color: #000000;
-    color: #eeeeee00;
+    color: #eeeeee;
     position: relative;
     margin: 3px 0;
 }
@@ -792,7 +792,7 @@ schedule {
     width: calc(100% - 48px);
     line-height: 2;
     background-color: #000000;
-    color: #eeeeee00;
+    color: #ffffff;
     position: relative;
 }
 
