@@ -4,7 +4,7 @@ $(function () {
 
     if (lang == 'CH') document.title = '玉衡杯数据库'
 
-    if (lang == 'EN') { $('body').css('font-family', "'Segoe UI', sans-serif") }
+    if (lang == 'EN') { $('body').css('font-family', "'Arial', sans-serif") }
     else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
 
     $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 28px;'><br><b>" + VER_SR + "</b></color>")
@@ -195,7 +195,7 @@ $(function () {
         } else if (IS_SW % 4 == 3) {
             $('body').css('font-family', "'TW', sans-serif")
         } else {
-            if (lang == 'EN') { $('body').css('font-family', "'Segoe UI', sans-serif") }
+            if (lang == 'EN') { $('body').css('font-family', "'Arial', sans-serif") }
             else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
         }
     })

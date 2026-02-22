@@ -7,7 +7,7 @@ $(function () {
     if (window.location.hash) window.location.hash = ''
     cur_coordinate = 0
 
-    if (lang == 'EN') { $('body').css('font-family', "'Segoe UI', sans-serif") }
+    if (lang == 'EN') { $('body').css('font-family', "'Arial', sans-serif") }
     else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
 
     $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 26px;'><br>" + txt.game_img[lang] + VER_SR + "</b></color>")

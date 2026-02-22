@@ -4,7 +4,7 @@ $(function () {
 
     init_title(txt.About_Title[lang] + ' ' + txt.PAGE_TITLE[lang])
 
-    if (lang == 'EN') { $('body').css('font-family', "'Segoe UI', sans-serif") }
+    if (lang == 'EN') { $('body').css('font-family', "'Arial', sans-serif") }
     else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
 
     $('h3 .title').html(txt.Title[lang])

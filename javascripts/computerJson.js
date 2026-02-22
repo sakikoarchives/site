@@ -2139,7 +2139,7 @@ if ((lang2 != "CH") && (lang2 != "EN") && (lang2 != "RU")) lang2 = "EN"
 var lang = lang2
 if (lang == "RU") lang = "EN"
 
-if (lang == 'EN') { $('body').css('font-family', "'Segoe UI', 'Arial', sans-serif") }
+if (lang == 'EN') { $('body').css('font-family', "'Arial', 'Arial', sans-serif") }
 else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
 
 $('body').on('click', '._menu_', function () {
