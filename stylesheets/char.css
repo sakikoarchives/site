@@ -9,7 +9,7 @@ container {
 .content, .content_2 {
     padding: 15px 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     display: block;
 }
 
@@ -130,7 +130,7 @@ popbodyy div {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -192,7 +192,7 @@ schedule {
 }
 
 .select_parts_size_2 schedule {
-    border: 1.5px solid #333;
+    border: 1.5px solid #ffffff;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -204,8 +204,8 @@ schedule {
 }
 
 .select_parts_size_3 schedule {
-    background-color: #ff719900;
-    color: #fff;
+    background-color: #000000;
+    color: #00000000;
     width: 30px;
     height: 30px;
     padding: 5px;
@@ -213,8 +213,8 @@ schedule {
 }
 
 .select_parts_size_4 schedule {
-    background-color: #ff719900;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff00;
     width: 28px;
     height: 28px;
     padding: 4px;
@@ -222,19 +222,19 @@ schedule {
 }
 
 .select_parts_size_1 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff84a1;
 }
 
 .select_parts_size_2 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff84a1;
 }
 
 .select_parts_size_3 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff84a1;
 }
 
 .select_parts_size_4 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff84a1;
 }
 
 .select_parts schedule img {
@@ -270,7 +270,7 @@ schedule {
     width: calc(50% - 38px);
     line-height: 2;
     background-color: #000000;
-    color: #eeeeee;
+    color: #eeeeee00;
     position: relative;
     text-align: center;
     cursor: pointer;
@@ -284,7 +284,7 @@ schedule {
     width: calc(33% - 34px);
     line-height: 2;
     background-color: #000000;
-    color: #eeeeee;
+    color: #eeeeee00;
     position: relative;
     text-align: center;
     cursor: pointer;
@@ -391,8 +391,8 @@ schedule {
     width: calc(100% - 2px);
     display: inline-block;
     border-radius: 10px;
-    background-color: #ff719900;
-    color: #eeeeee;
+    background-color: #000000;
+    color: #eeeeee00;
     position: relative;
     margin: 3px 0;
 }
@@ -791,8 +791,8 @@ schedule {
     margin-top: 6px;
     width: calc(100% - 48px);
     line-height: 2;
-    background-color: #ff719900;
-    color: #eeeeee;
+    background-color: #000000;
+    color: #eeeeee00;
     position: relative;
 }
 
@@ -924,7 +924,7 @@ schedule {
 }
 
 .pic_span {
-    border: 2px solid #FFD780;
+    border: 2px solid #f23866;
     border-radius: 3px;
     padding: 0 9px;
     margin: 8px;
@@ -1049,7 +1049,7 @@ schedule {
 
 .mat_a {
     position: relative;
-    color: #eeeeee;
+    color: #eeeeee00;
 }
 
 .servant_pic_container {
@@ -1133,7 +1133,7 @@ table {
 }
 
 .as_left_name a {
-    color: #f29e38;
+    color: #f23866;
 }
 
 .summon_icon {
@@ -1216,7 +1216,7 @@ table {
 
 .vid_vid {
     color: #eee;
-    border: 2px solid #f29e38;
+    border: 2px solid #f23866;
     border-radius: 3px;
     padding: 3px 7px;
 }
@@ -1844,7 +1844,7 @@ table {
     }
     .avatar_mat img {
         height: 64px;
-        border: 2px solid #27363e;
+        border: 2px solid #000000;
         border-radius: 5px;
     }
 

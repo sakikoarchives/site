@@ -1,6 +1,6 @@
 VER_GI = "6.3v2"//GI
 
-VER_SR = "3.8v4"//SR
+VER_SR = "4.1v2"//SR
 
 GI_DATES = {
     "6.0": ["6.1v1", Date.parse('2025-09-10T18:00:00+08:00')],
