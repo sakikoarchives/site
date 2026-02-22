@@ -251,7 +251,7 @@ var SR = [
     {
         "Title": {
             "CH": "云璃成绩",
-            "EN": "Yunli Endgame"
+            "EN": "Xueyi Endgame"
         },
         "Features": [],
         "Href": {

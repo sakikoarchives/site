@@ -11,8 +11,8 @@ var show_yhb = (cur_time_0 >= keqing_birthday)
 
 var txt = {
     "game_img": {
-        "CH": '<img src="./images/emote/Yunli/1.png" class="game_img"> <b>',
-        "EN": '<img src="./images/emote/Yunli/1.png" class="game_img_2"> <b>'
+        "CH": '<img src="./images/emote/Xueyi/1.png" class="game_img"> <b>',
+        "EN": '<img src="./images/emote/Xueyi/1.png" class="game_img_2"> <b>'
     },
     "TIT": {
         "CH": "妮可少女 玉衡杯数据库",
@@ -894,7 +894,7 @@ var links = {
         {
             "Name": {
                 "CH": "云璃成绩",
-                "EN": "Yunli Endgame"
+                "EN": "Xueyi Endgame"
             },
             "Link": "/yunli"
         },

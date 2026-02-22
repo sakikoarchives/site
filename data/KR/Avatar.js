@@ -1546,7 +1546,7 @@ var _avatar = [
     },
     {
         "_id": 12210,
-        "Name": "Yunli",
+        "Name": "Xueyi",
         "Skills": [
             {
                 "Name": "Test Lightcone",

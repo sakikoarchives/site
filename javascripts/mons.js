@@ -1690,7 +1690,7 @@ $(function () {
         $('.keq_emote_div').each(function () {
             var this_emote = keq_emotes[Math.floor(Math.random() * keq_emotes.length)]
             $(this).empty().render({
-                img: `/images/emote/Yunli/${this_emote}.png`
+                img: `/images/emote/Xueyi/${this_emote}.png`
             })
         })
     }

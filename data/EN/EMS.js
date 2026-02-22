@@ -1770,14 +1770,14 @@ var _as = [
     },
     {
         "_id": 10012217,
-        "MDF": "MAvatar_Yunli_00_Blocking_CritDamage",
+        "MDF": "MAvatar_Xueyi_00_Blocking_CritDamage",
         "Name": "Earthbind, Etherbreak",
         "Desc": "Increases CRIT DMG dealt by the next Counter by <color><b>A</b></color>.",
         "Type": 1
     },
     {
         "_id": 10012216,
-        "MDF": "MAvatar_Yunli_00_Rank04",
+        "MDF": "MAvatar_Xueyi_00_Rank04",
         "Name": "Artisan's Ironsong",
         "Desc": "Increases Effect RES by <color><b>A</b></color>.",
         "Type": 1
@@ -1894,14 +1894,14 @@ var _as = [
     },
     {
         "_id": 10012215,
-        "MDF": "MAvatar_Yunli_00_Rank02_Sub",
+        "MDF": "MAvatar_Xueyi_00_Rank02_Sub",
         "Name": "First Luster Breaks Dawn",
         "Desc": "Increase CRIT Rate by <color><b>A</b></color>.",
         "Type": 1
     },
     {
         "_id": 10012214,
-        "MDF": "MAvatar_Yunli_00_SkillTree02_ControlResist",
+        "MDF": "MAvatar_Xueyi_00_SkillTree02_ControlResist",
         "Name": "Demon Quell",
         "Desc": "Resists Crowd Control debuffs received and reduces DMG received by <color><b>A</b></color>.",
         "Type": 1
@@ -2128,23 +2128,23 @@ var _as = [
     },
     {
         "_id": 10012213,
-        "MDF": "MAvatar_Yunli_00_SkillTree03_Sub",
+        "MDF": "MAvatar_Xueyi_00_SkillTree03_Sub",
         "Name": "True Sunder",
         "Desc": "Increases ATK by <color><b>A</b></color>.",
         "Type": 1
     },
     {
         "_id": 10012212,
-        "MDF": "MAvatar_Yunli_00_Blocking",
+        "MDF": "MAvatar_Xueyi_00_Blocking",
         "Name": "Parry",
         "Desc": "When triggering Talent's Counter effect, launches the Counter \"Intuit: Cull\" instead.",
         "Type": 1
     },
     {
         "_id": 10012211,
-        "MDF": "MAvatar_Yunli_00_Disqualification",
+        "MDF": "MAvatar_Xueyi_00_Disqualification",
         "Name": "Imbalance",
-        "Desc": "Increases DMG dealt by Yunli to this unit by <color><b>A</b></color>.",
+        "Desc": "Increases DMG dealt by Xueyi to this unit by <color><b>A</b></color>.",
         "Type": 2
     },
     {

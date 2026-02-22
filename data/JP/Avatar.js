@@ -4564,7 +4564,7 @@ var _hidden = [
         ]
     },
     {
-        "Name": "Yunli",
+        "Name": "Xueyi",
         "Date": "2024/06/07",
         "Ver": "2.3v5",
         "Notes": [
@@ -4578,11 +4578,11 @@ var _hidden = [
             },
             {
                 "Title": "Technique",
-                "Desc": "Provides protection to the on-field character. When attacked by an enemy, the on-field character will automatically retreat one step, and Yunli's weapon will appear to block the hit."
+                "Desc": "Provides protection to the on-field character. When attacked by an enemy, the on-field character will automatically retreat one step, and Xueyi's weapon will appear to block the hit."
             },
             {
                 "Title": "Story Battle Assist Skill",
-                "Desc": "Should be similar to the playable character's abilities (ref. Danheng IL, Huohuo, Black Swan)<br>Yunli stands at the center of her allies, facing the opponents in front of her. She consumes all stacks of something, considers the DMG type of some attacks as another type, and launches the Super Counterattack of her Ultimate, dealing Physical follow-up DMG to a single target and adjacent targets, and then deals Physical follow-up DMG to a random enemy for a few times."
+                "Desc": "Should be similar to the playable character's abilities (ref. Danheng IL, Huohuo, Black Swan)<br>Xueyi stands at the center of her allies, facing the opponents in front of her. She consumes all stacks of something, considers the DMG type of some attacks as another type, and launches the Super Counterattack of her Ultimate, dealing Physical follow-up DMG to a single target and adjacent targets, and then deals Physical follow-up DMG to a random enemy for a few times."
             }
         ]
     },

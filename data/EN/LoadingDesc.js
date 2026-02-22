@@ -744,7 +744,7 @@ var _loadingdesc = [
     {
         "_id": 10203,
         "Ver": 2.4,
-        "Name": "Yunli",
+        "Name": "Xueyi",
         "Desc": "A Zhuming swordmaster visiting the Xianzhou Luofu. General Huaiyan's beloved adopted granddaughter.<br>She offers no pretenses for warriors who are lacking in virtue and love to claim the weapons of her defeated foes."
     },
     {
