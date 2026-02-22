@@ -31,9 +31,9 @@ $(function () {
 
         _title = (lang == 'CH') ? '星穹铁道 文本搜索' : 'HSR Text Search'
         _button = (lang == 'CH') ? '搜索' : 'Search'
-        _hits = (lang == 'CH') ? '找到 # 条文本' : 'Found # results'
-        _hits_initial = (lang == 'CH') ? '加载中...' : 'Loading data...'
-        _hits_finish = (lang == 'CH') ? '加载完成' : 'Loading finished'
+        _hits = (lang == 'CH') ? '找到 # 条文本' : 'Sakiko has found # results'
+        _hits_initial = (lang == 'CH') ? '加载中...' : 'Sakiko is tuning...'
+        _hits_finish = (lang == 'CH') ? '加载完成' : 'Sakiko has finished!'
         
         _button_name = (lang == 'CH') ? '搜索说话人名' : 'Search Speaker'
         _button_text = (lang == 'CH') ? '搜索对话内容' : 'Search Content'

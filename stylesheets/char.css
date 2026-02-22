@@ -108,7 +108,7 @@ popheader {
     height: 40px;
     line-height: 40px;
     background: #fff;
-    color: #333;
+    color: #33333300;
     font-size: 18px;
     font-weight: 600;
     overflow: hidden;
@@ -183,7 +183,7 @@ schedule {
 }
 
 .select_parts_size_1 schedule {
-    background-color: #27363E;
+    background-color: #ffffff00;
     color: #fff;
     width: 44px;
     height: 44px;
@@ -204,7 +204,7 @@ schedule {
 }
 
 .select_parts_size_3 schedule {
-    background-color: #27363E;
+    background-color: #ff719900;
     color: #fff;
     width: 30px;
     height: 30px;
@@ -213,7 +213,7 @@ schedule {
 }
 
 .select_parts_size_4 schedule {
-    background-color: #27363E;
+    background-color: #ff719900;
     color: #fff;
     width: 28px;
     height: 28px;
@@ -269,7 +269,7 @@ schedule {
     margin-bottom: 3px;
     width: calc(50% - 38px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
     text-align: center;
@@ -283,7 +283,7 @@ schedule {
     margin-bottom: 3px;
     width: calc(33% - 34px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
     text-align: center;
@@ -391,7 +391,7 @@ schedule {
     width: calc(100% - 2px);
     display: inline-block;
     border-radius: 10px;
-    background-color: #27363E;
+    background-color: #ff719900;
     color: #eeeeee;
     position: relative;
     margin: 3px 0;
@@ -533,11 +533,11 @@ schedule {
 }
 
 .a_section_small ::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #ffffff00;
 }
 
 .a_section ::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #ffffff00;
 }
 
 .gacha_1 {
@@ -576,7 +576,7 @@ schedule {
 }
 
 .mon_head schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff719a;
     color: #fff;
 }
 
@@ -593,7 +593,7 @@ schedule {
 
 .avatar_mat img {
     height: 50px;
-    border: 2px solid #27363e;
+    border: 2px solid #000000;
     border-radius: 5px;
     padding: 4px;
     cursor: pointer;
@@ -791,7 +791,7 @@ schedule {
     margin-top: 6px;
     width: calc(100% - 48px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #ff719900;
     color: #eeeeee;
     position: relative;
 }
@@ -920,7 +920,7 @@ schedule {
     flex-wrap: wrap;
     padding-top: 8px;
     padding-bottom: 8px;
-    background-color: #aaa;
+    background-color: #fff4f400;
 }
 
 .pic_span {
@@ -1040,7 +1040,7 @@ schedule {
     top: -3px;
     font-weight: bold;
     font-size: 12px!important;
-    background-color: #27363E;
+    background-color: #ff719900;
     line-height: 1!important;
     border-radius: 6px;
     padding: 3px;
