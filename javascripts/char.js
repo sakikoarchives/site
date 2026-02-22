@@ -357,7 +357,7 @@ $(function () {
                                         width: 'max-content',
                                         padding: '10px 20px',
                                         'font-weight': 'bold',
-                                        border: '2px solid #df903b',
+                                        border: '2px solid #ff1b6f',
                                         'background-color': boss_show ? '#27363E' : 'transparent',
                                         'color': boss_show ? '#eee' : '#ffffff',
                                     },
@@ -391,7 +391,7 @@ $(function () {
                                         'font-weight': 'bold',
                                         border: '2px solid #df903b',
                                         'background-color': cl_show ? '#27363E' : 'transparent',
-                                        'color': cl_show ? '#eee' : '#000',
+                                        'color': cl_show ? '#eee' : '#ffffff',
                                     },
                                     class: '__cl'
                                 },
