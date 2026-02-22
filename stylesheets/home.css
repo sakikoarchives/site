@@ -43,7 +43,7 @@ em {
 }
 
 .about_2 a {
-    color: #df903b;
+    color: #ffbfd3;
 }
 
 a.translate_ {
@@ -76,7 +76,7 @@ a.translate_ {
     margin-top: 0px;
     padding-bottom: 30px;
     margin-left: -1px;
-    background-color: #aaa;
+    background-color: #aaaaaa00;
 }
 
 .dir_wrap {
@@ -91,7 +91,7 @@ a.translate_ {
 }
 
 .dir {
-    background-color: #27363E;
+    background-color: #27363e00;
     border-radius: 10px;
     margin: 4px 0px;
     padding: 20px;
@@ -151,14 +151,14 @@ a.translate_ {
 .n1, .n2 {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: left;
+    justify-content: center;
     margin: 8px 4px 8px 2px;
     overflow-x: scroll;
     width: calc(100% - 7px);
 }
 
 .new_block {
-    background-color: #27363E;
+    background-color: #27363e00;
     border-radius: 6px;
     cursor: pointer;
     color: #eeeeee;
@@ -231,7 +231,7 @@ a.translate_ {
 }
 
 .futds {
-    background-color: #27363E;
+    background-color: #27363e00;
     border-radius: 6px;
     cursor: pointer;
     color: #eeeeee;
