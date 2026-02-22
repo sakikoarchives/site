@@ -247,19 +247,6 @@ $(function() {
             {
                 section: [
                     {
-                        schedule: txt.Home_Sections[0][lang],
-                        a: {
-                            'data-id': 1,
-                            'class': GAME == 'GI' ? 'active' : ''
-                        },
-                        style: {
-                            'display': 'flex',
-                            'justify-content': 'center',
-                            'flex-direction': 'column',
-                            'line-height': '1.7'
-                        }
-                    },
-                    {
                         schedule: txt.Home_Sections[1][lang],
                         a: {
                             'data-id': 2,
