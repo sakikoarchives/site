@@ -64,7 +64,7 @@ $(function() {
 
     function cntd_0() {
         cntd(countdown_time_1, countdown_ver_1, '.c1_b', '.c1_a', 1600135200000, (lang == 'CH') ? '刻晴' : 'Keqing', countdown_note_1)
-        cntd(countdown_time_2, countdown_ver_2, '.c2_b', '.c2_a', 1722394800000, (lang == 'CH') ? '云璃' : 'Yunli', countdown_note_2)
+        cntd(countdown_time_2, countdown_ver_2, '.c2_b', '.c2_a', 1703646000000, (lang == 'CH') ? '雪衣' : 'Xueyi', countdown_note_2)
     }
 
     function cntd(a, c, b, div2, birthday_stamp, char_name, _note) {
