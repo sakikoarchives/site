@@ -72,7 +72,7 @@ $(function () {
         var diff = countdown_time - now
         var age_d = parseInt((now - 1722394800000) / 86400000)
         if ((age_d % 100 == 0) || anniversary) age_d = "<color style='color:#DD0000'>" + age_d + '</color>'
-        $('.c2_a').html((lang == 'CH') ? `云璃 : <b>${age_d}</b> 天` : `Yunli: <b>${age_d}</b> days old`)
+        $('.c2_a').html((lang == 'CH') ? `云璃 : <b>${age_d}</b> 天` : `Xueyi: <b>${age_d}</b> days old`)
         if (anniversary) {
             var birthday_difference = 1753930800000 - now
             if (birthday_difference > 0) {
@@ -208,9 +208,9 @@ $(function () {
         if ((this_avatar._id != 1221) && (this_avatar._id != 12210)) return
         $('.head_left').each(function () {
             var rand_list = [
-                '/images/emote/Yunli/1.png',
-                '/images/emote/Yunli/2.png',
-                '/images/emote/Yunli/3.png',
+                '/images/emote/Xueyi/1.png',
+                '/images/emote/Xueyi/2.png',
+                '/images/emote/Xueyi/3.png',
             ]
             var rand = rand_list[Math.floor(Math.random() * rand_list.length)]
             $(this).attr('src', rand)
@@ -302,7 +302,7 @@ $(function () {
                             div: [
                                 {
                                     div: {
-                                        img: '/images/emote/Yunli/1.png'
+                                        img: '/images/emote/Xueyi/1.png'
                                     },
                                     class: 'cntd_emote'
                                 },
@@ -535,7 +535,7 @@ $(function () {
                         {
                             section: [
                                 {
-                                    schedule: (lang == 'CH') ? '云璃一周年' : 'Yunli 1st Anniversary',
+                                    schedule: (lang == 'CH') ? '云璃一周年' : 'Xueyi 1st Anniversary',
                                     click: function (p) {
                                         renderAnn()
                                         ann_show = 1 - ann_show
@@ -1540,7 +1540,7 @@ $(function () {
                                 $(k.container).render({
                                     template: {
                                         div: {
-                                            img: imgpre + 'images/emote/Yunli/' + emote + '.png',
+                                            img: imgpre + 'images/emote/Xueyi/' + emote + '.png',
                                             class: 'emote',
                                             a: {
                                                 loading: lazy
@@ -1581,7 +1581,7 @@ $(function () {
         while (unused_emotes.includes(emote)) {
             emote = Math.ceil(Math.random() * emote_num)
         }
-        this.src = '/images/emote/Yunli/' + emote + '.png'
+        this.src = '/images/emote/Xueyi/' + emote + '.png'
         
     })
 
@@ -1821,7 +1821,7 @@ $(function () {
     }
 
     function renderAnn() {
-        switch_title((lang == 'CH') ? '云璃一周年' : 'Yunli 1st Anniversary')
+        switch_title((lang == 'CH') ? '云璃一周年' : 'Xueyi 1st Anniversary')
         $('.ann_data').empty().render(emote_block)
         rotate()
         $('.ann_data').render({
@@ -2833,7 +2833,7 @@ $(function () {
                     {
                         div: [
                             {
-                                p: (lang == 'CH') ? '璃宝一周年' : "Yunli's 1st Anniversary"
+                                p: (lang == 'CH') ? '璃宝一周年' : "Xueyi's 1st Anniversary"
                             },
                             {
                                 p: '',
@@ -6168,7 +6168,7 @@ $(function () {
         $('.keq_emote_div').each(function () {
             var this_emote = keq_emotes[Math.floor(Math.random() * keq_emotes.length)]
             $(this).empty().render({
-                img: `/images/emote/Yunli/${this_emote}.png`
+                img: `/images/emote/Xueyi/${this_emote}.png`
             })
         })
     }

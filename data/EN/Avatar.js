@@ -4,7 +4,7 @@ var _avatar = [
     {
         "_id": 1221,
         "Ver": "2.4",
-        "Name": "Yunli",
+        "Name": "Xueyi",
         "Desc": "A sword hunter from the Xianzhou Zhuming and \"the Flaming Heart\" General Huaiyan's darling granddaughter. Frank and straightforward.<br>She has learned swordplay and forging from Huaiyan since she was young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet.<br>Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to \"hunt down and wipe out all cursed swords.\"",
         "Rarity": 5,
         "Element": "Phys",
@@ -1922,7 +1922,7 @@ var _avatar = [
     {
         "_id": 1221,
         "Ver": "2.4",
-        "Name": "Yunli",
+        "Name": "Xueyi",
         "Desc": "A sword hunter from the Xianzhou Zhuming and \"the Flaming Heart\" General Huaiyan's darling granddaughter. Frank and straightforward.<br>She has learned swordplay and forging from Huaiyan since she was young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet.<br>Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to \"hunt down and wipe out all cursed swords.\"",
         "Rarity": 5,
         "Element": "Phys",
@@ -1980,7 +1980,7 @@ var _avatar = [
         "_id": 1224,
         "Ver": "2.4",
         "Name": "March 7th",
-        "Desc": "March 7th in a Xianzhou-styled outfit. A sword-wielding female martial artist.<br>Learning swordplay from both Yunli and Yanqing, she is eager to create more beautiful memories on the Xianzhou.",
+        "Desc": "March 7th in a Xianzhou-styled outfit. A sword-wielding female martial artist.<br>Learning swordplay from both Xueyi and Yanqing, she is eager to create more beautiful memories on the Xianzhou.",
         "Rarity": 4,
         "Element": "Imaginary",
         "Path": "Hunt",
@@ -2036,7 +2036,7 @@ var _avatar = [
     },
     {
         "_id": 12210,
-        "Name": "Yunli",
+        "Name": "Xueyi",
         "Skills": [
             {
                 "Name": "Test Lightcone",

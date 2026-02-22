@@ -3,7 +3,7 @@ $(function () {
     var imgpre = $('#IMGPRE').val()
     var avid = $('#AVID').val()
 
-    init_title((lang == 'CH' ? '云璃成绩' : 'Yunli Endgame') + ' ' + txt.PAGE_TITLE[lang])
+    init_title((lang == 'CH' ? '云璃成绩' : 'Xueyi Endgame') + ' ' + txt.PAGE_TITLE[lang])
 
     if (lang == 'EN') { $('body').css('font-family', "'Segoe UI', sans-serif") }
     else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
@@ -20,7 +20,7 @@ $(function () {
 
     var tip = {
         CH: "云璃在一些赛道的成绩汇总（个人厨力向）<br>表格最右侧是每个视频的作者，手机上需要左划",
-        EN: "Compilation of Yunli's performance in endgame content, out of personal interest.<br>If on mobile, swipe left to view the full tables.",
+        EN: "Compilation of Xueyi's performance in endgame content, out of personal interest.<br>If on mobile, swipe left to view the full tables.",
     }
 
     var template = [
@@ -108,7 +108,7 @@ $(function () {
         template: {
             div: [
                 {
-                    p: (lang == "CH" ? '云璃成绩' : 'Yunli Endgame'),
+                    p: (lang == "CH" ? '云璃成绩' : 'Xueyi Endgame'),
                     class: 'sch_2'
                 },
                 {

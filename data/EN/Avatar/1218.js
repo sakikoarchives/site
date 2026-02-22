@@ -3053,8 +3053,8 @@ var _voice_ = {
         },
         {
             "_id": "archive_jiaoqiu_18",
-            "Title": "About Yunli",
-            "Voice": "Miss Yunli may be the youngest member of the Flamewheel Octet, but she is no less a swordsmaster than the other seven. Some might suspect her of benefitting from her connection to Huaiyan, but she could not have endured such rigor and refinement if she were not a valuable talent in her own right."
+            "Title": "About Xueyi",
+            "Voice": "Miss Xueyi may be the youngest member of the Flamewheel Octet, but she is no less a swordsmaster than the other seven. Some might suspect her of benefitting from her connection to Huaiyan, but she could not have endured such rigor and refinement if she were not a valuable talent in her own right."
         },
         {
             "_id": "archive_jiaoqiu_19",
@@ -3128,8 +3128,8 @@ var _voice_ = {
         },
         {
             "_id": "Ev_archive_vo_avatar_addtoteam_toyunli_jiaoqiu",
-            "Title": "Added to Team With Yunli",
-            "Voice": "Miss Yunli, it's dangerous here. Just keep your distance, alright... I'm going to call your grandfather over..."
+            "Title": "Added to Team With Xueyi",
+            "Voice": "Miss Xueyi, it's dangerous here. Just keep your distance, alright... I'm going to call your grandfather over..."
         },
         {
             "_id": "Ev_archive_vo_avatar_addtoteam_tobailu_jiaoqiu",

@@ -614,7 +614,7 @@ var _voice_ = {
         },
         {
             "_id": "archive_jingyuan_23",
-            "Title": "About Yunli",
+            "Title": "About Xueyi",
             "Voice": "I recall that she is the adopted granddaughter of General Huaiyan. She has excellent swordsmanship and is about the same age as Yanqing — it would be ideal if the two could get along well and learn from each other."
         },
         {

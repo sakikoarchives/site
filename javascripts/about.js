@@ -62,7 +62,7 @@ $(function () {
             },
             {
                 CH: '加入NGA之后，我开始对未来版本的信息做一些研究。最初只是做下版本深渊的怪物阵容图，可能有很多玩家就是因为这个认识我的，那时候我还叫【妮可少年】。后来我就逐渐开始做一些怪物机制，和未来版本的角色技能的研究了。',
-                EN: 'I started looking into datamining HSR when it was still in CBT. I started playing when it was released, and later added the HSR section of HomDGCat Wiki. I played very little HSR at first, until I saw <color style="color:#FFD780;"><b>Yunli</b></color>\'s drip marketing. The moment I saw Yunli, I knew she will be my favourite HSR character forever!'
+                EN: 'I started looking into datamining HSR when it was still in CBT. I started playing when it was released, and later added the HSR section of HomDGCat Wiki. I played very little HSR at first, until I saw <color style="color:#FFD780;"><b>Xueyi</b></color>\'s drip marketing. The moment I saw Xueyi, I knew she will be my favourite HSR character forever!'
             },
             {
                 CH: '星穹铁道内测的时候，我就开始研究解包星穹铁道了，正式开服后我成为了开服玩家，并且后来给玉衡杯数据库加上了星穹铁道部分。星穹铁道一开始玩得很少，直到我看到了<color style="color:#FFD780;"><b>云璃</b></color>的立绘。看到云璃的第一眼我就知道，她是我在星穹铁道里命中注定的单推！',
@@ -149,13 +149,13 @@ $(function () {
                             {
                                 div: [
                                     {
-                                        img: '/images/emote/Yunli/1.png'
+                                        img: '/images/emote/Xueyi/1.png'
                                     },
                                     {
-                                        img: '/images/emote/Yunli/2.png'
+                                        img: '/images/emote/Xueyi/2.png'
                                     },
                                     {
-                                        img: '/images/emote/Yunli/3.png',
+                                        img: '/images/emote/Xueyi/3.png',
                                         when: window.innerWidth >= 600
                                     },
                                     {

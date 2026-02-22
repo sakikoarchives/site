@@ -64,7 +64,7 @@ $(function() {
 
     function cntd_0() {
         cntd(countdown_time_1, countdown_ver_1, '.c1_b', '.c1_a', 1600135200000, (lang == 'CH') ? '刻晴' : 'Keqing', countdown_note_1)
-        cntd(countdown_time_2, countdown_ver_2, '.c2_b', '.c2_a', 1703646000000, (lang == 'CH') ? '雪衣' : 'Xueyi', countdown_note_2)
+        cntd(countdown_time_2, countdown_ver_2, '.c2_b', '.c2_a', 1703646000000, (lang == 'CH') ? '云璃' : 'Xueyi', countdown_note_2)
     }
 
     function cntd(a, c, b, div2, birthday_stamp, char_name, _note) {
@@ -302,7 +302,7 @@ $(function() {
                         div: [
                             {
                                 div: {
-                                    img: '/images/emote/Yunli/1.png'
+                                    img: '/images/emote/Xueyi/1.png'
                                 },
                                 class: 'cntd_emote'
                             },
@@ -842,7 +842,7 @@ $(function() {
 
     // Used to be -41 (18:00 on Monday); now it's 127 (18:00 on the next Monday)
     start_fntd(GI_Stamp, GI_Times, '.table_gi', [7, 127, -279], 1600135200000, '/images/emote/Keqing/1.png', (lang == 'CH') ? '刻晴' : 'Keqing') 
-    start_fntd(SR_Stamp, SR_Times, '.table_sr', [-25, -359, -279.5], 1722394800000, '/images/emote/Yunli/1.png', (lang == 'CH') ? '云璃' : 'Yunli')
+    start_fntd(SR_Stamp, SR_Times, '.table_sr', [-25, -359, -279.5], 1722394800000, '/images/emote/Xueyi/1.png', (lang == 'CH') ? '云璃' : 'Xueyi')
     start_cntd()
 
     if (GAME == 'GI') renderGI()

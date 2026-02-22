@@ -98,12 +98,12 @@ $(function () {
                                 div: [
                                     {
                                         div: {
-                                            img: '/images/emote/Yunli/1.png',
+                                            img: '/images/emote/Xueyi/1.png',
                                         },
                                         class: 'perf_img'
                                     },
                                     {
-                                        span: ((lang == 'CH') ? '云璃成绩' : 'Yunli Performance'),
+                                        span: ((lang == 'CH') ? '云璃成绩' : 'Xueyi Performance'),
                                     }
                                 ],
                                 class: 'level_ yunli_button hover-shadow',
@@ -875,14 +875,14 @@ $(function () {
                 },
                 {
                     div: {
-                        img: '/images/emote/Yunli/1.png'
+                        img: '/images/emote/Xueyi/1.png'
                     },
                     class: 'yunli'
                 },
                 {
                     p: {
                         CH: '(๑>؂<๑)<br>被云璃吃掉了，嗷呜！<br>下次再来看看吧~',
-                        EN: '(๑>؂<๑)<br>Oh no, Yunli ate this!<br>Come back again next time~'
+                        EN: '(๑>؂<๑)<br>Oh no, Xueyi ate this!<br>Come back again next time~'
                     }[lang],
                     style: {
                         'text-align': 'center',
@@ -1341,7 +1341,7 @@ $(function () {
         $('.emote_').each(function () {
             var this_emote = keq_emotes[Math.floor(Math.random() * keq_emotes.length)]
             $(this).empty().render({
-                img: `/images/emote/Yunli/${this_emote}.png`
+                img: `/images/emote/Xueyi/${this_emote}.png`
             })
         })
     }
