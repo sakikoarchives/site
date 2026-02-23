@@ -37,7 +37,7 @@ popheader {
 }
 
 .path schedule.active {
-    background-color: #2545ba;
+    background-color: #ff719a;
 }
 
 .path img {
@@ -45,7 +45,7 @@ popheader {
 }
 
 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff719a;
     color: #fff;
 }
 

@@ -264,7 +264,7 @@ $(function() {
                             'justify-content': 'center',
                             'flex-direction': 'column',
                             'line-height': '1.7',
-                            'border': '1.6px solid rgb(112, 48, 160)'
+                            'border': '1.6px solid rgba(111, 48, 160, 0)'
                         },
                         id: 'date_schedule'
                     },
@@ -345,7 +345,7 @@ $(function() {
                                 class: 'hover-shadow panel',
                                 style: {
                                     width: 'max-content',
-                                    border: '2px solid #f29e38',
+                                    border: '2px solid #450016',
                                 }
                             },
                             {
@@ -362,7 +362,7 @@ $(function() {
                                 class: 'hover-shadow panel',
                                 style: {
                                     width: 'max-content',
-                                    border: '2px solid #f29e38',
+                                    border: '2px solid #450016',
                                 }
                             },
                         ]

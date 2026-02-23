@@ -368,15 +368,15 @@ schedule.active {
 }
 
 .select_parts_size_1 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff719a;
 }
 
 .select_parts_size_2 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff719a;
 }
 
 .select_parts_size_3 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff719a;
 }
 
 .select_parts schedule img {

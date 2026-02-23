@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -29,7 +29,7 @@ schedule {
     margin-top: 7px;
     width: calc(100% - 50px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
 }
@@ -40,7 +40,7 @@ schedule {
     margin-top: 7px;
     width: calc(100% - 50px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
 }
@@ -53,7 +53,7 @@ schedule {
     margin-right: 3.5px;
     width: calc(100% - 50px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
 }
@@ -123,7 +123,7 @@ schedule {
 }
 
 .path schedule {
-    background-color: #27363e;
+    background-color: #000000;
     width: 60px;
     border-radius: 9px;
     border-width: 0px;
@@ -132,7 +132,7 @@ schedule {
 }
 
 schedule.active {
-    background-color: #2545ba;
+    background-color: #ff719a;
 }
 
 .miracle_card_area {

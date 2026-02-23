@@ -7,7 +7,7 @@ popbody {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -68,7 +68,7 @@ schedule {
 }
 
 schedule.active {
-    background-color: rgb(37, 69, 186);
+    background-color: #ff719a;
     color: #fff;
 }
 

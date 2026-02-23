@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -27,7 +27,7 @@ schedule {
     margin-top: 21px;
     width: calc(100% - 80px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #dddddd;
     position: relative;
 }
@@ -70,7 +70,7 @@ schedule {
 }
 
 .path schedule {
-    background-color: #27363e;
+    background-color: #27363e00;
     width: 60px;
     border-radius: 9px;
     border-width: 0px;
@@ -79,7 +79,7 @@ schedule {
 }
 
 .path schedule.active {
-    background-color: #2545ba;
+    background-color: #ff719a;
 }
 
 .path img {

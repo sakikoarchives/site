@@ -14,7 +14,7 @@ container {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -28,7 +28,7 @@ container {
     margin-top: 21px;
     width: calc(100% - 80px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #dddddd;
     position: relative;
 }
