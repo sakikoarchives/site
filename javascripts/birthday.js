@@ -64,7 +64,7 @@ $(function () {
             div: [
                 {
                     div: {
-                        img: `/homdgcat-res/Avatar/${dat.Icon}.png`,
+                        img: `/sakiko-res/Avatar/${dat.Icon}.png`,
                         class: 'icon_5'
                     },
                     class: 'img_wrap'

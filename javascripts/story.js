@@ -296,7 +296,7 @@ $(function () {
                     {
                         div: function (k) {
                             for (const [d, n] of Object.entries(_reward[k.data])) {
-                                var img = '/homdgcat-res/' + _material[d] + '.png'
+                                var img = '/sakiko-res/' + _material[d] + '.png'
                                 $(k.container).render({
                                     div: [
                                         {
@@ -307,7 +307,7 @@ $(function () {
                                             },
                                             event: {
                                                 error: function (d) {
-                                                    $(d.sender).prop('src', '/homdgcat-res/Mat/UI_ItemIcon_120864.png')
+                                                    $(d.sender).prop('src', '/sakiko-res/Mat/UI_ItemIcon_120864.png')
                                                 }
                                             },
                                         },

@@ -290,7 +290,7 @@ $(function() {
                             },
                             {
                                 div: {
-                                    img: '/homdgcat-res/UI/birthday-cake2.png'
+                                    img: '/sakiko-res/UI/birthday-cake2.png'
                                 },
                                 class: 'cntd_emote_small',
                                 when: anniversary
@@ -629,7 +629,7 @@ $(function() {
                                     when: !April_1st
                                 },
                                 {
-                                    img: '/homdgcat-res/Avatar/April1stOthers.png',
+                                    img: '/sakiko-res/Avatar/April1stOthers.png',
                                     a: {
                                         loading: lazy
                                     },
@@ -641,7 +641,7 @@ $(function() {
                         {
                             div: [
                                 {
-                                    img: `/homdgcat-res/UI/[[Elem]].png`,
+                                    img: `/sakiko-res/UI/[[Elem]].png`,
                                     class: 'attr_img_1',
                                     a: {
                                         loading: lazy
@@ -651,7 +651,7 @@ $(function() {
                                     }
                                 },
                                 {
-                                    img: `/homdgcat-res/AvatarSkill/[[Type]].png`,
+                                    img: `/sakiko-res/AvatarSkill/[[Type]].png`,
                                     class: 'attr_img_1',
                                     a: {
                                         loading: lazy
@@ -783,7 +783,7 @@ $(function() {
                                     },
                                     {
                                         div: {
-                                            img: '/homdgcat-res/UI/birthday-cake2.png'
+                                            img: '/sakiko-res/UI/birthday-cake2.png'
                                         },
                                         class: 'cntd_emote_small',
                                         when: anniversary

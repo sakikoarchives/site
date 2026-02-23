@@ -332,7 +332,7 @@ $(function () {
                                 },
                                 {
                                     div: {
-                                        img: '/homdgcat-res/UI/birthday-cake2.png'
+                                        img: '/sakiko-res/UI/birthday-cake2.png'
                                     },
                                     class: 'cntd_emote_small',
                                     when: anniversary
@@ -767,7 +767,7 @@ $(function () {
                     section: [
                         {
                             schedule: {
-                                img: '/homdgcat-res/UI/Fire.png'
+                                img: '/sakiko-res/UI/Fire.png'
                             },
                             a: {
                                 'data-id': 'Fire'
@@ -775,7 +775,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/UI/Water.png'
+                                img: '/sakiko-res/UI/Water.png'
                             },
                             a: {
                                 'data-id': 'Water'
@@ -783,7 +783,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/UI/Elec.png'
+                                img: '/sakiko-res/UI/Elec.png'
                             },
                             a: {
                                 'data-id': 'Elec'
@@ -791,7 +791,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/UI/Ice.png'
+                                img: '/sakiko-res/UI/Ice.png'
                             },
                             a: {
                                 'data-id': 'Ice'
@@ -799,7 +799,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/UI/Grass.png'
+                                img: '/sakiko-res/UI/Grass.png'
                             },
                             a: {
                                 'data-id': 'Grass'
@@ -807,7 +807,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/UI/Wind.png'
+                                img: '/sakiko-res/UI/Wind.png'
                             },
                             a: {
                                 'data-id': 'Wind'
@@ -815,7 +815,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/UI/Rock.png'
+                                img: '/sakiko-res/UI/Rock.png'
                             },
                             a: {
                                 'data-id': 'Rock'
@@ -828,7 +828,7 @@ $(function () {
                     section: [
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_01.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_01.png'
                             },
                             a: {
                                 'data-id': 'Sword'
@@ -836,7 +836,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_04.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_04.png'
                             },
                             a: {
                                 'data-id': 'Claymore'
@@ -844,7 +844,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_Catalyst_MD.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_Catalyst_MD.png'
                             },
                             a: {
                                 'data-id': 'Catalyst'
@@ -852,7 +852,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_03.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_03.png'
                             },
                             a: {
                                 'data-id': 'Pole'
@@ -860,7 +860,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_02.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_02.png'
                             },
                             a: {
                                 'data-id': 'Bow'
@@ -883,7 +883,7 @@ $(function () {
                                 class: 'av'
                             },
                             {
-                                img: imgpre + `homdgcat-res/Avatar/[[Icon]].png`,
+                                img: imgpre + `sakiko-res/Avatar/[[Icon]].png`,
                                 class: 'avatar-head',
                                 event: {
                                     error: function (d) {
@@ -896,7 +896,7 @@ $(function () {
                                 when: !April_1st
                             },
                             {
-                                img: '/homdgcat-res/Avatar/April1stOthers.png',
+                                img: '/sakiko-res/Avatar/April1stOthers.png',
                                 class: 'avatar-head',
                                 event: {
                                     error: function (d) {
@@ -950,7 +950,7 @@ $(function () {
                                     {
                                         img: function (p) {
                                             avname = p.data.Element
-                                            return imgpre + 'homdgcat-res/UI/' + avname + '.png'
+                                            return imgpre + 'sakiko-res/UI/' + avname + '.png'
                                         },
                                         style: {
                                             width: '30%',
@@ -971,22 +971,22 @@ $(function () {
                                             avname = computer_.AvatarWeaponConfig[p.data.Weapon].EN
                                             switch (avname) {
                                                 case 'Sword': 
-                                                    var imgp = imgpre + 'homdgcat-res/AvatarSkill/Skill_A_01.png';
+                                                    var imgp = imgpre + 'sakiko-res/AvatarSkill/Skill_A_01.png';
                                                     break;
                                                 case 'Claymore': 
-                                                    var imgp = imgpre + 'homdgcat-res/AvatarSkill/Skill_A_04.png';
+                                                    var imgp = imgpre + 'sakiko-res/AvatarSkill/Skill_A_04.png';
                                                     break;
                                                 case 'Catalyst': 
-                                                    var imgp = imgpre + 'homdgcat-res/AvatarSkill/Skill_A_Catalyst_MD.png';
+                                                    var imgp = imgpre + 'sakiko-res/AvatarSkill/Skill_A_Catalyst_MD.png';
                                                     break;
                                                 case 'Polearm': 
-                                                    var imgp = imgpre + 'homdgcat-res/AvatarSkill/Skill_A_03.png';
+                                                    var imgp = imgpre + 'sakiko-res/AvatarSkill/Skill_A_03.png';
                                                     break;
                                                 case 'Bow': 
-                                                    var imgp = imgpre + 'homdgcat-res/AvatarSkill/Skill_A_02.png';
+                                                    var imgp = imgpre + 'sakiko-res/AvatarSkill/Skill_A_02.png';
                                                     break;
                                                 default: 
-                                                    var imgp = imgpre + 'homdgcat-res/Mat/UI_ItemIcon_120864.png';
+                                                    var imgp = imgpre + 'sakiko-res/Mat/UI_ItemIcon_120864.png';
                                                     break;
                                             }
                                             return imgp
@@ -1016,7 +1016,7 @@ $(function () {
                                     {
                                         span: [
                                             {
-                                                img: imgpre + 'homdgcat-res/AvatarSkill/_HP.png',
+                                                img: imgpre + 'sakiko-res/AvatarSkill/_HP.png',
                                                 class: 'avatar-staticon',
                                                 a: {
                                                     loading: lazy
@@ -1029,7 +1029,7 @@ $(function () {
                                     {
                                         span: [
                                             {
-                                                img: imgpre + 'homdgcat-res/AvatarSkill/_ATK.png',
+                                                img: imgpre + 'sakiko-res/AvatarSkill/_ATK.png',
                                                 class: 'avatar-staticon',
                                                 a: {
                                                     loading: lazy
@@ -1042,7 +1042,7 @@ $(function () {
                                     {
                                         span: [
                                             {
-                                                img: imgpre + 'homdgcat-res/AvatarSkill/_DEF.png',
+                                                img: imgpre + 'sakiko-res/AvatarSkill/_DEF.png',
                                                 class: 'avatar-staticon',
                                                 a: {
                                                     loading: lazy
@@ -1061,7 +1061,7 @@ $(function () {
                             {
                                 div: [
                                     {
-                                        img: '/homdgcat-res/UI/birthday-cake2.png'
+                                        img: '/sakiko-res/UI/birthday-cake2.png'
                                     },
                                     {
                                         p: '',
@@ -1456,7 +1456,7 @@ $(function () {
                             },
                             {
                                 div: {
-                                    img: '/homdgcat-res/Avatar/' + p.Gacha + '.png',
+                                    img: '/sakiko-res/Avatar/' + p.Gacha + '.png',
                                     class: p.GachaBig ? 'figure_big dissolve' : 'figure dissolve',
                                     when: p.Gacha && p.Gacha.length,
                                     event: {
@@ -1485,7 +1485,7 @@ $(function () {
                                     {
                                         div: [
                                             {
-                                                img: '/homdgcat-res/Abyss/_HP.png',
+                                                img: '/sakiko-res/Abyss/_HP.png',
                                                 a: {
                                                     loading: lazy
                                                 }
@@ -1499,7 +1499,7 @@ $(function () {
                                     {
                                         div: [
                                             {
-                                                img: '/homdgcat-res/Abyss/_ATK.png',
+                                                img: '/sakiko-res/Abyss/_ATK.png',
                                                 a: {
                                                     loading: lazy
                                                 }
@@ -1513,7 +1513,7 @@ $(function () {
                                     {
                                         div: [
                                             {
-                                                img: '/homdgcat-res/Abyss/_DEF.png',
+                                                img: '/sakiko-res/Abyss/_DEF.png',
                                                 a: {
                                                     loading: lazy
                                                 }
@@ -1563,12 +1563,12 @@ $(function () {
                     a: '/gi/item/' + item_data.ID + '?lang=' + lang3,
                     t: [
                         {
-                            img: `/homdgcat-res/Mat/UI_ItemIcon_${item_data.ID}.png`,
+                            img: `/sakiko-res/Mat/UI_ItemIcon_${item_data.ID}.png`,
                             class: 'img_2',
                             event: {
                                 error: function (d) {
                                     $(d.sender).hide()
-                                    $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                    $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                 }
                             },
                             a: {
@@ -1712,7 +1712,7 @@ $(function () {
                             {
                                 div: [
                                     {
-                                        img: imgpre + `homdgcat-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
+                                        img: imgpre + `sakiko-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
                                         class: 'head_left',
                                         event: {
                                             error: function (d) {
@@ -1879,7 +1879,7 @@ $(function () {
                 t: [
                     {
                         div: {
-                            img: '/homdgcat-res/Mat/' + _MaterialConfig[d] + '.png'
+                            img: '/sakiko-res/Mat/' + _MaterialConfig[d] + '.png'
                         },
                         class: 'mtc_result_item_icon'
                     },
@@ -1981,14 +1981,14 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.CommonMatt - 2]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     class: 'img_2',
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2010,14 +2010,14 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.CommonMatt - 1]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     class: 'img_2',
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2039,14 +2039,14 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.CommonMatt]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     class: 'img_2',
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2073,14 +2073,14 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.AscMat]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     class: 'img_2',
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2112,13 +2112,13 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.TalentMatt - 2]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2140,13 +2140,13 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.TalentMatt - 1]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2168,13 +2168,13 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.TalentMatt]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2206,14 +2206,14 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.WeekMat]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     class: 'img_2',
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2245,13 +2245,13 @@ $(function () {
                                                 {
                                                     img: function (k) {
                                                         var mat = _MaterialConfig[k.data.SpecialityMat]
-                                                        if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                        return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                        if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                        return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                     },
                                                     event: {
                                                         error: function (d) {
                                                             $(d.sender).hide()
-                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     a: {
@@ -2342,7 +2342,7 @@ $(function () {
                 {
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Abyss/_HP.png',
+                            img: imgpre + 'sakiko-res/Abyss/_HP.png',
                             a: {
                                 loading: lazy
                             }
@@ -2358,7 +2358,7 @@ $(function () {
                 {
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Abyss/_ATK.png',
+                            img: imgpre + 'sakiko-res/Abyss/_ATK.png',
                             a: {
                                 loading: lazy
                             }
@@ -2374,7 +2374,7 @@ $(function () {
                 {
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Abyss/_DEF.png',
+                            img: imgpre + 'sakiko-res/Abyss/_DEF.png',
                             a: {
                                 loading: lazy
                             }
@@ -2415,7 +2415,7 @@ $(function () {
                 {
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Abyss/_HP.png',
+                            img: imgpre + 'sakiko-res/Abyss/_HP.png',
                             a: {
                                 loading: lazy
                             }
@@ -2431,7 +2431,7 @@ $(function () {
                 {
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Abyss/_ATK.png',
+                            img: imgpre + 'sakiko-res/Abyss/_ATK.png',
                             a: {
                                 loading: lazy
                             }
@@ -2447,7 +2447,7 @@ $(function () {
                 {
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Abyss/_DEF.png',
+                            img: imgpre + 'sakiko-res/Abyss/_DEF.png',
                             a: {
                                 loading: lazy
                             }
@@ -2476,7 +2476,7 @@ $(function () {
                         div: [
                             {
                                 div: {
-                                    img: imgpre + `homdgcat-res/Avatar/${this_avatar.Icon}.png`,
+                                    img: imgpre + `sakiko-res/Avatar/${this_avatar.Icon}.png`,
                                     event: {
                                         error: function (d) {
                                             $('.as_left').remove()
@@ -2499,13 +2499,13 @@ $(function () {
                                     {
                                         p: [
                                             {
-                                                img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                img: '/sakiko-res/UI/birthday-cake2.png',
                                                 when: anniversary && (this_avatar._id == 42),
                                                 class: 'name_cake'
                                             },
                                             this_avatar.Name,
                                             {
-                                                img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                img: '/sakiko-res/UI/birthday-cake2.png',
                                                 when: anniversary && (this_avatar._id == 42),
                                                 class: 'name_cake'
                                             },
@@ -2615,13 +2615,13 @@ $(function () {
                                     div: {
                                         p: [
                                             {
-                                                img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                img: '/sakiko-res/UI/birthday-cake2.png',
                                                 when: anniversary && (this_avatar._id == 42),
                                                 class: 'name_cake'
                                             },
                                             this_avatar.Name + (lang == "CH" ? " · " : " - ") + this_avatar.Title.replace("<br>", " / "),
                                             {
-                                                img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                img: '/sakiko-res/UI/birthday-cake2.png',
                                                 when: anniversary && (this_avatar._id == 42),
                                                 class: 'name_cake'
                                             },
@@ -2651,7 +2651,7 @@ $(function () {
                                         },
                                         {
                                             img: function (k) {
-                                                return imgpre + 'homdgcat-res/Gacha/' + k.data.Icon.replace("AvatarIcon", "Gacha_AvatarImg") + '.png'
+                                                return imgpre + 'sakiko-res/Gacha/' + k.data.Icon.replace("AvatarIcon", "Gacha_AvatarImg") + '.png'
                                             },
                                             class: 'gacha',
                                             when: function (k) {
@@ -2720,7 +2720,7 @@ $(function () {
                                                 {
                                                     div: [
                                                         {
-                                                            img: imgpre + 'homdgcat-res/Abyss/_HP.png',
+                                                            img: imgpre + 'sakiko-res/Abyss/_HP.png',
                                                             a: {
                                                                 loading: lazy
                                                             }
@@ -2736,7 +2736,7 @@ $(function () {
                                                 {
                                                     div: [
                                                         {
-                                                            img: imgpre + 'homdgcat-res/Abyss/_ATK.png',
+                                                            img: imgpre + 'sakiko-res/Abyss/_ATK.png',
                                                             a: {
                                                                 loading: lazy
                                                             }
@@ -2752,7 +2752,7 @@ $(function () {
                                                 {
                                                     div: [
                                                         {
-                                                            img: imgpre + 'homdgcat-res/Abyss/_DEF.png',
+                                                            img: imgpre + 'sakiko-res/Abyss/_DEF.png',
                                                             a: {
                                                                 loading: lazy
                                                             }
@@ -2790,7 +2790,7 @@ $(function () {
                                                 {
                                                     div: [
                                                         {
-                                                            img: imgpre + 'homdgcat-res/Abyss/_HP.png',
+                                                            img: imgpre + 'sakiko-res/Abyss/_HP.png',
                                                             a: {
                                                                 loading: lazy
                                                             }
@@ -2806,7 +2806,7 @@ $(function () {
                                                 {
                                                     div: [
                                                         {
-                                                            img: imgpre + 'homdgcat-res/Abyss/_ATK.png',
+                                                            img: imgpre + 'sakiko-res/Abyss/_ATK.png',
                                                             a: {
                                                                 loading: lazy
                                                             }
@@ -2822,7 +2822,7 @@ $(function () {
                                                 {
                                                     div: [
                                                         {
-                                                            img: imgpre + 'homdgcat-res/Abyss/_DEF.png',
+                                                            img: imgpre + 'sakiko-res/Abyss/_DEF.png',
                                                             a: {
                                                                 loading: lazy
                                                             }
@@ -2888,7 +2888,7 @@ $(function () {
                                                 if (_AvatarCostumeConfig[this_avatar._id].Namecard) {
                                                     $(d.container).render([
                                                         {
-                                                            img: imgpre + 'homdgcat-res/Avatar/' + _AvatarCostumeConfig[this_avatar._id].Namecard.Pic + '.png',
+                                                            img: imgpre + 'sakiko-res/Avatar/' + _AvatarCostumeConfig[this_avatar._id].Namecard.Pic + '.png',
                                                             class: 'namecard',
                                                             event: {
                                                                 error: function (d) {
@@ -2957,12 +2957,12 @@ $(function () {
                                                     $(d.container).render({
                                                         template: [
                                                             {
-                                                                img: imgpre + 'homdgcat-res/Mat/' + dish.Icon + '.png',
+                                                                img: imgpre + 'sakiko-res/Mat/' + dish.Icon + '.png',
                                                                 class: 'avatar_costume_img',
                                                                 event: {
                                                                     error: function (d) {
                                                                         $(d.sender).hide()
-                                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                                     }
                                                                 },
                                                                 a: {
@@ -2978,11 +2978,11 @@ $(function () {
                                                                         $(k.container).render({
                                                                             div: [
                                                                                 {
-                                                                                    img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_' + t + '.png',
+                                                                                    img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_' + t + '.png',
                                                                                     event: {
                                                                                         error: function (d) {
                                                                                             $(d.sender).hide()
-                                                                                            $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                                                            $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                                                         }
                                                                                     },
                                                                                     a: {
@@ -3048,7 +3048,7 @@ $(function () {
                                                     div: [
                                                         {
                                                             img: function (k) {
-                                                                return imgpre + 'homdgcat-res/Avatar/' + k.data.Icon + '.png'
+                                                                return imgpre + 'sakiko-res/Avatar/' + k.data.Icon + '.png'
                                                             },
                                                             class: 'avatar_costume_img',
                                                             when: function (k) {
@@ -3057,7 +3057,7 @@ $(function () {
                                                             event: {
                                                                 error: function (d) {
                                                                     $(d.sender).hide()
-                                                                    $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                                    $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                                 }
                                                             },
                                                             a: {
@@ -3246,13 +3246,13 @@ $(function () {
                                                 {
                                                     p: [
                                                         {
-                                                            img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                            img: '/sakiko-res/UI/birthday-cake2.png',
                                                             when: anniversary && (this_avatar._id == 42),
                                                             class: 'name_cake'
                                                         },
                                                         this_avatar.Name,
                                                         {
-                                                            img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                            img: '/sakiko-res/UI/birthday-cake2.png',
                                                             when: anniversary && (this_avatar._id == 42),
                                                             class: 'name_cake'
                                                         },
@@ -3319,7 +3319,7 @@ $(function () {
                                 },
                                 {
                                     img: function (k) {
-                                        return imgpre + 'homdgcat-res/Gacha/' + k.data.Icon.replace("AvatarIcon", "Gacha_AvatarImg") + '.png'
+                                        return imgpre + 'sakiko-res/Gacha/' + k.data.Icon.replace("AvatarIcon", "Gacha_AvatarImg") + '.png'
                                     },
                                     class: 'gacha dissolve',
                                     when: function (k) {
@@ -3427,8 +3427,8 @@ $(function () {
                                         div: [
                                             {
                                                 img: function (k) {
-                                                    if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                                    return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon + '.png'
+                                                    if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                                    return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon + '.png'
                                                 },
                                                 class: 'head_left',
                                                 when: show_icon,
@@ -3443,8 +3443,8 @@ $(function () {
                                             },
                                             {
                                                 img: function (k) {
-                                                    if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                                    return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon2 + '.png'
+                                                    if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                                    return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon2 + '.png'
                                                 },
                                                 class: 'head_left',
                                                 when: "Icon2",
@@ -3459,8 +3459,8 @@ $(function () {
                                             },
                                             {
                                                 img: function (k) {
-                                                    if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                                    return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon3 + '.png'
+                                                    if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                                    return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon3 + '.png'
                                                 },
                                                 class: 'head_left',
                                                 when: "Icon3",
@@ -3639,8 +3639,8 @@ $(function () {
                                 div: [
                                     {
                                         img: function (k) {
-                                            if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                            return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon + '.png'
+                                            if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                            return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon + '.png'
                                         },
                                         class: 'head_left',
                                         when: show_icon,
@@ -3655,8 +3655,8 @@ $(function () {
                                     },
                                     {
                                         img: function (k) {
-                                            if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                            return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon2 + '.png'
+                                            if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                            return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon2 + '.png'
                                         },
                                         class: 'head_left',
                                         when: "Icon2",
@@ -3671,8 +3671,8 @@ $(function () {
                                     },
                                     {
                                         img: function (k) {
-                                            if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                            return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon3 + '.png'
+                                            if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                            return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon3 + '.png'
                                         },
                                         class: 'head_left',
                                         when: "Icon3",
@@ -3723,8 +3723,8 @@ $(function () {
                                 div: [
                                     {
                                         img: function (k) {
-                                            if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                            return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon + '.png'
+                                            if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                            return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon + '.png'
                                         },
                                         class: 'head_left',
                                         when: show_icon,
@@ -3739,8 +3739,8 @@ $(function () {
                                     },
                                     {
                                         img: function (k) {
-                                            if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                            return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon2 + '.png'
+                                            if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                            return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon2 + '.png'
                                         },
                                         class: 'head_left',
                                         when: "Icon2",
@@ -3755,8 +3755,8 @@ $(function () {
                                     },
                                     {
                                         img: function (k) {
-                                            if (anniversary && (this_avatar._id == 42)) return '/homdgcat-res/UI/birthday-cake2.png'
-                                            return imgpre + 'homdgcat-res/AvatarSkill/' + k.data.Icon3 + '.png'
+                                            if (anniversary && (this_avatar._id == 42)) return '/sakiko-res/UI/birthday-cake2.png'
+                                            return imgpre + 'sakiko-res/AvatarSkill/' + k.data.Icon3 + '.png'
                                         },
                                         class: 'head_left',
                                         when: "Icon3",
@@ -3842,7 +3842,7 @@ $(function () {
                                 div: [
                                     {
                                         div: {
-                                            img: imgpre + `homdgcat-res/Avatar/${this_avatar.Icon}.png`,
+                                            img: imgpre + `sakiko-res/Avatar/${this_avatar.Icon}.png`,
                                             event: {
                                                 error: function (d) {
                                                     $('.as_left').remove()
@@ -3865,13 +3865,13 @@ $(function () {
                                             {
                                                 p: [
                                                     {
-                                                        img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                        img: '/sakiko-res/UI/birthday-cake2.png',
                                                         when: anniversary && (this_avatar._id == 42),
                                                         class: 'name_cake'
                                                     },
                                                     this_avatar.Name,
                                                     {
-                                                        img: '/homdgcat-res/UI/birthday-cake2.png',
+                                                        img: '/sakiko-res/UI/birthday-cake2.png',
                                                         when: anniversary && (this_avatar._id == 42),
                                                         class: 'name_cake'
                                                     },
@@ -4838,7 +4838,7 @@ $(function () {
                                 div: {
                                     a: '/gi/monster/' + u._id,
                                     t: {
-                                        img: '/homdgcat-res/monster/' + u.Icon + '.png',
+                                        img: '/sakiko-res/monster/' + u.Icon + '.png',
                                     },
                                     class: 'hover-shadow',
                                     attr: {
@@ -5066,7 +5066,7 @@ $(function () {
                             {
                                 div: [
                                     {
-                                        img: imgpre + `homdgcat-res/Relic/${t.Icon}_4.png`,
+                                        img: imgpre + `sakiko-res/Relic/${t.Icon}_4.png`,
                                         class: 'head_left',
                                         event: {
                                             error: function (d) {
@@ -5140,7 +5140,7 @@ $(function () {
                     {
                         div: [
                             {
-                                img: imgpre + `homdgcat-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
+                                img: imgpre + `sakiko-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
                                 class: 'head_left',
                                 event: {
                                     error: function (d) {
@@ -5256,7 +5256,7 @@ $(function () {
                     {
                         div: [
                             {
-                                img: imgpre + `homdgcat-res/Weapon/${o_this.Icons}_Awaken.png`,
+                                img: imgpre + `sakiko-res/Weapon/${o_this.Icons}_Awaken.png`,
                                 class: 'head_left',
                                 event: {
                                     error: function (d) {
@@ -5313,7 +5313,7 @@ $(function () {
                 {
                     div: [
                         {
-                            img: imgpre + `homdgcat-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
+                            img: imgpre + `sakiko-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
                             class: 'head_left',
                             event: {
                                 error: function (d) {
@@ -5395,7 +5395,7 @@ $(function () {
                 template: {
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Relic/' + t.Icon + ((skill_show.length < 2) ? '_3.png' : '_4.png'),
+                            img: imgpre + 'sakiko-res/Relic/' + t.Icon + ((skill_show.length < 2) ? '_3.png' : '_4.png'),
                             event: {
                                 error: function (d) {
                                     $(d.sender).remove()
@@ -5502,7 +5502,7 @@ $(function () {
                     {
                         div: [
                             {
-                                img: imgpre + 'homdgcat-res/Relic/' + cur_relic.Icon + '_4.png',
+                                img: imgpre + 'sakiko-res/Relic/' + cur_relic.Icon + '_4.png',
                                 class: 'relic_image',
                                 event: {
                                     error: function (d) {
@@ -5514,7 +5514,7 @@ $(function () {
                                 }
                             },
                             {
-                                img: imgpre + 'homdgcat-res/Relic/' + cur_relic.Icon + '_2.png',
+                                img: imgpre + 'sakiko-res/Relic/' + cur_relic.Icon + '_2.png',
                                 class: 'relic_image',
                                 event: {
                                     error: function (d) {
@@ -5526,7 +5526,7 @@ $(function () {
                                 }
                             },
                             {
-                                img: imgpre + 'homdgcat-res/Relic/' + cur_relic.Icon + '_5.png',
+                                img: imgpre + 'sakiko-res/Relic/' + cur_relic.Icon + '_5.png',
                                 class: 'relic_image',
                                 event: {
                                     error: function (d) {
@@ -5538,7 +5538,7 @@ $(function () {
                                 }
                             },
                             {
-                                img: imgpre + 'homdgcat-res/Relic/' + cur_relic.Icon + '_1.png',
+                                img: imgpre + 'sakiko-res/Relic/' + cur_relic.Icon + '_1.png',
                                 class: 'relic_image',
                                 event: {
                                     error: function (d) {
@@ -5550,7 +5550,7 @@ $(function () {
                                 }
                             },
                             {
-                                img: imgpre + 'homdgcat-res/Relic/' + cur_relic.Icon + '_3.png',
+                                img: imgpre + 'sakiko-res/Relic/' + cur_relic.Icon + '_3.png',
                                 class: 'relic_image',
                                 event: {
                                     error: function (d) {
@@ -5659,7 +5659,7 @@ $(function () {
                             div: [
                                 {
                                     div: {
-                                        img: imgpre + 'homdgcat-res/Relic/' + cur_relic.Icon + l + '.png',
+                                        img: imgpre + 'sakiko-res/Relic/' + cur_relic.Icon + l + '.png',
                                         class: 'relic_image',
                                         event: {
                                             click: function () {
@@ -5745,7 +5745,7 @@ $(function () {
                     section: [
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_01.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_01.png'
                             },
                             a: {
                                 'data-id': 1
@@ -5754,7 +5754,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_04.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_04.png'
                             },
                             a: {
                                 'data-id': 2
@@ -5763,7 +5763,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_Catalyst_MD.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_Catalyst_MD.png'
                             },
                             a: {
                                 'data-id': 3
@@ -5772,7 +5772,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_03.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_03.png'
                             },
                             a: {
                                 'data-id': 4
@@ -5781,7 +5781,7 @@ $(function () {
                         },
                         {
                             schedule: {
-                                img: '/homdgcat-res/AvatarSkill/Skill_A_02.png'
+                                img: '/sakiko-res/AvatarSkill/Skill_A_02.png'
                             },
                             a: {
                                 'data-id': 5
@@ -5806,7 +5806,7 @@ $(function () {
                     {
                         img: function (k) {
                             rlname = k.data.Icons
-                            return imgpre + `homdgcat-res/Weapon/${rlname}_Awaken.png`
+                            return imgpre + `sakiko-res/Weapon/${rlname}_Awaken.png`
                         },
                         class: 'avatar-head',
                         event: {
@@ -5828,7 +5828,7 @@ $(function () {
                     {
                         p: [
                             {
-                                img: imgpre + 'homdgcat-res/AvatarSkill/_ATK.png',
+                                img: imgpre + 'sakiko-res/AvatarSkill/_ATK.png',
                                 class: 'weapon-atk',
                                 a: {
                                     loading: lazy
@@ -6031,7 +6031,7 @@ $(function () {
                             {
                                 div: [
                                     {
-                                        img: imgpre + 'homdgcat-res/Weapon/' + wpn.Icons + '.png',
+                                        img: imgpre + 'sakiko-res/Weapon/' + wpn.Icons + '.png',
                                         style: {
                                             width: '40%',
                                             'max-width': '140px'
@@ -6046,7 +6046,7 @@ $(function () {
                                         }
                                     },
                                     {
-                                        img: imgpre + 'homdgcat-res/Weapon/' + wpn.Icons + '_Awaken.png',
+                                        img: imgpre + 'sakiko-res/Weapon/' + wpn.Icons + '_Awaken.png',
                                         style: {
                                             width: '40%',
                                             'max-width': '140px'
@@ -6149,11 +6149,11 @@ $(function () {
                                         a: '/gi/item/' + (wpn.AscMatID - 3) + '?lang=' + lang3,
                                         t: [
                                             {
-                                                img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_' + (wpn.AscMatID - 3) + '.png',
+                                                img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_' + (wpn.AscMatID - 3) + '.png',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6182,11 +6182,11 @@ $(function () {
                                         a: '/gi/item/' + (wpn.AscMatID - 2) + '?lang=' + lang3,
                                         t: [
                                             {
-                                                img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_' + (wpn.AscMatID - 2) + '.png',
+                                                img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_' + (wpn.AscMatID - 2) + '.png',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6215,11 +6215,11 @@ $(function () {
                                         a: '/gi/item/' + (wpn.AscMatID - 1) + '?lang=' + lang3,
                                         t: [
                                             {
-                                                img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_' + (wpn.AscMatID - 1) + '.png',
+                                                img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_' + (wpn.AscMatID - 1) + '.png',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6248,11 +6248,11 @@ $(function () {
                                         a: '/gi/item/' + (wpn.AscMatID) + '?lang=' + lang3,
                                         t: [
                                             {
-                                                img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_' + (wpn.AscMatID) + '.png',
+                                                img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_' + (wpn.AscMatID) + '.png',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6290,14 +6290,14 @@ $(function () {
                                             {
                                                 img: function (k) {
                                                     var mat = _MaterialConfig[wpn.MatIDs[0] - 2]
-                                                    if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                    return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                    if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                    return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                 },
                                                 class: 'img_2',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6330,14 +6330,14 @@ $(function () {
                                             {
                                                 img: function (k) {
                                                     var mat = _MaterialConfig[wpn.MatIDs[0] - 1]
-                                                    if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                    return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                    if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                    return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                 },
                                                 class: 'img_2',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6370,14 +6370,14 @@ $(function () {
                                             {
                                                 img: function (k) {
                                                     var mat = _MaterialConfig[wpn.MatIDs[0]]
-                                                    if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                    return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                    if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                    return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                 },
                                                 class: 'img_2',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6415,14 +6415,14 @@ $(function () {
                                             {
                                                 img: function (k) {
                                                     var mat = _MaterialConfig[wpn.MatIDs[1] - 2]
-                                                    if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                    return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                    if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                    return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                 },
                                                 class: 'img_2',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6455,14 +6455,14 @@ $(function () {
                                             {
                                                 img: function (k) {
                                                     var mat = _MaterialConfig[wpn.MatIDs[1] - 1]
-                                                    if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                    return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                    if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                    return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                 },
                                                 class: 'img_2',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6495,14 +6495,14 @@ $(function () {
                                             {
                                                 img: function (k) {
                                                     var mat = _MaterialConfig[wpn.MatIDs[1]]
-                                                    if (!mat) return imgpre + "homdgcat-res/Mat/UI_ItemIcon_120864.png"
-                                                    return imgpre + "homdgcat-res/Mat/" + mat + ".png"
+                                                    if (!mat) return imgpre + "sakiko-res/Mat/UI_ItemIcon_120864.png"
+                                                    return imgpre + "sakiko-res/Mat/" + mat + ".png"
                                                 },
                                                 class: 'img_2',
                                                 event: {
                                                     error: function (d) {
                                                         $(d.sender).hide()
-                                                        $(d.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                        $(d.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                     }
                                                 },
                                                 a: {
@@ -6738,7 +6738,7 @@ $(function () {
                 div: [
                     {
                         img: function (k) {
-                            return imgpre + 'homdgcat-res/Gacha/' + ascic.replace("AvatarIcon", "Costume") + '.png'
+                            return imgpre + 'sakiko-res/Gacha/' + ascic.replace("AvatarIcon", "Costume") + '.png'
                         },
                         class: 'gacha',
                         event: {
@@ -6907,14 +6907,14 @@ $(function () {
                 var new_p_name = computer_.AvatarCustomPromoteConfig[_awc[v2][codename].New.CustomPromote].Text[lang3]
                 out.push({
                     "N": "<color style='color:#FFD780'>" + show_name + "</color> " + computer_.MiscText.Avatar_Base_Stats[lang] + " +",
-                    "V": `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}homdgcat-res/Abyss/_HP.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].Old.ShowStats.HP}</span>`
-                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}homdgcat-res/Abyss/_ATK.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].Old.ShowStats.ATK}</span>`
-                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}homdgcat-res/Abyss/_DEF.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].Old.ShowStats.DEF}</span>`
+                    "V": `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}sakiko-res/Abyss/_HP.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].Old.ShowStats.HP}</span>`
+                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}sakiko-res/Abyss/_ATK.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].Old.ShowStats.ATK}</span>`
+                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}sakiko-res/Abyss/_DEF.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].Old.ShowStats.DEF}</span>`
                     + `<span>${old_p_name} +${_awc[v2][codename].Old.ShowStats.Custom}</span>`
                     + "<color style='color:#FFD780'><br><span style='margin-left: 10px'>↓↓</span><br></color><span style='position:relative;top:-10px;'>"
-                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}homdgcat-res/Abyss/_HP.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].New.ShowStats.HP}</span>`
-                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}homdgcat-res/Abyss/_ATK.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].New.ShowStats.ATK}</span>`
-                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}homdgcat-res/Abyss/_DEF.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].New.ShowStats.DEF}</span>`
+                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}sakiko-res/Abyss/_HP.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].New.ShowStats.HP}</span>`
+                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}sakiko-res/Abyss/_ATK.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].New.ShowStats.ATK}</span>`
+                    + `<span class='addprop' style='margin-right:-2px'><img src='${imgpre}sakiko-res/Abyss/_DEF.png'></span><span style='margin-right: 10px'>${_awc[v2][codename].New.ShowStats.DEF}</span>`
                     + `<span>${new_p_name} +${_awc[v2][codename].New.ShowStats.Custom}</span></span>`
                 })
             }
@@ -7148,7 +7148,7 @@ $(function () {
                     {
                         div: [
                             {
-                                img: imgpre + `homdgcat-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
+                                img: imgpre + `sakiko-res/Avatar/UI_AvatarIcon_${avatar_name_temp}.png`,
                                 class: 'head_left',
                                 event: {
                                     error: function (d) {

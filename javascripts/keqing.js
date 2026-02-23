@@ -50,7 +50,7 @@ $(function () {
                     chars.push({
                         a: `/gi/char/${u}`,
                         t: {
-                            img: `/homdgcat-res/Avatar/UI_AvatarIcon_${u}.png`,
+                            img: `/sakiko-res/Avatar/UI_AvatarIcon_${u}.png`,
                             style: {
                                 width: '100%'
                             }
@@ -135,7 +135,7 @@ $(function () {
                         t: [
                             {
                                 div: {
-                                    img: `/homdgcat-res/monster/${Keqing_MonData[s.ID].Icon}.png`,
+                                    img: `/sakiko-res/monster/${Keqing_MonData[s.ID].Icon}.png`,
                                     class: 'boss_img'
                                 },
                                 class: 'boss_img_wrap'

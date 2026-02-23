@@ -193,7 +193,7 @@ $(function () {
             $(this).render({
                 div: [
                     {
-                        img: '/homdgcat-res/UI/birthday-cake2.png'
+                        img: '/sakiko-res/UI/birthday-cake2.png'
                     },
                 ],
                 class: 'anni anni_mark',
@@ -315,7 +315,7 @@ $(function () {
                                 },
                                 {
                                     div: {
-                                        img: '/homdgcat-res/UI/birthday-cake2.png'
+                                        img: '/sakiko-res/UI/birthday-cake2.png'
                                     },
                                     class: 'cntd_emote_small',
                                     when: anniversary
@@ -2251,7 +2251,7 @@ $(function () {
                         {
                             div: [
                                 {
-                                    img: '/homdgcat-res/UI/birthday-cake2.png'
+                                    img: '/sakiko-res/UI/birthday-cake2.png'
                                 },
                                 {
                                     p: '',

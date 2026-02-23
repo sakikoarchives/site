@@ -35,13 +35,13 @@ var computer_ = {
             "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
         },
         "TITLE": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives",
         },
         "Title": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives",
         },
         "Affix": {
@@ -90,8 +90,8 @@ var computer_ = {
             "RU": "sakikoarchives.com | t.me/homdgcat"
         },
         "ComputerTitle": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives"
         },
         "ComputerTitle_": {
@@ -364,8 +364,8 @@ var computer_ = {
             "RU": "Рассчитать урон"
         },
         "AbyssTitle": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives"
         },
         "AbyssCount": {

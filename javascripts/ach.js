@@ -232,7 +232,7 @@ $(function () {
                                         tr: [
                                             {
                                                 td: [{
-                                                    img: imgpre + 'homdgcat-res/Csxylic/Primo.png',
+                                                    img: imgpre + 'sakiko-res/Csxylic/Primo.png',
                                                     class: 'jade'
                                                 }, ach.Reward.toString()],
                                                 style: {
