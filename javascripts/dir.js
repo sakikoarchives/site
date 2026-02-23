@@ -221,7 +221,7 @@ var SR = [
     {
         "Title": {
             "CH": "怪物",
-            "EN": "Monsters"
+            "EN": "Enemies"
         },
         "Link": {
             "CH": "sr.mons.wiki",
@@ -246,17 +246,6 @@ var SR = [
         "Href": {
             "CH": "/sr/char",
             "EN": "/sr/char"
-        }
-    },
-    {
-        "Title": {
-            "CH": "云璃成绩",
-            "EN": "Xueyi Endgame"
-        },
-        "Features": [],
-        "Href": {
-            "CH": "/yunli",
-            "EN": "/yunli"
         }
     },
     {
@@ -321,23 +310,12 @@ var SR = [
     {
         "Title": {
             "CH": "差分宇宙 3.8",
-            "EN": "Divergent Universe 3.8"
+            "EN": "Divergent Universe"
         },
         "Features": [],
         "Href": {
             "CH": "/sr/du31",
             "EN": "/sr/du31"
-        }
-    },
-    {
-        "Title": {
-            "CH": "差分宇宙 2.7",
-            "EN": "Divergent Universe 2.7"
-        },
-        "Features": [],
-        "Href": {
-            "CH": "/sr/du",
-            "EN": "/sr/du"
         }
     },
     {
@@ -393,28 +371,6 @@ var SR = [
         "Href": {
             "CH": "/sr/event",
             "EN": "/sr/event"
-        }
-    },
-    {
-        "Title": {
-            "CH": "战斗关卡",
-            "EN": "Combat Levels"
-        },
-        "Features": [],
-        "Href": {
-            "CH": "/sr/stage",
-            "EN": "/sr/stage"
-        }
-    },
-    {
-        "Title": {
-            "CH": "效果和名词",
-            "EN": "Effects & Nouns"
-        },
-        "Features": [],
-        "Href": {
-            "CH": "/sr/effect",
-            "EN": "/sr/effect"
         }
     },
 ]

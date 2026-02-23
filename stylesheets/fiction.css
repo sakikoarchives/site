@@ -165,7 +165,7 @@ popdialog {
     width: 94.7%;
     display: inline-block;
     border-radius: 10px;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
 }
 
@@ -206,7 +206,7 @@ popdialog {
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
-    background-color: rgba(255, 255, 255,1);
+    background-color: rgba(255, 255, 255, 0);
     font-size: 15px;
     margin: auto;
 }
@@ -223,11 +223,11 @@ popdialog {
 }
 
 .a_section_small ::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #ffffff00;
 }
 
 .a_section ::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #ffffff00;
 }
 
 input::-webkit-outer-spin-button,
@@ -429,7 +429,7 @@ input[type=number] {
 
 .buff, .target {
     width: calc(100% - 36px);
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     border-radius: 5px;
     margin: 3px 0px;
@@ -438,7 +438,7 @@ input[type=number] {
 
 .smallbuff {
     width: calc(100% - 36px);
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     border-radius: 5px;
     margin: 3px 0px;
