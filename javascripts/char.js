@@ -7,9 +7,9 @@ $(function () {
 
     var download_cd = 0
 
-    var ehe = ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/homdgcat <b>')
+    var ehe = ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/biwaleakshsr <b>')
     if (April_1st) {
-        ehe = ((lang == 'CH') ? '铌钶钞钕 库据数杯衡玉 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/homdgcat <b>')
+        ehe = ((lang == 'CH') ? '铌钶钞钕 库据数杯衡玉 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/biwaleakshsr <b>')
     }
     var meow = April_1st ? ((lang == 'CH') ? '帕' : '~') : ''
     var meow2 = April_1st ? ((lang == 'CH') ? '喵喵喵' : ' Meow Meow~') : ''
@@ -129,7 +129,7 @@ $(function () {
                         {
                             p: {
                                 CH: '<a href="./a> | <a href=/index.html"/3546567522912510/index.html" target="_blank">b站@妮可少女</a>',
-                                EN: '<a href="./a> | <a href=/index.html"/homdgcat/index.html" target="_blank">t.me/homdgcat</a>'
+                                EN: '<a href="./a> | <a href=/index.html"/homdgcat/index.html" target="_blank">t.me/biwaleakshsr</a>'
                             }[lang],
                             class: 'as_left_name'
                         }
@@ -2752,7 +2752,6 @@ $(function () {
                 _avatarrank = {..._avatarrank, ..._avatarrank_}
                 _story = {..._story, ..._story_}
                 _voice = {..._voice, ..._voice_}
-                _notes = {..._notes, ..._notes_}
                 _adiff = {..._adiff, ..._adiff_}
                 _mtc = {..._mtc, ..._mtc_}
             }

@@ -29,12 +29,12 @@ var txt = {
         "RU": "Sakiko Archives",
     },
     "Affix": {
-        "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-        "EN": " | <color style='color:#0066FF;'>homdgcat.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+        "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
+        "EN": " | <color style='color:#0066FF;'>homdgcat.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
     },
     "Subtitle": {
         "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='./3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
-        "EN": "<p><b>homdgcat.wiki | <span style='white-space:pre;'><a href='./homdgcat/index.html' target='_blank'>t.me/homdgcat</a></span></b></p>"
+        "EN": "<p><b>homdgcat.wiki | <span style='white-space:pre;'><a href='./homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
     },
     "ChooseTitle": {
         "CH": "（星穹铁道）",
@@ -300,8 +300,8 @@ var txt = {
         "EN": "Pure Fiction"
     },
     "HS": {
-        "CH": "<p><b>玉衡杯数据库 - b站@妮可少女 | t.me/homdgcat</b></p>",
-        "EN": "<p><b>Sakiko Archives - t.me/homdgcat</b></p>"
+        "CH": "<p><b>玉衡杯数据库 - b站@妮可少女 | t.me/biwaleakshsr</b></p>",
+        "EN": "<p><b>Sakiko Archives - t.me/biwaleakshsr</b></p>"
     },
     "Links_": {
         "CH": "<b>[ yuhengcup.wiki ]</b>",
@@ -318,12 +318,6 @@ var txt = {
     "Chart_Title_Fiction": {
         "CH": "虚构叙事#层血量演化",
         "EN": "Pure Fiction F# HP Trend"
-    },
-    "HDGNotes": {
-        "CH": "＋ 妮可少女的研究 ＋",
-        "EN": "＋ HomDGCat's Notes ＋",
-        "JP": "＋ HomDGCat's Notes ＋",
-        "KR": "＋ HomDGCat's Notes ＋",
     },
     "Choose_One": {
         "CH": "＋ 终焉公理 ＋",
@@ -349,7 +343,7 @@ var txt = {
     },
     "Chart_Subtitle": {
         "CH": "妮可少女 玉衡杯数据库 yuhengcup.wiki",
-        "EN": "homdgcat.wiki | t.me/homdgcat"
+        "EN": "homdgcat.wiki | t.me/biwaleakshsr"
     },
     "Fiction_HP": {
         "CH": "总血量",
@@ -376,11 +370,6 @@ var txt = {
         "CH": "未来情报",
         "EN": "Future Info",
         "RU": "Предстоящие"
-    },
-    "HNotes": {
-        "CH": "妮可少女的研究",
-        "EN": "HomDGCat's Notes",
-        "RU": "HomDGCat"
     },
     "Back": {
         "CH": "<b>返回</b>",
@@ -427,13 +416,6 @@ var txt = {
             "JP": "更新",
             "KR": "업데이트",
             "ID": 6,
-        },
-        {
-            "CH": "妮可少女的研究",
-            "EN": "HomDGCat's Notes",
-            "JP": "HomDGCatの研究",
-            "KR": "HomDGCat 의 연구",
-            "ID": 9,
         },
         {
             "CH": "故事",

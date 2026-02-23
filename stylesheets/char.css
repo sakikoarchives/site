@@ -139,7 +139,7 @@ schedule {
     width: calc((100% - 50px) / 5);
     text-align: center;
     padding: 10px 0px;
-    border: 1px solid #333;
+    border: 1px solid #33333300;
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;

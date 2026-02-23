@@ -224,7 +224,7 @@ $(function () {
                 ],
                 class: 'item-card hover-shadow',
                 style: {
-                    'background-image': `linear-gradient(180deg, ${rarity_color[t.Rarity]}, #fff)`
+                    'background-image': `linear-gradient(180deg, ${rarity_color[t.Rarity]}, #ffffff00)`
                 },
                 a: {
                     'data-id': i + 1
@@ -266,7 +266,7 @@ $(function () {
                         {
                             hr: '',
                             style: {
-                                'border-color': '#eeeeee',
+                                'border-color': '#eeeeee00',
                                 margin: '20px auto 15px'
                             }
                         },
@@ -277,7 +277,7 @@ $(function () {
                         {
                             hr: '',
                             style: {
-                                'border-color': '#eeeeee',
+                                'border-color': '#eeeeee00',
                                 margin: '20px auto 15px'
                             },
                             when: this_item.Src

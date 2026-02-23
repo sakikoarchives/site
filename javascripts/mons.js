@@ -87,7 +87,7 @@ $(function () {
                         {
                             p: {
                                 CH: '<a href="./a> | <a href=/index.html"/3546567522912510/index.html" target="_blank">b站@妮可少女</a>',
-                                EN: '<a href="./a> | <a href=/index.html"/homdgcat/index.html" target="_blank">t.me/homdgcat</a>'
+                                EN: '<a href="./a> | <a href=/index.html"/homdgcat/index.html" target="_blank">t.me/biwaleakshsr</a>'
                             }[lang],
                             class: 'as_left_name'
                         }

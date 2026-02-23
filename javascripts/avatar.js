@@ -134,7 +134,7 @@ $(function () {
                         {
                             p: {
                                 CH: '<a href="./a> | <a href=/index.html"/3546567522912510/index.html" target="_blank">b站@妮可少女</a>',
-                                EN: '<a href="./a> | <a href=/index.html"/homdgcat/index.html" target="_blank">t.me/homdgcat</a>'
+                                EN: '<a href="./a> | <a href=/index.html"/homdgcat/index.html" target="_blank">t.me/biwaleakshsr</a>'
                             }[lang],
                             class: 'as_left_name'
                         }
@@ -4612,7 +4612,7 @@ $(function () {
                                 }
                             },
                             {
-                                p: u.Date + '<br><color style="color:#FFD780;">' + ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/homdgcat <b>') + ((lang == 'CH') ? u.Ver.replaceAll('Live', '正式服') : u.Ver) + '</b></color>',
+                                p: u.Date + '<br><color style="color:#FFD780;">' + ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/biwaleakshsr <b>') + ((lang == 'CH') ? u.Ver.replaceAll('Live', '正式服') : u.Ver) + '</b></color>',
                                 style: {
                                     'font-size': '0.8em',
                                     'font-weight': 'normal',
@@ -4848,7 +4848,7 @@ $(function () {
                                 class: 'boss_icon'
                             },
                             {
-                                p: '<color style="color:#FFACFF;">' + ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/homdgcat <b>') + '</b></color>',
+                                p: '<color style="color:#FFACFF;">' + ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/biwaleakshsr <b>') + '</b></color>',
                                 style: {
                                     'font-size': '0.8em',
                                     'font-weight': 'normal',

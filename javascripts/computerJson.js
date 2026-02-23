@@ -22,8 +22,8 @@ var computer_ = {
         },
         "Chart_Subtitle": {
             "CH": "妮可少女 玉衡杯数据库 yuhengcup.wiki",
-            "EN": "sakikoarchives.com | t.me/homdgcat",
-            "RU": "sakikoarchives.com | t.me/homdgcat"
+            "EN": "sakikoarchives.com | t.me/biwaleakshsr",
+            "RU": "sakikoarchives.com | t.me/biwaleakshsr"
         },
         "Back": {
             "CH": "<b>返回</b>",
@@ -31,7 +31,7 @@ var computer_ = {
         },
         "PAGE_TITLE": {
             "CH": "玉衡杯数据库 - 原神 崩坏星穹铁道 数据库 - 妮可少女 HomDGCat",
-            "EN": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
+            "EN": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko 妮可少女",
             "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
         },
         "TITLE": {
@@ -45,19 +45,19 @@ var computer_ = {
             "RU": "Sakiko Archives",
         },
         "Affix": {
-            "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
+            "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Subtitle": {
             "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='./3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
-            "EN": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='./homdgcat/index.html' target='_blank'>t.me/homdgcat</a></span></b></p>",
-            "RU": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='./homdgcat/index.html' target='_blank'>t.me/homdgcat</a></span></b></p>"
+            "EN": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='./homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>",
+            "RU": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='./homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
         },
         "Subtitle_": {
-            "CH": "<p><b>玉衡杯数据库 - b站@妮可少女 | t.me/homdgcat</b></p>",
-            "EN": "<p><b>Sakiko Archives - t.me/homdgcat</b></p>",
-            "RU": "<p><b>Sakiko Archives - t.me/homdgcat</b></p>"
+            "CH": "<p><b>玉衡杯数据库 - b站@妮可少女 | t.me/biwaleakshsr</b></p>",
+            "EN": "<p><b>Sakiko Archives - t.me/biwaleakshsr</b></p>",
+            "RU": "<p><b>Sakiko Archives - t.me/biwaleakshsr</b></p>"
         },
         "Page": {
             "CH": "<p style='margin-top:13px;color:#df903b;cursor:pointer;'><b>【切换页面】</b></p>",
@@ -67,27 +67,27 @@ var computer_ = {
         "Translate_": "<a class='translate_' href='?lang=CH'><b>中文</b></a> | <a class='translate_' href='?lang=EN'><b>English</b></a> | <a class='translate_' href='?lang=JP'><b>日本語</b></a> | <a class='translate_' href='?lang=KR'><b>한국인</b></a> | <a class='translate_' href='?lang=RU'><b>Русский</b></a>",
         "Abyss_Reminder": {
             "CH": "<color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color>",
-            "EN": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/homdgcat</color>",
-            "RU": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/homdgcat</color>"
+            "EN": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/biwaleakshsr</color>",
+            "RU": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/biwaleakshsr</color>"
         },
         "Abyss_Reminder3": {
             "CH": "<b>妮可少女的研究</b><br>玉衡杯数据库 yuhengcup.wiki",
-            "EN": "<b>HomDGCat's Notes</b><br>sakikoarchives.com | t.me/homdgcat",
+            "EN": "<b>HomDGCat's Notes</b><br>sakikoarchives.com | t.me/biwaleakshsr",
         },
         "Abyss_Reminder2": {
             "CH": "<color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color><br><color style='color:#cc0000;font-size:1.2em;'><b>玩家自创阵容</b></color>",
-            "EN": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/homdgcat</color><br><color style='color:#cc0000;font-size:1.2em;'><b>Fan-Made Lineup</b></color>",
-            "RU": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/homdgcat</color><br><color style='color:#cc0000;font-size:1.2em;'><b>Fan-Made Lineup</b></color>"
+            "EN": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/biwaleakshsr</color><br><color style='color:#cc0000;font-size:1.2em;'><b>Fan-Made Lineup</b></color>",
+            "RU": "<color style='color:#0066FF;'>sakikoarchives.com | t.me/biwaleakshsr</color><br><color style='color:#cc0000;font-size:1.2em;'><b>Fan-Made Lineup</b></color>"
         },
         "Computer_Show": {
             "CH": "妮可少女 玉衡杯数据库 yuhengcup.wiki",
-            "EN": "sakikoarchives.com | t.me/homdgcat",
-            "RU": "sakikoarchives.com | t.me/homdgcat"
+            "EN": "sakikoarchives.com | t.me/biwaleakshsr",
+            "RU": "sakikoarchives.com | t.me/biwaleakshsr"
         },
         "Abyss_Show": {
             "CH": "妮可少女 玉衡杯数据库 yuhengcup.wiki",
-            "EN": "sakikoarchives.com | t.me/homdgcat",
-            "RU": "sakikoarchives.com | t.me/homdgcat"
+            "EN": "sakikoarchives.com | t.me/biwaleakshsr",
+            "RU": "sakikoarchives.com | t.me/biwaleakshsr"
         },
         "ComputerTitle": {
             "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
@@ -180,8 +180,8 @@ var computer_ = {
         },
         "Computer_ScaleHP_TutorialTitle": {
             "CH": "抗性和等效血量 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "RES and Scaled HP | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "Сопротивление и масштабирование ХП | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "RES and Scaled HP | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "Сопротивление и масштабирование ХП | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_ScaleHP_Tutorial": {
             "CH": "等效血量是考虑抗性的作用后，计算出的血量。敌方标准抗性是 10%，此时等效血量等于原血量。<br><br>例如，某个敌人的抗性为 70%，根据<b>抗性公式</b>可知打出的伤害变为原本（即抗性为 10%）的三分之一，因此等效血量是原血量的 3 倍。<br><br>对敌方施加减抗技能后，敌方的抗性改变了，因此等效血量也会改变。<br><br>抗性公式：<br>- 抗性 ≤ 0%：伤害系数 = 1 - 抗性/2<br>- 0% ≤ 抗性 ≤ 75%：伤害系数 = 1 - 抗性<br>- 抗性 ≥ 75%：伤害系数 = 1 / (抗性x4 + 1)",
@@ -230,13 +230,13 @@ var computer_ = {
         },
         "Computer_Result_Button_BallIntro2": {
             "CH": "产球能量简介 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Par & Energy Intro | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "О энергии и частицах | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Par & Energy Intro | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "О энергии и частицах | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_Result_Button_WeightEndureIntro2": {
             "CH": "韧性力学简介 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Weight & Poise Intro | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "О весе и стойкости | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Weight & Poise Intro | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "О весе и стойкости | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_Result_Window_BallIntro": {
             "CH": "无属白微粒：前台角色恢复<color style='color:#FF0000;'> 2 </color>元素能量\n有属性微粒：前台同属性角色恢复<color style='color:#FF0000;'> 3 </color>，不同属性恢复<color style='color:#FF0000;'> 1 </color>\n\n如果角色在后台，恢复的能量会打折扣：\n4人队后台恢复为原本的<color style='color:#FF0000;'> 60%</color>\n3人队后台恢复为原本的<color style='color:#FF0000;'> 70%</color>\n2人队后台恢复为原本的<color style='color:#FF0000;'> 80%</color>",
@@ -275,28 +275,28 @@ var computer_ = {
         },
         "Computer_Result_Button_Tutorial2": {
             "CH": "机制解析 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Monster Mechanics | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "Механики противника | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Monster Mechanics | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "Механики противника | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_Result_Button_SkillDMG2": {
             "CH": "技能伤害 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Skill DMG | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "Урон умений | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Skill DMG | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "Урон умений | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_Result_Button_SkillData2": {
             "CH": "招式信息 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Skill Data | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "Описание умений | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Skill Data | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "Описание умений | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_Result_Button_Loot2": {
             "CH": "材料掉率 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Loot Drop Rate | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "Шанс выпадения | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Loot Drop Rate | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "Шанс выпадения | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_Result_Button_Element2": {
             "CH": "自带附着 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Innate Element | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "Врожденный элемент | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Innate Element | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "Врожденный элемент | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_Result_Element_Type": {
             "CH": "自带元素：",
@@ -340,8 +340,8 @@ var computer_ = {
         },
         "Computer_SkillDMG_Title": {
             "CH": "怪物伤害计算器 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>mons.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Monster DMG Calculator | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "Калькулятор урона противника | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Monster DMG Calculator | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "Калькулятор урона противника | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.mons.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Computer_SkillDMG_Input_AvatarDEFPlaceholder": {
             "CH": "请输入整数",
@@ -526,8 +526,8 @@ var computer_ = {
         },
         "Avatar_Table_Title_Extra": {
             "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>char.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.char.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.char.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.char.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>en.char.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Avatar_Buff": {
             "CH": '角色加强',
@@ -1203,8 +1203,8 @@ var computer_ = {
         },
         "Ach_Extra": {
             "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": " | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": " | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": " | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": " | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "Ach_Inner_Header": [
             {
@@ -1274,8 +1274,8 @@ var computer_ = {
         ],
         "MS_HP_Title": {
             "CH": "护盾血量 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Shield HP | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "ХП щита | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Shield HP | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
+            "RU": "ХП щита | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
         },
         "MS_HP_Desc": {
             "CH": "某些护盾具有血量：在受到不同属性的伤害时，会依此扣除护盾值。此效果与元素反应的消耗叠加。<br>护盾的血量是敌人本体血量的倍数。例如，5x 表示护盾血量是本体的 5 倍。",

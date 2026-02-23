@@ -118,7 +118,7 @@ schedule {
 }
 
 .path schedule {
-    background-color: #27363e;
+    background-color: #27363e00;
     width: 60px;
     border-radius: 9px;
     border-width: 0px;

@@ -72,12 +72,8 @@ var GI_Times = [
 
 var SR_Times = [
     {
-        V: '4.1 - Ashveil (Lightning Hunt)',
-        D: 28
-    },
-    {
         V: '4.2 - Elation MC (Possible Quantum), Silver Wolf SP (Possible Imaginary Elation) & Evansecia (Physical Elation)',
-        D: 42
+        D: 56
     },
     {
         V: '4.3 - Blade SP (Potential Erudition) & (potentially) Pearl',

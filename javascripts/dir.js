@@ -236,7 +236,7 @@ var SR = [
     {
         "Title": {
             "CH": "角色 光锥 遗器",
-            "EN": "Characters Lightcones Relics"
+            "EN": "Characters, Lightcones & Relics"
         },
         "Link": {
             "CH": "sr.char.wiki",

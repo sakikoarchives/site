@@ -7,7 +7,7 @@ popbody {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -27,7 +27,7 @@ popbody {
     height: 30px;
     padding: 5px 10px;
     color: #fff;
-    background-color: #27363e;
+    background-color: #27363e00;
     cursor: pointer;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -35,7 +35,7 @@ popbody {
     margin-left: 10px;
     border-radius: 5px;
     border: 2px solid;
-    border-color: #27363e;
+    border-color: #27363e00;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,12 +88,12 @@ schedule {
     height: 30px;
     padding: 5px 10px;
     color: #fff;
-    background-color: #27363e;
+    background-color: #27363e00;
     cursor: pointer;
     margin-left: 10px;
     border-radius: 5px;
     border: 2px solid;
-    border-color: #27363e;
+    border-color: #27363e00;
     display: flex;
     flex-direction: column;
     justify-content: center;
