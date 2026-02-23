@@ -288,7 +288,7 @@ $(function () {
                     },
                     {
                         div: {
-                            img: imgpre + 'homdgcat-res/UI/[[.]].png',
+                            img: imgpre + 'sakiko-res/UI/[[.]].png',
                             style: {
                                 width: '10%',
                                 'max-width': '40px',
@@ -321,7 +321,7 @@ $(function () {
                                 div: {
                                     a: '/gi/char/[[ID]]',
                                     t: {
-                                        img: imgpre + 'homdgcat-res/Avatar/[[Icon]].png',
+                                        img: imgpre + 'sakiko-res/Avatar/[[Icon]].png',
                                         a: {
                                             loading: lazy
                                         },
@@ -371,7 +371,7 @@ $(function () {
                                 div: {
                                     a: '/gi/char/[[ID]]',
                                     t: {
-                                        img: imgpre + 'homdgcat-res/Avatar/[[Icon]].png',
+                                        img: imgpre + 'sakiko-res/Avatar/[[Icon]].png',
                                         a: {
                                             loading: lazy
                                         },
@@ -491,7 +491,7 @@ $(function () {
                                                                     a: '/gi/monster/' + u,
                                                                     t: [
                                                                         {
-                                                                            img: imgpre + `homdgcat-res/monster/${_mons[u].Icon}.png`,
+                                                                            img: imgpre + `sakiko-res/monster/${_mons[u].Icon}.png`,
                                                                             style: {
                                                                                 width: '20%',
                                                                                 'max-width': '54px'
@@ -555,7 +555,7 @@ $(function () {
                                                             a: '/gi/monster/' + mon_id,
                                                             t: [
                                                                 {
-                                                                    img: imgpre + `homdgcat-res/monster/${_mons[mon_id].Icon}.png`,
+                                                                    img: imgpre + `sakiko-res/monster/${_mons[mon_id].Icon}.png`,
                                                                     class: 'minion'
                                                                 },
                                                                 {
@@ -657,7 +657,7 @@ $(function () {
                             div: [
                                 {
                                     div: {
-                                        img: imgpre + `homdgcat-res/Mat/UI_ItemIcon_120864.png`,
+                                        img: imgpre + `sakiko-res/Mat/UI_ItemIcon_120864.png`,
                                         style: {
                                             'max-width': '64px'
                                         }
@@ -696,7 +696,7 @@ $(function () {
                                 t: [
                                     {
                                         div: {
-                                            img: imgpre + `homdgcat-res/monster/${_mons[u].Icon}.png`,
+                                            img: imgpre + `sakiko-res/monster/${_mons[u].Icon}.png`,
                                             style: {
                                                 'max-width': '64px'
                                             }
@@ -879,7 +879,7 @@ $(function () {
                 div: [
                     {
                         p: {
-                            img: imgpre + `homdgcat-res/Avatar/[[Icon]].png`,
+                            img: imgpre + `sakiko-res/Avatar/[[Icon]].png`,
                             style: {
                                 'width': '100px',
                             }

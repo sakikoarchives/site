@@ -228,11 +228,11 @@ $(function () {
                             {
                                 div: [
                                     {
-                                        img: '/homdgcat-res/UI/Alipay.png',
+                                        img: '/sakiko-res/UI/Alipay.png',
                                         class: 'Alipay'
                                     },
                                     {
-                                        img: '/homdgcat-res/UI/Wechat_2.png',
+                                        img: '/sakiko-res/UI/Wechat_2.png',
                                         class: 'Wechat'
                                     }
                                 ],
@@ -352,15 +352,15 @@ $(function () {
     console.log("FINISH")
 
     $('body').on('click', '.Alipay', function () {
-        download('/homdgcat-res/UI/Alipay.png', '支付宝 Alipay')
+        download('/sakiko-res/UI/Alipay.png', '支付宝 Alipay')
     })
 
     $('body').on('click', '.Wechat', function () {
-        download('/homdgcat-res/UI/Wechat_2.png', '微信 Wechat')
+        download('/sakiko-res/UI/Wechat_2.png', '微信 Wechat')
     })
 
     $('body').on('click', '.Paypal', function () {
-        download('/homdgcat-res/UI/Paypal.png', 'Paypal')
+        download('/sakiko-res/UI/Paypal.png', 'Paypal')
     })
 
     function download(link, name) {

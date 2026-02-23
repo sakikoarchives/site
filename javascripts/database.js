@@ -1163,7 +1163,7 @@ $(function () {
                 t: [
                     {
                         div: {
-                            img: imgpre + 'homdgcat-res/monster/' + choose_icon + '.png',
+                            img: imgpre + 'sakiko-res/monster/' + choose_icon + '.png',
                             class: 'monster_left_img'
                         },
                         class: 'monster_left'
@@ -1395,7 +1395,7 @@ $(function () {
                                             when: mask
                                         },
                                         {
-                                            img: imgpre + 'homdgcat-res/monster/' + choose_icon + '.png',
+                                            img: imgpre + 'sakiko-res/monster/' + choose_icon + '.png',
                                             class: 'monicon'
                                         },
                                         {

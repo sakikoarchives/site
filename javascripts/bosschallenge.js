@@ -244,7 +244,7 @@ $(function () {
                                                                 p: t.P
                                                             },
                                                             {
-                                                                img: '/homdgcat-res/Mat/' + t.R + '.png',
+                                                                img: '/sakiko-res/Mat/' + t.R + '.png',
                                                             },
                                                             {
                                                                 p: t.C.toString(),
@@ -419,11 +419,11 @@ $(function () {
                                             {   
                                                 div: {
                                                     div: {
-                                                        img: '/homdgcat-res/monster/' + t.Icon + '.png',
+                                                        img: '/sakiko-res/monster/' + t.Icon + '.png',
                                                         event: {
                                                             error: function (o) {
                                                                 $(o.sender).hide()
-                                                                $(o.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                                $(o.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                             }
                                                         },
                                                         class: 'hover-shadow',
@@ -578,11 +578,11 @@ $(function () {
                                             a: '/gi/monster/' + (t.ID ? (t.ID + '?level=105&mul=' + (t.HPMult ? t.HPMult : 1)) : ''),
                                             t: {
                                                 div: {
-                                                    img: '/homdgcat-res/monster/' + t.Icon + '.png',
+                                                    img: '/sakiko-res/monster/' + t.Icon + '.png',
                                                     event: {
                                                         error: function (o) {
                                                             $(o.sender).hide()
-                                                            $(o.sender).parent().render({ img: '/homdgcat-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
+                                                            $(o.sender).parent().render({ img: '/sakiko-res/Mat/UI_ItemIcon_120864.png', a: { loading: lazy } })
                                                         }
                                                     },
                                                     class: 'hover-shadow',
@@ -641,12 +641,12 @@ $(function () {
                                                     {
                                                         div: [
                                                             {
-                                                                img: `/homdgcat-res/UI/[[.]].png`,
+                                                                img: `/sakiko-res/UI/[[.]].png`,
                                                                 data: t.Advantage,
                                                                 class: 'elem'
                                                             },
                                                             {
-                                                                img: `/homdgcat-res/UI/Yes.png`,
+                                                                img: `/sakiko-res/UI/Yes.png`,
                                                                 class: 'elem'
                                                             }
                                                         ],
@@ -660,12 +660,12 @@ $(function () {
                                                     {
                                                         div: [
                                                             {
-                                                                img: `/homdgcat-res/UI/[[.]].png`,
+                                                                img: `/sakiko-res/UI/[[.]].png`,
                                                                 data: t.Disadvantage,
                                                                 class: 'elem'
                                                             },
                                                             {
-                                                                img: `/homdgcat-res/UI/No.png`,
+                                                                img: `/sakiko-res/UI/No.png`,
                                                                 class: 'elem'
                                                             }
                                                         ],

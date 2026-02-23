@@ -161,7 +161,7 @@ $(function () {
                 t: {
                     div: [
                         {
-                            img: '/homdgcat-res/Avatar/' + _icons[v.N] + '.png',
+                            img: '/sakiko-res/Avatar/' + _icons[v.N] + '.png',
                         },
                         {
                             span: v.X.toString(),
@@ -210,7 +210,7 @@ $(function () {
                 t: {
                     div: [
                         {
-                            img: '/homdgcat-res/Avatar/' + _icons[selected] + '.png',
+                            img: '/sakiko-res/Avatar/' + _icons[selected] + '.png',
                         }
                     ],
                     class: 'icon icon_5'

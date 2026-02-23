@@ -8,7 +8,7 @@ NEW_GI = [
         },
         "Rarity": 5,
         "Link": "/gi/char/Columbina",
-        "Icon": "/homdgcat-res/Avatar/UI_AvatarIcon_Columbina.png",
+        "Icon": "/sakiko-res/Avatar/UI_AvatarIcon_Columbina.png",
         "Elem": "Water",
         "Type": "Skill_A_Catalyst_MD"
     },
@@ -21,7 +21,7 @@ NEW_GI = [
         },
         "Rarity": 5,
         "Link": "/gi/char/Zibai",
-        "Icon": "/homdgcat-res/Avatar/UI_AvatarIcon_Zibai.png",
+        "Icon": "/sakiko-res/Avatar/UI_AvatarIcon_Zibai.png",
         "Elem": "Rock",
         "Type": "Skill_A_01"
     },
@@ -34,7 +34,7 @@ NEW_GI = [
         },
         "Rarity": 5,
         "Link": "/gi/char/15043",
-        "Icon": "/homdgcat-res/Relic/UI_RelicIcon_15043_4.png",
+        "Icon": "/sakiko-res/Relic/UI_RelicIcon_15043_4.png",
         "Type": "../../images/GCG_UI/3004"
     },
     {
@@ -46,7 +46,7 @@ NEW_GI = [
         },
         "Rarity": 5,
         "Link": "/gi/char/15044",
-        "Icon": "/homdgcat-res/Relic/UI_RelicIcon_15044_4.png",
+        "Icon": "/sakiko-res/Relic/UI_RelicIcon_15044_4.png",
         "Type": "../../images/GCG_UI/3004"
     },
     {
@@ -58,7 +58,7 @@ NEW_GI = [
         },
         "Rarity": 5,
         "Link": "/gi/char/11519",
-        "Icon": "/homdgcat-res/Weapon/UI_EquipIcon_Sword_SilverwareSaw.png",
+        "Icon": "/sakiko-res/Weapon/UI_EquipIcon_Sword_SilverwareSaw.png",
         "Type": "Skill_A_01"
     },
     {
@@ -70,7 +70,7 @@ NEW_GI = [
         },
         "Rarity": 5,
         "Link": "/gi/char/14522",
-        "Icon": "/homdgcat-res/Weapon/UI_EquipIcon_Catalyst_Brisingamen.png",
+        "Icon": "/sakiko-res/Weapon/UI_EquipIcon_Catalyst_Brisingamen.png",
         "Type": "Skill_A_Catalyst_MD"
     },
     {
@@ -82,7 +82,7 @@ NEW_GI = [
         },
         "Rarity": 4,
         "Link": "/gi/char/Illuga",
-        "Icon": "/homdgcat-res/Avatar/UI_AvatarIcon_Illuga.png",
+        "Icon": "/sakiko-res/Avatar/UI_AvatarIcon_Illuga.png",
         "Elem": "Rock",
         "Type": "Skill_A_03"
     }

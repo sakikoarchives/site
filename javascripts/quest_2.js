@@ -213,9 +213,9 @@ $(function () {
                         div: function (k) {
                             for (const [d, n] of Object.entries(_reward[k.data])) {
                                 if (_material[d].Type == 1) {
-                                    var img = imgpre + 'homdgcat-res/Weapon/' + _material[d].Icon + '.png'
+                                    var img = imgpre + 'sakiko-res/Weapon/' + _material[d].Icon + '.png'
                                 } else {
-                                    var img = imgpre + 'homdgcat-res/Mat/' + _material[d].Icon + '.png'
+                                    var img = imgpre + 'sakiko-res/Mat/' + _material[d].Icon + '.png'
                                 }
                                 $(k.container).render({
                                     div: [
@@ -302,7 +302,7 @@ $(function () {
             width: '90%',
             template: [
                 {
-                    img: imgpre + (this_item.Pic ? ('homdgcat-res/Avatar/' + this_item.Pic + '.png') : ('homdgcat-res/Mat/' + this_item.Icon + '.png')),
+                    img: imgpre + (this_item.Pic ? ('sakiko-res/Avatar/' + this_item.Pic + '.png') : ('sakiko-res/Mat/' + this_item.Icon + '.png')),
                     class: 'icon',
                 },
                 {

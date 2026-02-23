@@ -147,7 +147,7 @@ $(function () {
                             a: `/gi/char/${role_data.avatar}`,
                             t: [
                                 {
-                                    img: `/homdgcat-res/Avatar/UI_AvatarIcon_${role_data.avatar}.png`,
+                                    img: `/sakiko-res/Avatar/UI_AvatarIcon_${role_data.avatar}.png`,
                                 },
                                 {
                                     span: role_data.avatar_num.toString(),
@@ -163,7 +163,7 @@ $(function () {
                             a: `/gi/char/${role_data.weapon}`,
                             t: [
                                 {
-                                    img: `/homdgcat-res/Weapon/${weapon_data[role_data.weapon]}.png`
+                                    img: `/sakiko-res/Weapon/${weapon_data[role_data.weapon]}.png`
                                 },
                                 {
                                     span: role_data.weapon_num.toString(),

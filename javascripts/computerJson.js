@@ -35,13 +35,13 @@ var computer_ = {
             "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
         },
         "TITLE": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives",
         },
         "Title": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives",
         },
         "Affix": {
@@ -90,8 +90,8 @@ var computer_ = {
             "RU": "sakikoarchives.com | t.me/homdgcat"
         },
         "ComputerTitle": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives"
         },
         "ComputerTitle_": {
@@ -364,8 +364,8 @@ var computer_ = {
             "RU": "Рассчитать урон"
         },
         "AbyssTitle": {
-            "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
-            "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
+            "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+            "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
             "RU": "Sakiko Archives"
         },
         "AbyssCount": {
@@ -2223,297 +2223,6 @@ $('body').on('click', '._menu_', function () {
             },
             {
                 section: [
-                    {
-                        schedule: {
-                            a: '/gi/boss',
-                            t: {
-                                span: (lang == 'CH') ? '怪物解析' : 'Boss Guides',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/gi/change',
-                            t: {
-                                span: (lang == 'CH') ? '改动汇总' : 'Track Updates',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/gi/future',
-                            t: {
-                                span: (lang == 'CH') ? '未来情报' : 'Future Info',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/gi/formulae',
-                            t: {
-                                span: '公式大全',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        when: lang == 'CH',
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/gi/readable',
-                            t: {
-                                span: (lang == 'CH') ? '阅读物搜索' : 'Readables Search',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/gi/search',
-                            t: {
-                                span: (lang == 'CH') ? '文本+剧情搜索' : 'Text+Dialogue Search',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/gi/quests',
-                            t: {
-                                span: (lang == 'CH') ? '剧情记录' : 'Quest Logs',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        when: quest_allow,
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                            border: '2px solid #7030A0',
-                        },
-                    },
-                ],
-                class: 'menu_GI menu_GI_2',
-                style: {
-                    'margin-bottom': '10px',
-                    'margin-top': '-13px',
-                    'justify-content': 'center'
-                }
-            },
-            {
-                section: [
-                    {
-                        schedule: {
-                            a: '/keq',
-                            t: {
-                                span: '妮可少女的刻晴足迹',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                            'border-color': '#7030A0',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/yhb',
-                            t: {
-                                span: '刻晴生贺：玉衡杯重现',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        when: show_yhb,
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                            'border-color': '#CC0000',
-                        },
-                    },
-                ],
-                class: 'menu_GI menu_GI_2',
-                style: {
-                    'margin-bottom': '10px',
-                    'margin-top': '-9px',
-                    'justify-content': 'center'
-                },
-                when: (lang == 'CH')
-            },
-            {
-                section: [
-                    {
-                        schedule: {
-                            a: '/sr/boss',
-                            t: {
-                                span: (lang == 'CH') ? '怪物解析' : 'Boss Guides',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/sr/change',
-                            t: {
-                                span: (lang == 'CH') ? '改动汇总' : 'Track Updates',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/sr/future',
-                            t: {
-                                span: (lang == 'CH') ? '未来情报' : 'Future Info',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/sr/anniversary',
-                            t: {
-                                span: (lang == 'CH') ? '雪衣二周年' : 'Xueyi 2nd Anniversary',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        when: anniversary_show,
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                            'border-color': '#dd0000'
-                        },
-                    },
-                    {
-                        schedule: {
-                            a: '/sr/formulae',
-                            t: {
-                                span: '公式大全',
-                                style: {
-                                    'margin': 'auto',
-                                    'font-weight': 'bold',
-                                },
-                                class: 'panel'
-                            },
-                            class: 'panel'
-                        },
-                        when: lang == 'CH',
-                        class: 'hover-shadow panelw',
-                        style: {
-                            width: 'max-content',
-                        },
-                    },
                     {
                         schedule: {
                             a: '/sr/readable',

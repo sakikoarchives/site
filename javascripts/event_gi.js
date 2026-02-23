@@ -77,9 +77,9 @@ $(function () {
                     {
                         div: {
                             img: function (k) {
-                                if (_items[k.data].Type == 1) return imgpre + 'homdgcat-res/Weapon/' + _items[k.data].Icon + '.png'
-                                if (_items[k.data].Icon.includes('AvatarIcon')) return imgpre + 'homdgcat-res/Avatar/' + _items[k.data].Icon.replace('_Card', '') + '.png'
-                                return imgpre + 'homdgcat-res/Mat/' + _items[k.data].Icon + '.png'
+                                if (_items[k.data].Type == 1) return imgpre + 'sakiko-res/Weapon/' + _items[k.data].Icon + '.png'
+                                if (_items[k.data].Icon.includes('AvatarIcon')) return imgpre + 'sakiko-res/Avatar/' + _items[k.data].Icon.replace('_Card', '') + '.png'
+                                return imgpre + 'sakiko-res/Mat/' + _items[k.data].Icon + '.png'
                             },
                             data: t.Reward,
                             class: 'hover-shadow-',
@@ -226,7 +226,7 @@ $(function () {
             width: '90%',
             template: [
                 {
-                    img: imgpre + (this_item.Pic ? ('homdgcat-res/Avatar/' + this_item.Pic + '.png') : ('homdgcat-res/Mat/' + this_item.Icon + '.png')),
+                    img: imgpre + (this_item.Pic ? ('sakiko-res/Avatar/' + this_item.Pic + '.png') : ('sakiko-res/Mat/' + this_item.Icon + '.png')),
                     class: 'icon',
                 },
                 {

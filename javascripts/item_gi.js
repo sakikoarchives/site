@@ -44,7 +44,7 @@ $(function () {
                             section: [
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Avatar/UI_AvatarIcon_72158_Circle.png',
+                                        img: imgpre + 'sakiko-res/Avatar/UI_AvatarIcon_72158_Circle.png',
                                     },
                                     class: (I_TYPE == '11') ? 'active' : '',
                                     a: {
@@ -54,7 +54,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_220104.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_220104.png',
                                     },
                                     class: (I_TYPE == '12') ? 'active' : '',
                                     a: {
@@ -64,7 +64,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_113002.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_113002.png',
                                     },
                                     class: (I_TYPE == '1') ? 'active' : '',
                                     a: {
@@ -74,7 +74,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_112040.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_112040.png',
                                     },
                                     class: (I_TYPE == '2') ? 'active' : '',
                                     a: {
@@ -84,7 +84,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_104312.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_104312.png',
                                     },
                                     class: (I_TYPE == '3') ? 'active' : '',
                                     a: {
@@ -94,7 +94,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_114020.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_114020.png',
                                     },
                                     class: (I_TYPE == '4') ? 'active' : '',
                                     a: {
@@ -104,7 +104,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_100058.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_100058.png',
                                     },
                                     class: (I_TYPE == '5') ? 'active' : '',
                                     a: {
@@ -114,7 +114,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_NameCardIcon_Keqing.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_NameCardIcon_Keqing.png',
                                     },
                                     class: (I_TYPE == '6') ? 'active' : '',
                                     a: {
@@ -124,7 +124,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_108126.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_108126.png',
                                     },
                                     class: (I_TYPE == '7') ? 'active' : '',
                                     a: {
@@ -134,7 +134,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_110014.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_110014.png',
                                     },
                                     class: (I_TYPE == '8') ? 'active' : '',
                                     a: {
@@ -144,7 +144,7 @@ $(function () {
                                 },
                                 {
                                     schedule: {
-                                        img: imgpre + 'homdgcat-res/Mat/UI_TraceEffectIcon_Keqing.png',
+                                        img: imgpre + 'sakiko-res/Mat/UI_TraceEffectIcon_Keqing.png',
                                     },
                                     class: (I_TYPE == '10') ? 'active' : '',
                                     a: {
@@ -233,7 +233,7 @@ $(function () {
                 div: [
                     {
                         div: {
-                            img: imgpre + ((t.Pic && (!t.Pic.includes("_P"))) ? ('homdgcat-res/Avatar/' + t.Pic + '.png') : ('homdgcat-res/Mat/' + t.Icon + '.png')),
+                            img: imgpre + ((t.Pic && (!t.Pic.includes("_P"))) ? ('sakiko-res/Avatar/' + t.Pic + '.png') : ('sakiko-res/Mat/' + t.Icon + '.png')),
                             class: 'item-icon',
                             event: {
                                 error: function (d) {
@@ -282,7 +282,7 @@ $(function () {
             div: {
                 div: [
                     {
-                        img: imgpre + (this_item.Pic ? ('homdgcat-res/Avatar/' + this_item.Pic + '.png') : ('homdgcat-res/Mat/' + this_item.Icon + '.png')),
+                        img: imgpre + (this_item.Pic ? ('sakiko-res/Avatar/' + this_item.Pic + '.png') : ('sakiko-res/Mat/' + this_item.Icon + '.png')),
                         class: this_item.Pic ? 'icon' : 'icon2',
                     },
                     {
@@ -375,7 +375,7 @@ $(function () {
                 $('.recipe').render({
                     div: [
                         {
-                            img: imgpre + 'homdgcat-res/Mat/UI_ItemIcon_' + this_recipe[j] + '.png'
+                            img: imgpre + 'sakiko-res/Mat/UI_ItemIcon_' + this_recipe[j] + '.png'
                         },
                         {
                             span: this_recipe[j + 1].toString(),
@@ -394,7 +394,7 @@ $(function () {
             $('.recipe').render({
                 div: [
                     {
-                        img: imgpre + 'homdgcat-res/Avatar/' + this_item.AI + '.png',
+                        img: imgpre + 'sakiko-res/Avatar/' + this_item.AI + '.png',
                     },
                 ],
                 class: 'recipe-icon avatar-jump hover-shadow',

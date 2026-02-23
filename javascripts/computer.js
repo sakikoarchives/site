@@ -172,7 +172,7 @@ $(function () {
             template: [{
                 div: [{
                     div: {
-                        img: imgpre + 'homdgcat-res/' + (choose_icon.includes('ItemIcon') ? 'Mat' : 'monster') +'/' + choose_icon + '.png',
+                        img: imgpre + 'sakiko-res/' + (choose_icon.includes('ItemIcon') ? 'Mat' : 'monster') +'/' + choose_icon + '.png',
                         class: 'big-img'
                     }
                 }, {
@@ -291,7 +291,7 @@ $(function () {
                                             td: [
                                                 {
                                                     img: function (f) {
-                                                        return `/homdgcat-res/UI/${f.data}.png`.replaceAll('Phys', 'Physical')
+                                                        return `/sakiko-res/UI/${f.data}.png`.replaceAll('Phys', 'Physical')
                                                     },
                                                     datapath: '_id',
                                                     class: 'resicon'
@@ -341,7 +341,7 @@ $(function () {
                                                         template: {
                                                             td: [
                                                                 {
-                                                                    img: (imgpre + 'homdgcat-res/UI/' + d.data._id + '.png').replaceAll('Phys', 'Physical'),
+                                                                    img: (imgpre + 'sakiko-res/UI/' + d.data._id + '.png').replaceAll('Phys', 'Physical'),
                                                                     class: 'resicon'
                                                                 },
                                                                 {
@@ -525,7 +525,7 @@ $(function () {
                                 },
                                 {
                                     div: {
-                                        img: imgpre + 'homdgcat-res/' + (choose_icon.includes('ItemIcon') ? 'Mat' : 'monster') +'/' + choose_icon + '.png',
+                                        img: imgpre + 'sakiko-res/' + (choose_icon.includes('ItemIcon') ? 'Mat' : 'monster') +'/' + choose_icon + '.png',
                                         style: {
                                             width: '80px',
                                             height: '80px'
@@ -666,7 +666,7 @@ $(function () {
                     tr: [
                         {
                             td: {
-                                img: imgpre + 'homdgcat-res/' + (choose_icon.includes('ItemIcon') ? 'Mat' : 'monster') +'/' + choose_icon + '.png',
+                                img: imgpre + 'sakiko-res/' + (choose_icon.includes('ItemIcon') ? 'Mat' : 'monster') +'/' + choose_icon + '.png',
                                 class: 'category_monster_img'
                             },
                             class: 'td_1'
