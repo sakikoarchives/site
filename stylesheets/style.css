@@ -95,7 +95,7 @@ h3 .links {
 popheader {
     height: 40px;
     line-height: 40px;
-    background: #fff;
+    background: #ffffff00;
     color: #333;
     font-size: 18px;
     font-weight: 600;
@@ -123,7 +123,7 @@ container {
 .content {
     padding: 1px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     min-height: 600px;
 }
 
@@ -215,7 +215,7 @@ schedule.active{
     margin: auto;
     width: 160px;
     height: 160px;
-    background-color: #fff;
+    background-color: #ffffff00;
     border-radius: 25px;
     z-index: 99999;
     padding: 20px;
