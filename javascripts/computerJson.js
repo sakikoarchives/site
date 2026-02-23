@@ -17,8 +17,8 @@ var computer_ = {
         },
         "TIT": {
             "CH": "妮可少女 玉衡杯数据库",
-            "EN": "HomDGCat Wiki",
-            "RU": "HomDGCat Wiki"
+            "EN": "Sakiko Archives",
+            "RU": "Sakiko Archives"
         },
         "Chart_Subtitle": {
             "CH": "妮可少女 玉衡杯数据库 yuhengcup.wiki",
@@ -31,18 +31,18 @@ var computer_ = {
         },
         "PAGE_TITLE": {
             "CH": "玉衡杯数据库 - 原神 崩坏星穹铁道 数据库 - 妮可少女 HomDGCat",
-            "EN": "HomDGCat Wiki - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
-            "RU": "HomDGCat Wiki - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
+            "EN": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
+            "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
         },
         "TITLE": {
             "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
             "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
-            "RU": "HomDGCat Wiki",
+            "RU": "Sakiko Archives",
         },
         "Title": {
             "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
             "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
-            "RU": "HomDGCat Wiki",
+            "RU": "Sakiko Archives",
         },
         "Affix": {
             "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
@@ -56,8 +56,8 @@ var computer_ = {
         },
         "Subtitle_": {
             "CH": "<p><b>玉衡杯数据库 - b站@妮可少女 | t.me/homdgcat</b></p>",
-            "EN": "<p><b>HomDGCat Wiki - t.me/homdgcat</b></p>",
-            "RU": "<p><b>HomDGCat Wiki - t.me/homdgcat</b></p>"
+            "EN": "<p><b>Sakiko Archives - t.me/homdgcat</b></p>",
+            "RU": "<p><b>Sakiko Archives - t.me/homdgcat</b></p>"
         },
         "Page": {
             "CH": "<p style='margin-top:13px;color:#df903b;cursor:pointer;'><b>【切换页面】</b></p>",
@@ -92,7 +92,7 @@ var computer_ = {
         "ComputerTitle": {
             "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
             "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
-            "RU": "HomDGCat Wiki"
+            "RU": "Sakiko Archives"
         },
         "ComputerTitle_": {
             "CH": "渊月螺旋 ",
@@ -366,7 +366,7 @@ var computer_ = {
         "AbyssTitle": {
             "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
             "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
-            "RU": "HomDGCat Wiki"
+            "RU": "Sakiko Archives"
         },
         "AbyssCount": {
             "CH": "击败 <b>#</b> 个敌人",
@@ -442,8 +442,8 @@ var computer_ = {
         },
         "Avatar_Title": {
             "CH": "玉衡杯数据库",
-            "EN": "HomDGCat Wiki",
-            "RU": "HomDGCat Wiki"
+            "EN": "Sakiko Archives",
+            "RU": "Sakiko Archives"
         },
         "Avatar_Table_Header": [
             {
@@ -1171,8 +1171,8 @@ var computer_ = {
         },
         "Ach_Title": {
             "CH": "玉衡杯数据库",
-            "EN": "HomDGCat Wiki",
-            "RU": "HomDGCat Wiki"
+            "EN": "Sakiko Archives",
+            "RU": "Sakiko Archives"
         },
         "Ach_Total": {
             "CH": "总成就数",
@@ -1203,8 +1203,8 @@ var computer_ = {
         },
         "Ach_Extra": {
             "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": " | <color style='color:#0066FF;'>HomDGCat Wiki</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": " | <color style='color:#0066FF;'>HomDGCat Wiki</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": " | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
+            "RU": " | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
         },
         "Ach_Inner_Header": [
             {
@@ -1235,8 +1235,8 @@ var computer_ = {
         ],
         "Load_Title": {
             "CH": "玉衡杯数据库",
-            "EN": "HomDGCat Wiki",
-            "RU": "HomDGCat Wiki"
+            "EN": "Sakiko Archives",
+            "RU": "Sakiko Archives"
         },
         "MS_Type": [
             {
@@ -1274,8 +1274,8 @@ var computer_ = {
         ],
         "MS_HP_Title": {
             "CH": "护盾血量 | <color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-            "EN": "Shield HP | <color style='color:#0066FF;'>HomDGCat Wiki</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
-            "RU": "ХП щита | <color style='color:#0066FF;'>HomDGCat Wiki</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
+            "EN": "Shield HP | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>",
+            "RU": "ХП щита | <color style='color:#0066FF;'>Sakiko Archives</color> | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/homdgcat</color>"
         },
         "MS_HP_Desc": {
             "CH": "某些护盾具有血量：在受到不同属性的伤害时，会依此扣除护盾值。此效果与元素反应的消耗叠加。<br>护盾的血量是敌人本体血量的倍数。例如，5x 表示护盾血量是本体的 5 倍。",
@@ -1966,7 +1966,7 @@ if (April_1st) {
     Object.keys(computer_.MiscText).forEach(k => {
         Object.keys(computer_.MiscText[k]).forEach(j => {
             if (typeof computer_.MiscText[k][j] != 'string') return
-            computer_.MiscText[k][j] = computer_.MiscText[k][j].replaceAll('玉衡杯数据库', '库据数杯衡玉').replaceAll('HomDGCat Wiki', 'ikiW taCGDmoH').replaceAll('HomDGCat', 'taCGDmoH').replaceAll('妮可少女', '铌钶钞钕')
+            computer_.MiscText[k][j] = computer_.MiscText[k][j].replaceAll('玉衡杯数据库', '库据数杯衡玉').replaceAll('Sakiko Archives', 'ikiW taCGDmoH').replaceAll('HomDGCat', 'taCGDmoH').replaceAll('妮可少女', '铌钶钞钕')
         })
     })
 }

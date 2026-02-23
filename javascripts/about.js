@@ -20,11 +20,11 @@ $(function () {
     var desc = [
         {
             CH: '我目前是一名学生，在研究学习之余创建了玉衡杯数据库；现在的整个数据库都是<color style="color:#FFD780;">我一人制作和维护</color>的',
-            EN: 'I am currently a student, and I created HomDGCat Wiki in my spare time. Now the entire wiki is written and <color style="color:#FFD780;">maintained by me alone</color>.'
+            EN: 'I am currently a student, and I created Sakiko Archives in my spare time. Now the entire wiki is written and <color style="color:#FFD780;">maintained by me alone</color>.'
         },
         {
             CH: '我运营玉衡杯数据库的目的，是为了给各位玩家高效地提供数据，让所有人都能方便地获取自己需要的信息',
-            EN: 'The goal of HomDGCat Wiki is to efficiently provide data for all players, so that everyone can easily obtain the information that they need.'
+            EN: 'The goal of Sakiko Archives is to efficiently provide data for all players, so that everyone can easily obtain the information that they need.'
         },
         {
             CH: '玉衡杯数据库不仅有官方信息，也有很多我自己创作的内容，例如角色的<color style="color:#FFD780;">深度机制数值</color>（妮可少女的研究），以及新怪物的<color style="color:#FFD780;">详细技能数据</color>和<color style="color:#FFD780;">机制解析</color>（怪物解析）',
@@ -32,7 +32,7 @@ $(function () {
         },
         {
             CH: '玉衡杯数据库会在第一时间更新最新的数据；原神每星期更新数据的时候，在我这里一般是凌晨五点，但我也会及时进行更新',
-            EN: 'HomDGCat Wiki updates data as soon as the game updates are out. Where I live now, it is usually 5 AM in the morning when Genshin Impact updates data every week, but I still process these updates as soon as possible.'
+            EN: 'Sakiko Archives updates data as soon as the game updates are out. Where I live now, it is usually 5 AM in the morning when Genshin Impact updates data every week, but I still process these updates as soon as possible.'
         },
     ]
 
@@ -62,7 +62,7 @@ $(function () {
             },
             {
                 CH: '加入NGA之后，我开始对未来版本的信息做一些研究。最初只是做下版本深渊的怪物阵容图，可能有很多玩家就是因为这个认识我的，那时候我还叫【妮可少年】。后来我就逐渐开始做一些怪物机制，和未来版本的角色技能的研究了。',
-                EN: 'I started looking into datamining HSR when it was still in CBT. I started playing when it was released, and later added the HSR section of HomDGCat Wiki. I played very little HSR at first, until I saw <color style="color:#FFD780;"><b>Xueyi</b></color>\'s drip marketing. The moment I saw Xueyi, I knew she will be my favourite HSR character forever!'
+                EN: 'I started looking into datamining HSR when it was still in CBT. I started playing when it was released, and later added the HSR section of Sakiko Archives. I played very little HSR at first, until I saw <color style="color:#FFD780;"><b>Xueyi</b></color>\'s drip marketing. The moment I saw Xueyi, I knew she will be my favourite HSR character forever!'
             },
             {
                 CH: '星穹铁道内测的时候，我就开始研究解包星穹铁道了，正式开服后我成为了开服玩家，并且后来给玉衡杯数据库加上了星穹铁道部分。星穹铁道一开始玩得很少，直到我看到了<color style="color:#FFD780;"><b>云璃</b></color>的立绘。看到云璃的第一眼我就知道，她是我在星穹铁道里命中注定的单推！',
@@ -77,7 +77,7 @@ $(function () {
             },
             {
                 CH: '「玉衡杯」曾经是围绕刻晴的原神深渊竞速比赛，是原神最早的竞速赛之一。第一期玉衡杯（当时名为刻晴杯）于 <color style="color:#FFD780;"><b>2022</b></color> 年 <color style="color:#FFD780;"><b>4</b></color> 月（2.6版本）举办，距今已超过三年。',
-                EN: 'HomDGCat Wiki was previously called \"Yuheng Cup Database.\" Yuheng Cup was a Keqing-centered Genshin Abyss speedrunning contest. The first Yuheng Cup was held in <color style="color:#FFD780;"><b>April 2022</b></color>, more than 3 years ago.'
+                EN: 'Sakiko Archives was previously called \"Yuheng Cup Database.\" Yuheng Cup was a Keqing-centered Genshin Abyss speedrunning contest. The first Yuheng Cup was held in <color style="color:#FFD780;"><b>April 2022</b></color>, more than 3 years ago.'
             },
             {
                 CH: '玉衡杯数据库原本是为参加玉衡杯的选手提供信息的数据库，最初只有查询怪物数据和深渊阵容的功能。',
@@ -85,7 +85,7 @@ $(function () {
             },
             {
                 CH: '在 <color style="color:#FFD780;"><b>2023</b></color> 年 <color style="color:#FFD780;"><b>9</b></color> 月，我给玉衡杯数据库加上了原神的角色、武器、圣遗物数据，并把玉衡杯数据库独立了出来；在此之后，我又加入了星穹铁道的部分，玉衡杯数据库逐渐发展成了今天的模样。',
-                EN: 'In <color style="color:#FFD780;"><b>September 2023</b></color>, I added the "Characters Weapons Artifacts" feature, and created an independent site for HomDGCat Wiki. Later I added the Honkai Star Rail part, and the Wiki gradually grew to what it is today.'
+                EN: 'In <color style="color:#FFD780;"><b>September 2023</b></color>, I added the "Characters Weapons Artifacts" feature, and created an independent site for Sakiko Archives. Later I added the Honkai Star Rail part, and the Wiki gradually grew to what it is today.'
             }
         ],
         [

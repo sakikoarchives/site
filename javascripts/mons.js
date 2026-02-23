@@ -77,7 +77,7 @@ $(function () {
                         {
                             p: {
                                 CH: '妮可少女 玉衡杯数据库',
-                                EN: 'HomDGCat Wiki'
+                                EN: 'Sakiko Archives'
                             }[lang],
                             class: 'as_left_name',
                             style: {

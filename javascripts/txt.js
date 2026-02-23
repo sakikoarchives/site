@@ -16,17 +16,17 @@ var txt = {
     },
     "TIT": {
         "CH": "妮可少女 玉衡杯数据库",
-        "EN": "HomDGCat Wiki",
+        "EN": "Sakiko Archives",
     },
     "PAGE_TITLE": {
         "CH": "玉衡杯数据库 - 原神 崩坏星穹铁道 数据库 - 妮可少女 HomDGCat",
-        "EN": "HomDGCat Wiki - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
-        "RU": "HomDGCat Wiki - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
+        "EN": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
+        "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
     },
     "Title": {
         "CH": "<img src='./homdgcat-res/UI/_logo_2.png' class='logo_img_yhb'>",
         "EN": "<img src='./homdgcat-res/UI/_logo_3.png' class='logo_img_yhb'>",
-        "RU": "HomDGCat Wiki",
+        "RU": "Sakiko Archives",
     },
     "Affix": {
         "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/homdgcat</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
@@ -71,7 +71,7 @@ var txt = {
     },
     "About": {
         "CH": "玉衡杯数据库由<b>妮可少女 HomDGCat</b>建立和维护，旨在为原神/星穹铁道玩家提供最全面准确的游戏数据",
-        "EN": "HomDGCat Wiki (formerly the Yuheng Cup Database) is a GI/HSR database built maintained by <b>HomDGCat</b>"
+        "EN": "Sakiko Archives (formerly the Yuheng Cup Database) is a GI/HSR database built maintained by <b>HomDGCat</b>"
     },
     "About_2": {
         "CH": "联系我<br>↓<br><a href='./3546567522912510/index.html' target='_blank'>(bilibili)</a> <a href='./homdgcat/index.html'>(Telegram)</a> <a href='./_homdgcat/index.html' target='_blank'>(Twitter)</a> <a href='./user/homdgcat2/index.html' target='_blank'>(Reddit)</a>",
@@ -301,7 +301,7 @@ var txt = {
     },
     "HS": {
         "CH": "<p><b>玉衡杯数据库 - b站@妮可少女 | t.me/homdgcat</b></p>",
-        "EN": "<p><b>HomDGCat Wiki - t.me/homdgcat</b></p>"
+        "EN": "<p><b>Sakiko Archives - t.me/homdgcat</b></p>"
     },
     "Links_": {
         "CH": "<b>[ yuhengcup.wiki ]</b>",
@@ -606,7 +606,7 @@ if (April_1st) {
     Object.keys(txt).forEach(k => {
         Object.keys(txt[k]).forEach(j => {
             if (typeof txt[k][j] != 'string') return
-            txt[k][j] = txt[k][j].replaceAll('玉衡杯数据库', '库据数杯衡玉').replaceAll('HomDGCat Wiki', 'ikiW taCGDmoH').replaceAll('HomDGCat', 'taCGDmoH').replaceAll('妮可少女', '铌钶钞钕')
+            txt[k][j] = txt[k][j].replaceAll('玉衡杯数据库', '库据数杯衡玉').replaceAll('Sakiko Archives', 'ikiW taCGDmoH').replaceAll('HomDGCat', 'taCGDmoH').replaceAll('妮可少女', '铌钶钞钕')
         })
     })
 }
@@ -880,7 +880,7 @@ var links = {
         {
             "Name": {
                 "CH": "怪物",
-                "EN": "Monsters"
+                "EN": "Enemies"
             },
             "Link": "/sr/monster"
         },
@@ -890,13 +890,6 @@ var links = {
                 "EN": "<color style='font-size:17px;'>Characters Lightcones Relics</color>"
             },
             "Link": "/sr/char"
-        },
-        {
-            "Name": {
-                "CH": "云璃成绩",
-                "EN": "Xueyi Endgame"
-            },
-            "Link": "/yunli"
         },
         {
             "Name": {
@@ -936,16 +929,9 @@ var links = {
         {
             "Name": {
                 "CH": "差分宇宙 3.8",
-                "EN": "Divergent Universe 3.8"
+                "EN": "Divergent Universe"
             },
             "Link": "/sr/du31",
-        },
-        {
-            "Name": {
-                "CH": "差分宇宙 2.7",
-                "EN": "Divergent Universe 2.7"
-            },
-            "Link": "/sr/du",
         },
         {
             "Name": {
@@ -982,20 +968,6 @@ var links = {
             },
             "Link" : "/sr/event"
         },
-        {
-            "Name": {
-                "CH": "战斗关卡",
-                "EN": "Combat Levels"
-            },
-            "Link" : "/sr/stage"
-        },
-        {
-            "Name": {
-                "CH": "效果和名词",
-                "EN": "Effects & Nouns"
-            },
-            "Link" : "/sr/effect"
-        },
     ]
 }
 
@@ -1008,7 +980,7 @@ var Loading_Template = {
                     height: '120px'
                 },
                 {
-                    p: lang == 'CH' ? '加载中' : 'Loading'
+                    p: lang == 'CH' ? '加载中' : 'Sakiko is thinking...'
                 }
             ]
         },
@@ -1067,7 +1039,7 @@ function switch_title(new_add) {
 function a_section_white() {
     $("head").append('<style type="text/css"></style>');
     var newStyleElement = $("head").children(':last');
-    newStyleElement.html('.a_section{color:white!important} .a_section_small{color:white!important}');
+    newStyleElement.html('.a_section{color:transparent!important} .a_section_small{color:transparent!important}');
 }
 
 function custom_string(k, text_color) {
