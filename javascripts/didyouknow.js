@@ -1,5 +1,5 @@
 var GI_Stamp = 1724814000000
-var SR_Stamp = 1729652400000
+var SR_Stamp = 1774407600000
 
 // Times = The duration of the previous patch = The interval between the previous patch release and the currect patch release
 
@@ -72,43 +72,43 @@ var GI_Times = [
 
 var SR_Times = [
     {
-        V: '2.7',
+        V: '4.1 - Ashveil (Lightning Hunt)',
+        D: 28
+    },
+    {
+        V: '4.2 - Elation MC (Possible Quantum), Silver Wolf SP (Possible Imaginary Elation) & Evansecia (Physical Elation)',
         D: 42
     },
     {
-        V: '3.0',
+        V: '4.3 - Blade SP (Potential Erudition) & (potentially) Pearl',
         D: 42
     },
     {
-        V: '3.1',
+        V: '4.4 - Himeko SP',
         D: 42
     },
     {
-        V: '3.2',
+        V: '4.5 - Robin SP & Aventurine SP',
         D: 42
     },
     {
-        V: '3.3',
+        V: '4.6',
         D: 42
     },
     {
-        V: '3.4',
+        V: '4.7 - Nilhilux',
         D: 42
     },
     {
-        V: '3.5',
+        V: '4.8',
         D: 42
     },
     {
-        V: '3.6',
+        V: '5.0',
         D: 42
     },
     {
-        V: '3.7',
-        D: 42
-    },
-    {
-        V: '3.8',
+        V: '5.1',
         D: 42
     },
 ]
