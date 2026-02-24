@@ -398,82 +398,6 @@ $(function() {
                                     when: !April_1st
                                 },
                                 {
-                                    img: '/sakiko-res/Avatar/April1stOthers.png',
-                                    a: {
-                                        loading: lazy
-                                    },
-                                    when: April_1st
-                                }
-                            ],
-                            class: 'new_image_wrapper_1'
-                        },
-                        {
-                            div: [
-                                {
-                                    img: `/sakiko-res/UI/[[Elem]].png`,
-                                    class: 'attr_img_1',
-                                    a: {
-                                        loading: lazy
-                                    },
-                                    when: function (p) {
-                                        return p.data.Elem && p.data.Elem.length && (p.data.Elem != 'None')
-                                    }
-                                },
-                                {
-                                    img: `/sakiko-res/AvatarSkill/[[Type]].png`,
-                                    class: 'attr_img_1',
-                                    a: {
-                                        loading: lazy
-                                    },
-                                    when: function (p) {
-                                        return p.data.Type.length
-                                    }
-                                },
-                                {
-                                    img: '/images/GCG_UI/3004.png',
-                                    class: 'attr_img_1',
-                                    a: {
-                                        loading: lazy
-                                    },
-                                    when: function (p) {
-                                        return !p.data.Type.length
-                                    }
-                                }
-                            ],
-                            class: 'new_attr'
-                        },
-                        {
-                            p: `[[Name/${lang3}]]${meow}`,
-                            class: 'new_text',
-                            style: {
-                                color: function (d) {
-                                    return (d.data.Rarity == 5) ? '#df903b' : '#FF709B'
-                                }
-                            }
-                        }
-                    ],
-                    class: 'new_block hover-shadow',
-                    data: NEW_GI,
-                    attr: {
-                        target: '_blank'
-                    }
-                },
-                class: 'n1'
-            },
-            {
-                section: {
-                    a: `[[Link]]`,
-                    t: [
-                        {
-                            div: [
-                                {
-                                    img: `[[Icon]]`,
-                                    a: {
-                                        loading: lazy
-                                    },
-                                    when: !April_1st
-                                },
-                                {
                                     img: '/images/avataricon/April1stOthers.png',
                                     a: {
                                         loading: lazy
@@ -652,7 +576,6 @@ $(function() {
                 renderAbout();
                 break;
         }
-        $('h3 .lang').html(txt.Home_Lang_)
     })
 
     $('body').on('click', '.didyouknow', function() {
