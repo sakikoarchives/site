@@ -432,7 +432,7 @@ $(function() {
                             class: 'new_text',
                             style: {
                                 color: function (d) {
-                                    return (d.data.Rarity == 5) ? '#df903b' : '#FF709B'
+                                    return (d.data.Rarity == 5) ? '#000000' : '#FF709B'
                                 }
                             }
                         }

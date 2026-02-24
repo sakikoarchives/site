@@ -158,10 +158,10 @@ a.translate_ {
 }
 
 .new_block {
-    background-color: #000000;
+    background-color: #FF709B;
     border-radius: 6px;
     cursor: pointer;
-    color: #27000c;
+    color: #FF709B;
     margin: 2px 4px;
     padding: 10px 2px 2px;
     flex: 0 0 calc((100vw - 100px) / 3);
