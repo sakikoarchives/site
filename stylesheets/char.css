@@ -164,6 +164,7 @@ schedule {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #FF709B,
     margin: 8px 0;
 }
 
@@ -269,7 +270,7 @@ schedule {
     margin-bottom: 3px;
     width: calc(50% - 38px);
     line-height: 2;
-    background-color: #000000;
+    background-color: #FF709B;
     color: #ffffff;
     position: relative;
     text-align: center;
@@ -283,7 +284,7 @@ schedule {
     margin-bottom: 3px;
     width: calc(33% - 34px);
     line-height: 2;
-    background-color: #000000;
+    background-color: #FF709B;
     color: rgb(238, 238, 238);
     position: relative;
     text-align: center;

@@ -304,6 +304,7 @@ popbody {
     flex-wrap: wrap;
     justify-content: center;
     margin: 8px 0;
+    background-color: #FF709B;
 }
 
 schedule {
@@ -963,7 +964,7 @@ tr {
     margin-bottom: 3px;
     width: calc(50% - 7px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #FF709B;
     color: #eeeeee;
     position: relative;
     text-align: center;
@@ -977,7 +978,7 @@ tr {
     margin-bottom: 3px;
     width: calc(33% - 6px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #FF709B;
     color: #eeeeee;
     position: relative;
     text-align: center;
@@ -991,7 +992,7 @@ tr {
     margin-bottom: 3px;
     width: calc(100% - 14px);
     line-height: 2;
-    background-color: #27363E;
+    background-color: #FF709B;
     color: #eeeeee;
     position: relative;
     text-align: center;
