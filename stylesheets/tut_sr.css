@@ -9,15 +9,15 @@ container {
 .content {
     padding: 15px 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     min-height: 600px;
 }
 
 popheader {
     height: 40px;
     line-height: 40px;
-    background: #fff;
-    color: #333;
+    background: #ffffff00;
+    color: #33333300;
     font-size: 18px;
     font-weight: 600;
     overflow: hidden;
@@ -43,7 +43,7 @@ popbody::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #000000;
     border-radius: 4px;
 }
 
@@ -51,7 +51,7 @@ schedule {
     display: block;
     text-align: center;
     padding: 10px 0px;
-    border: 1px solid #333;
+    border: 1px solid #33333300;
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;
@@ -100,7 +100,7 @@ schedule {
 .a_section {
     border-radius: 5px;
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
     text-align: center;
@@ -136,7 +136,7 @@ schedule {
 .item-down {
     width: calc(100% - 16px);
     padding: 8px;
-    background-color: #27363E;
+    background-color: #000000;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-bottom: auto;
@@ -205,7 +205,7 @@ schedule {
     padding: 4px;
     position: relative;
     cursor: pointer;
-    border: 2px solid #27363e;
+    border: 2px solid #27363e00;
     border-radius: 5px;
 }
 
@@ -225,7 +225,7 @@ schedule {
     margin: 15px 5px;
     padding: 0px 10px;
     text-align: center;
-    border: 2px solid #27363e;
+    border: 2px solid #27363e00;
     border-radius: 5px;
 }
 
