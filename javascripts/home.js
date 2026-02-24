@@ -436,7 +436,7 @@ $(function() {
                             class: 'new_text',
                             style: {
                                 color: function (d) {
-                                    return (d.data.Rarity == 5) ? '#df903b' : '#ffacff'
+                                    return (d.data.Rarity == 5) ? '#df903b' : '#FF709B'
                                 }
                             }
                         }
@@ -497,7 +497,7 @@ $(function() {
                             class: 'new_text',
                             style: {
                                 color: function (d) {
-                                    return (d.data.Rarity == 5) ? '#df903b' : '#ffacff'
+                                    return (d.data.Rarity == 5) ? '#df903b' : '#FF709B'
                                 }
                             }
                         }

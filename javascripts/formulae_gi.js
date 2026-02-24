@@ -191,7 +191,7 @@ $(function () {
                     p: d.Subtitle,
                     class: 'p_desc group group_2',
                     style: {
-                        color: '#FFACFF',
+                        color: '#FF709B',
                         'font-weight': 'bold',
                         'text-align': 'center'
                     }
@@ -231,7 +231,7 @@ $(function () {
                     p: d.Subtitle,
                     class: 'p_desc group group_2',
                     style: {
-                        color: '#FFACFF',
+                        color: '#FF709B',
                         'font-weight': 'bold',
                         'text-align': 'center'
                     }

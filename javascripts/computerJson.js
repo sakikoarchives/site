@@ -1489,7 +1489,7 @@ var computer_ = {
     "TextColorLightConfig": {
         "Fire": "#FF9999",
         "Water": "#80C0FF",
-        "Elec": "#FFACFF",
+        "Elec": "#FF709B",
         "Ice": "#99FFFF",
         "Grass": "#99FF88",
         "Wind": "#80FFD7",

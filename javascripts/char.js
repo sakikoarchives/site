@@ -1735,7 +1735,7 @@ $(function () {
                                 }
                             },
                             {
-                                p: '<color style="color:#FFACFF;">' + ehe + '</b></color>',
+                                p: '<color style="color:#FF709B;">' + ehe + '</b></color>',
                                 style: {
                                     'font-size': '0.8em',
                                     'font-weight': 'normal',

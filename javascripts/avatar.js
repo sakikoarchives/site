@@ -72,7 +72,7 @@ $(function () {
     colors = {
         "Fire": "#FF9999",
         "Water": "#80C0FF",
-        "Elec": "#FFACFF",
+        "Elec": "#FF709B",
         "Ice": "#99FFFF",
         "Grass": "#99FF88",
         "Wind": "#80FFD7",
@@ -4848,7 +4848,7 @@ $(function () {
                                 class: 'boss_icon'
                             },
                             {
-                                p: '<color style="color:#FFACFF;">' + ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/biwaleakshsr <b>') + '</b></color>',
+                                p: '<color style="color:#FF709B;">' + ((lang == 'CH') ? '妮可少女 玉衡杯数据库 yuhengcup.wiki <b>' : 'sakikoarchives.com | t.me/biwaleakshsr <b>') + '</b></color>',
                                 style: {
                                     'font-size': '0.8em',
                                     'font-weight': 'normal',
