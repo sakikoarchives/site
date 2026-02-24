@@ -30,11 +30,11 @@ var txt = {
     },
     "Affix": {
         "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
-        "EN": " | <color style='color:#0066FF;'>homdgcat.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
+        "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
     },
     "Subtitle": {
         "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
-        "EN": "<p><b>homdgcat.wiki | <span style='white-space:pre;'><a href='https://sakikoarchives.com/homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
+        "EN": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='https://sakikoarchives.com/homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
     },
     "ChooseTitle": {
         "CH": "（星穹铁道）",
@@ -305,7 +305,7 @@ var txt = {
     },
     "Links_": {
         "CH": "<b>[ yuhengcup.wiki ]</b>",
-        "EN": "<b>[ homdgcat.wiki ]</b>"
+        "EN": "<b>[ sakikoarchives.com ]</b>"
     },
     "Chart_Title_MoC": {
         "CH": "混沌回忆#层血量演化",
@@ -343,7 +343,7 @@ var txt = {
     },
     "Chart_Subtitle": {
         "CH": "妮可少女 玉衡杯数据库 yuhengcup.wiki",
-        "EN": "homdgcat.wiki | t.me/biwaleakshsr"
+        "EN": "sakikoarchives.com | t.me/biwaleakshsr"
     },
     "Fiction_HP": {
         "CH": "总血量",
