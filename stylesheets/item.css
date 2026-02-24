@@ -16,8 +16,8 @@ container {
 popheader {
     height: 40px;
     line-height: 40px;
-    background: #fff;
-    color: #333;
+    background: #ffffff00;
+    color: #33333300;
     font-size: 18px;
     font-weight: 600;
     overflow: hidden;
@@ -44,7 +44,7 @@ popdialog {
 .area_2 {
     padding: 15px 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     min-height: 600px;
     display: block;
 }
@@ -116,7 +116,7 @@ schedule {
 }
 
 .a_w_r schedule {
-    background-color: #27363e;
+    background-color: #27363e00;
     width: 60px;
     border-radius: 9px;
     border-width: 0px;
@@ -125,7 +125,7 @@ schedule {
 }
 
 .a_w_r schedule.active {
-    background-color: #2545ba;
+    background-color: #FF709B;
 }
 
 .a_w_r img {
@@ -150,7 +150,7 @@ schedule {
     border-radius: 5px;
     margin: 9px 0;
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
     text-align: center;
@@ -222,7 +222,7 @@ schedule {
 }
 
 .a_section {
-    background-color: #27363E;
+    background-color: #27363e00;
     color: #eeeeee;
     border-radius: 5px;
     padding: 0 12px;
