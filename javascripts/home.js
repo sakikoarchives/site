@@ -530,47 +530,6 @@ $(function() {
                     {
                         div: [
                             {
-                                p: (lang == 'CH') ? '原神' : 'Genshin Impact',
-                                class: 'dir_head',
-                                style: {
-                                    margin: '15px 5px 0'
-                                }
-                            },
-                            {
-                                p: '',
-                                class: 'c1_ dir_subhead'
-                            },
-                            {
-                                div: [
-                                    {
-                                        div: '',
-                                        class: 'age_sub_1 table_gi_1'
-                                    },
-                                    {
-                                        div: '',
-                                        class: 'age_sub_2 table_gi_2'
-                                    },
-                                    {
-                                        div: {
-                                            img: '/sakiko-res/UI/birthday-cake2.png'
-                                        },
-                                        class: 'cntd_emote_small',
-                                        when: anniversary
-                                    },
-                                ],
-                                class: 'age'
-                            },
-                            {
-                                table: [],
-                                class: 'ctable table_gi'
-                            }
-                        ],
-                        class: 'futd_gi futds',
-                        when: GAME_DATE != "SR_DATE"
-                    },
-                    {
-                        div: [
-                            {
                                 p: (lang == 'CH') ? '星穹铁道' : 'Star Rail',
                                 class: 'dir_head',
                                 style: {
