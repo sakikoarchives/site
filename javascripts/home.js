@@ -610,11 +610,9 @@ $(function() {
     })
 
     // Used to be -41 (18:00 on Monday); now it's 127 (18:00 on the next Monday)
-    start_fntd(GI_Stamp, GI_Times, '.table_gi', [7, 127, -279], 1600135200000, '/images/emote/Keqing/1.png', (lang == 'CH') ? '刻晴' : 'Keqing') 
     start_fntd(SR_Stamp, SR_Times, '.table_sr', [-25, -359, -279.5], 1722394800000, '/images/emote/Xueyi/1.png', (lang == 'CH') ? '云璃' : 'Xueyi')
     start_cntd()
 
-    if (GAME == 'GI') renderGI()
     if (GAME == 'SR') renderSR()
     if (GAME_DATE) {
         renderAbout()
@@ -623,44 +621,6 @@ $(function() {
     }
 
     $('body').addClass(bg_name)
-
-    function renderGI() {
-        $('.c2').hide()
-        $('.c1').show()
-        $('.d2').hide()
-        $('.d1').show()
-        $('.n2').hide()
-        $('.n1').show()
-        $('.futd').hide()
-        $('.below').css('background-color', '')
-        $('.below').show().empty()
-        $('.below').render({
-            template: {
-                div : function (d) {
-                    for (const item of GI) {
-                        if (!item.Title[lang2]) return
-                        if ((item.when != undefined) && !item.when) continue
-                        $(d.container).render({
-                            a: item.Href[lang],
-                            t: {
-                                div: {
-                                    span: item.Title[lang2],
-                                    style: {
-                                        color: item.emphasize ? '#FFD780' : ''
-                                    }
-                                },
-                                class: 'dir_head'
-                            },
-                            class: 'dir hover-shadow',
-                        })
-                    }
-                },  
-                class: 'dir_wrap'
-            }
-        })
-        var DATE = new Date()
-        document.cookie = 'game=GI;expires=' + new Date(DATE.getTime() + 8640000000).toUTCString() + ';path=/'
-    }
 
     function renderSR() {
         $('.c1').hide()
@@ -726,10 +686,6 @@ $(function() {
         cur_select = $(this).attr('data-id')
         switch (cur_select) {
             default:
-                renderGI();
-                GAME = 'GI'
-                break;
-            case '2':
                 renderSR();
                 GAME = 'SR'
                 break;
