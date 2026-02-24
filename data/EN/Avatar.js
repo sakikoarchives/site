@@ -2,63 +2,6 @@
 
 var _avatar = [
     {
-        "_id": 1221,
-        "Ver": "2.4",
-        "Name": "Xueyi",
-        "Desc": "A sword hunter from the Xianzhou Zhuming and \"the Flaming Heart\" General Huaiyan's darling granddaughter. Frank and straightforward.<br>She has learned swordplay and forging from Huaiyan since she was young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet.<br>Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to \"hunt down and wipe out all cursed swords.\"",
-        "Rarity": 5,
-        "Element": "Phys",
-        "Path": "Destruction",
-        "SP": 240.0,
-        "Skills": [
-            122101,
-            122102,
-            122103,
-            122104,
-            122106,
-            122107
-        ],
-        "BydSkills": [],
-        "Ranks": [
-            122101,
-            122102,
-            122103,
-            122104,
-            122105,
-            122106
-        ],
-        "Icon": "avatarshopicon/Avatar/1221",
-        "Pic": "avatardrawcard/1221.png",
-        "Mat": [
-            113013,
-            110421,
-            110183,
-            110503
-        ],
-        "Stats": {
-            "HP": 1358.28,
-            "ATK": 679.14,
-            "DEF": 460.845,
-            "SPD": 94.0,
-            "Aggro": 125.0
-        },
-        "CV": [
-            "刘雯",
-            "Brenna Larsen",
-            "若山詩音",
-            "이주은"
-        ],
-        "Camp": 113,
-        "V": [
-            "v1",
-            "v2",
-            "v3",
-            "v4",
-            "v5",
-            "Live"
-        ]
-    },
-    {
         "_id": 1321,
         "Ver": "3.8v3",
         "Name": "The Dahlia",
@@ -1922,7 +1865,7 @@ var _avatar = [
     {
         "_id": 1221,
         "Ver": "2.4",
-        "Name": "Xueyi",
+        "Name": "Yunli",
         "Desc": "A sword hunter from the Xianzhou Zhuming and \"the Flaming Heart\" General Huaiyan's darling granddaughter. Frank and straightforward.<br>She has learned swordplay and forging from Huaiyan since she was young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet.<br>Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to \"hunt down and wipe out all cursed swords.\"",
         "Rarity": 5,
         "Element": "Phys",
