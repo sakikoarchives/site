@@ -264,7 +264,7 @@ $(function() {
                             'justify-content': 'center',
                             'flex-direction': 'column',
                             'line-height': '1.7',
-                            'border': '1.6px solid rgba(111, 48, 160, 0)'
+                            'border': '1.6px solid #FFC0CB'
                         },
                         id: 'date_schedule'
                     },
