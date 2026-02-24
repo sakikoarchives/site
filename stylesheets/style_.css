@@ -35,11 +35,11 @@ html {
 }
 
 body {
-    background-color: #29105a
+    background-color: #FFC0CB
 }
 
 .bg {
-    background: #29105a url("https://sakikoarchives.com/images/bg.jpg") no-repeat center center;
+    background: #FFC0CB url("https://sakikoarchives.com/images/bg.jpg") no-repeat center center;
     background-size: cover;
 }
 
