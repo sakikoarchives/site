@@ -953,6 +953,475 @@ var links = {
     ]
 }
 
+function popLinks(l) {
+    poplayer({
+        header: '<color style=\'color:#fff\'>HomDGCat</color>',
+        class: 'yuhengcup',
+        width: '95%',
+        template: [
+            {
+                h3: txt.Title[l],
+                style: {
+                    color: '#27363E',
+                    'margin-top': '5px',
+                    'margin-bottom': '25px',
+                    'font-size': '40px',
+                    'cursor': 'pointer',
+                },
+                event: {
+                    click: function () {
+                        window.location.href = '/home'
+                    }
+                },
+            },
+            {
+                section: [
+                    {
+                        schedule: {
+                            a: '/',
+                            t: {
+                                span: links.Head[0][l],
+                                style: {
+                                    'font-size': (lang == 'CH') ? '16px' : '15px',
+                                    'margin': 'auto'
+                                }
+                            },
+                        },
+                        style: {
+                            'border': '1.6px solid #FFC0CB'
+                        }
+                    },
+                    {
+                        schedule: {
+                            span: links.Head[1][l],
+                            style: {
+                                'font-size': '16px',
+                                'margin': 'auto'
+                            }
+                        },
+                        event: {
+                            click: function (d) {
+                                $('.menu_GI').show()
+                                $('.menu_SR').hide()
+                                $(d.sender).addClass('active')
+                                $(d.sender).siblings().removeClass('active')
+                            }
+                        }
+                    },
+                    {
+                        schedule: {
+                            span: links.Head[2][l],
+                            style: {
+                                'font-size': '16px',
+                                'margin': 'auto'
+                            }
+                        },
+                        event: {
+                            click: function (d) {
+                                $('.menu_GI').hide()
+                                $('.menu_SR').show()
+                                $(d.sender).addClass('active')
+                                $(d.sender).siblings().removeClass('active')
+                            }
+                        },
+                        class: 'active'
+                    },
+                ],
+                class: 'menu_CTRL',
+                style: {
+                    'margin-bottom': '30px'
+                }
+            },
+            {
+                section: [
+                    {
+                        schedule: {
+                            a: '/gi/boss',
+                            t: {
+                                span: (lang == 'CH') ? '怪物解析' : 'Boss Guides',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/gi/change',
+                            t: {
+                                span: (lang == 'CH') ? '改动汇总' : 'Track Updates',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/gi/future',
+                            t: {
+                                span: (lang == 'CH') ? '未来情报' : 'Future Info',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/gi/formulae',
+                            t: {
+                                span: '公式大全',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        when: lang == 'CH',
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/gi/readable',
+                            t: {
+                                span: (lang == 'CH') ? '阅读物搜索' : 'Readables Search',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/gi/search',
+                            t: {
+                                span: (lang == 'CH') ? '文本+剧情搜索' : 'Text+Dialogue Search',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/gi/quests',
+                            t: {
+                                span: (lang == 'CH') ? '剧情记录' : 'Quest Logs',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        when: quest_allow,
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                            border: '2px solid #FFC0CB',
+                        },
+                    },
+                ],
+                class: 'menu_GI menu_GI_2',
+                style: {
+                    'margin-bottom': '10px',
+                    'margin-top': '-13px',
+                    'justify-content': 'center'
+                }
+            },
+            {
+                section: [
+                    {
+                        schedule: {
+                            a: '/keq',
+                            t: {
+                                span: '妮可少女的刻晴足迹',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                            'border-color': '#FFC0CB',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/yhb',
+                            t: {
+                                span: '刻晴生贺：玉衡杯重现',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        when: show_yhb,
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                            'border-color': '#CC0000',
+                        },
+                    },
+                ],
+                class: 'menu_GI menu_GI_2',
+                style: {
+                    'margin-bottom': '10px',
+                    'margin-top': '-9px',
+                    'justify-content': 'center'
+                },
+                when: (lang == 'CH')
+            },
+            {
+                section: [
+                    {
+                        schedule: {
+                            a: '/sr/boss',
+                            t: {
+                                span: (lang == 'CH') ? '怪物解析' : 'Boss Guides',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/sr/change',
+                            t: {
+                                span: (lang == 'CH') ? '改动汇总' : 'Track Updates',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/sr/future',
+                            t: {
+                                span: (lang == 'CH') ? '未来情报' : 'Future Info',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/sr/anniversary',
+                            t: {
+                                span: (lang == 'CH') ? '云璃一周年' : 'Yunli 1st Anniversary',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        when: anniversary_show,
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                            'border-color': '#dd0000'
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/sr/formulae',
+                            t: {
+                                span: '公式大全',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        when: lang == 'CH',
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/sr/readable',
+                            t: {
+                                span: (lang == 'CH') ? '阅读物搜索' : 'Readables Search',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                    {
+                        schedule: {
+                            a: '/sr/search',
+                            t: {
+                                span: (lang == 'CH') ? '文本+剧情搜索' : 'Text+Dialogue Search',
+                                style: {
+                                    'margin': 'auto',
+                                    'font-weight': 'bold',
+                                },
+                                class: 'panel'
+                            },
+                            class: 'panel'
+                        },
+                        
+                        class: 'hover-shadow panelw',
+                        style: {
+                            width: 'max-content',
+                        },
+                    },
+                ],
+                class: 'menu_SR menu_SR_2',
+                style: {
+                    'margin-bottom': '10px',
+                    'margin-top': '-13px',
+                    'justify-content': 'center'
+                }
+            },
+            {
+                section: function (g) {
+                    links.GI.forEach(function (j) {
+                        if (!j.Name[lang2]) return
+                        $(g.container).render({
+                            template: {
+                                schedule: {
+                                    a: j.Link,
+                                    t: {
+                                        span: j.Name[l],
+                                        style: {
+                                            'font-size': '19px',
+                                            'margin': 'auto'
+                                        }
+                                    }
+                                },
+                                class: 'hover-shadow',
+                                when: (j.When == undefined) ? 1 : j.When
+                            }
+                        })
+                    })
+                },
+                class: 'menu_GI'
+            },
+            {
+                section: function (g) {
+                    links.SR.forEach(function (j) {
+                        $(g.container).render({
+                            template: {
+                                schedule: {
+                                    a: j.Link,
+                                    t: {
+                                        span: j.Name[l],
+                                        style: {
+                                            'font-size': '19px',
+                                            'margin': 'auto'
+                                        }
+                                    }
+                                },
+                                class: 'hover-shadow'
+                            }
+                        })
+                    })
+                },
+                class: 'menu_SR'
+            }
+        ]
+    })
+    $('.menu_GI').hide()
+}
+
+
+
 var Loading_Template = {
     template: {
         div: {
