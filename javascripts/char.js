@@ -70,11 +70,11 @@ $(function () {
     function cntd() {
         var now = Date.now()
         var diff = countdown_time - now
-        var age_d = parseInt((now - 1722394800000) / 86400000)
+        var age_d = parseInt((now - 1703646000000) / 86400000)
         if ((age_d % 100 == 0) || anniversary) age_d = "<color style='color:#DD0000'>" + age_d + '</color>'
         $('.c2_a').html((lang == 'CH') ? `云璃 : <b>${age_d}</b> 天` : `Xueyi: <b>${age_d}</b> days old`)
         if (anniversary) {
-            var birthday_difference = 1753930800000 - now
+            var birthday_difference = 1798340400000 - now
             if (birthday_difference > 0) {
                 var birthday_days = parseInt(birthday_difference / 86400000)
                 var birthday_hours = parseInt((birthday_difference - birthday_days * 86400000) / 3600000)
