@@ -237,6 +237,17 @@ $(function() {
     
     var imgpre = $('#IMGPRE').val()
 
+    $('h3 .links').render([
+        {
+            img: imgpre + 'images/menu.png',
+            class: '_menu_'
+        }
+    ]);
+    $('body').on('click', '._menu_', function () {
+        popLinks(lang)
+        
+    })
+
     $('container').render({
         div: [
             {
