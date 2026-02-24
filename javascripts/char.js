@@ -427,39 +427,6 @@ $(function () {
                                     },
                                     class: '__up'
                                 },
-                                {
-                                    schedule: txt.HNotes[lang],
-                                    click: function (p) {
-                                        renderHN()
-                                        hn_show = 1 - hn_show
-                                        cl_show = 0
-                                        up_show = 0
-                                        boss_show = 0
-                                        pic_show = 0
-                                        vid_show = 0
-                                        $('.up_all').hide()
-                                        $('.cl_all').hide()
-                                        $('.boss_all').hide()
-                                        hide_pic()
-                                        hide_vid()
-                                        hide_ann()
-                                        if (hn_show) {
-                                            show_hn()
-                                        } else {
-                                            hide_hn()
-                                        }
-                                    },
-                                    style: {
-                                        width: 'max-content',
-                                        padding: '10px 20px',
-                                        'font-weight': 'bold',
-                                        border: '2px solid #df903b',
-                                        'background-color': hn_show ? '#27363E' : 'transparent',
-                                        'color': hn_show ? '#eee' : '#ffffff',
-                                    },
-                                    class: '__hn',
-                                    when: is_show_hn
-                                },
                             ],
                             class: 'cl'
                         },
