@@ -509,7 +509,7 @@ container {
     padding-top: 2px;
     padding-bottom: 2px;
     font-size: 16px;
-    font-family: 'Arial', 'Arial', sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica Neue', sans-serif;
 }
 
 .showtop_2 {
@@ -599,7 +599,7 @@ i.affix_hover {
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Arial';
+    font-family: 'Helvetica Neue';
     top: -5px;
     right: -3px;
     height: 17px;
@@ -620,7 +620,7 @@ i.affix_hover {
     text-align: center;
     line-height: 17px;
     font-size: 17px;
-    font-family: 'Arial';
+    font-family: 'Helvetica Neue';
 }
 
 .monicon_mark_ {
@@ -635,7 +635,7 @@ i.affix_hover {
     text-align: center;
     line-height: 100%;
     font-size: calc(100% - 1px);
-    font-family: 'Arial';
+    font-family: 'Helvetica Neue';
 }
 
 .monright {

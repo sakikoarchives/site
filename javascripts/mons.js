@@ -9,7 +9,7 @@ $(function () {
     var avid = $('#MONSTERID').val()
     if (!avid) avid = $('#MONSTER').val()
 
-    if (lang == 'EN') {$('body').css('font-family', "'Arial', sans-serif")}
+    if (lang == 'EN') {$('body').css('font-family', "'Helvetica Neue', sans-serif")}
     else {$('body').css('font-family', "'Microsoft YaHei', sans-serif")}
 
     $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 26px;'><br>" + txt.game_img[lang] + VER_SR + "</b></color>")

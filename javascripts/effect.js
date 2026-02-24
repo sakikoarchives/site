@@ -4,7 +4,7 @@ $(function () {
 
     init_title((lang == 'CH' ? '效果和名词' : 'Effects & Nouns') + ' ' + txt.PAGE_TITLE[lang])
 
-    if (lang == 'EN') { $('body').css('font-family', "'Arial', sans-serif") }
+    if (lang == 'EN') { $('body').css('font-family', "'Helvetica Neue', sans-serif") }
     else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
 
     $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 26px;'><br>" + (lang == "CH" ? '崩坏星穹铁道 <b>' : 'Honkai Star Rail <b>') + VER_SR + "</b></color>")
