@@ -285,7 +285,7 @@ $(function () {
     $('body').on('click', '.hover-shadow-', function (e) {
         e.stopPropagation()
         if (_material[$(this).attr('data-id')].Type == '1') {
-            window.location.href = `../char/${$(this).attr('data-id')}`
+            window.location.href = `https://sakikoarchives.com/char/${$(this).attr('data-id')}`
             return
         }
         popItem($(this).attr('data-id'))
@@ -294,7 +294,7 @@ $(function () {
     function popItem(y) {
         this_item = _material[y]
         if (this_item.Link) {
-            window.location.href = `../item/${this_item._id}`
+            window.location.href = `https://sakikoarchives.com/item/${this_item._id}`
             return
         }
         poplayer({

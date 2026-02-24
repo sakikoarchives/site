@@ -115,7 +115,7 @@ $(function () {
                                                             if (len > 25 && t.Count < 5 && !(isFinite(t.ID) && parseInt(t.ID) >= 1000 && parseInt(t.ID) <= 2000)) return
                                                             $(k.container).render({
                                                                 span: function (k) {
-                                                                    return '<color style=\'color:#df903b\'>' + t.Name.toString().replaceAll('_0', `<img class='sps' src='./images/Misc/Traveler${mf.toString()}.png'>`).replaceAll('_1005', `<img class='sps' src='./images/Misc/Paimon.png'>`) + '</color> ' + t.Count
+                                                                    return '<color style=\'color:#df903b\'>' + t.Name.toString().replaceAll('_0', `<img class='sps' src='https://sakikoarchives.com/images/Misc/Traveler${mf.toString()}.png'>`).replaceAll('_1005', `<img class='sps' src='https://sakikoarchives.com/images/Misc/Paimon.png'>`) + '</color> ' + t.Count
                                                                 },
                                                                 class: 'tag_span'
                                                             })
@@ -283,11 +283,11 @@ $(function () {
                                                             _talks[i].forEach(function (j) {
                                                                 if (j.N) {
                                                                     $(k.container).render({
-                                                                        p: '<b>' + j.N.toString().replaceAll('_0', `<img class='sps_4' src='./images/Misc/Traveler${mf.toString()}.png'>`).replaceAll('_1005', `<img class='sps_4' src='./images/Misc/Paimon.png'>`) + '</b><br>' + process(j.T).replaceAll('{NICKNAME}', `<img class='sps_4' src='./images/Misc/Traveler${mf.toString()}.png'>`).replaceAll("#", "").replaceAll("\\n", "<br>")
+                                                                        p: '<b>' + j.N.toString().replaceAll('_0', `<img class='sps_4' src='https://sakikoarchives.com/images/Misc/Traveler${mf.toString()}.png'>`).replaceAll('_1005', `<img class='sps_4' src='https://sakikoarchives.com/images/Misc/Paimon.png'>`) + '</b><br>' + process(j.T).replaceAll('{NICKNAME}', `<img class='sps_4' src='https://sakikoarchives.com/images/Misc/Traveler${mf.toString()}.png'>`).replaceAll("#", "").replaceAll("\\n", "<br>")
                                                                     })
                                                                 } else {
                                                                     $(k.container).render({
-                                                                        p: process(j.T).replaceAll('{NICKNAME}', `<img class='sps_4' src='./images/Misc/Traveler${mf.toString()}.png'>`).replaceAll("#", "").replaceAll("\\n", "<br>"),
+                                                                        p: process(j.T).replaceAll('{NICKNAME}', `<img class='sps_4' src='https://sakikoarchives.com/images/Misc/Traveler${mf.toString()}.png'>`).replaceAll("#", "").replaceAll("\\n", "<br>"),
                                                                         style: {
                                                                             color: '#FFD780',
                                                                             //'font-weight': 'bold'

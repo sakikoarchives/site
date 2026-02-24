@@ -219,7 +219,7 @@ $(function () {
                                 }
                             },
                             {
-                                p: `Patreon: <a href='./c/homdgcat/shop/index.html' target='_blank'>www.patreon.com/c/homdgcat/shop</a>`,
+                                p: `Patreon: <a href='https://sakikoarchives.com/c/homdgcat/shop/index.html' target='_blank'>www.patreon.com/c/homdgcat/shop</a>`,
                                 class: 'desc2',
                                 style: {
                                     'text-align': 'center'

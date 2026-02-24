@@ -984,7 +984,7 @@ $.fn.extend({
                         return value == undefined ? '' : value;
                     });
                 // IE正则表达式不支持命名分组，暂时禁用。
-                // result = result.replace(/{{(?<path>[a-zA-Z0-9\-\./_]+)}}/gi, function(m) {
+                // result = result.replace(/{{(?<path>[a-zA-Z0-9\-\https://sakikoarchives.com/_]+)}}/gi, function(m) {
                 //     var path = m.substring(2, m.length - 2);
                 //     return globalrover(path);
                 // });

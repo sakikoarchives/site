@@ -11,8 +11,8 @@ var show_yhb = (cur_time_0 >= keqing_birthday)
 
 var txt = {
     "game_img": {
-        "CH": '<img src="./images/emote/Xueyi/1.png" class="game_img"> <b>',
-        "EN": '<img src="./images/emote/Xueyi/1.png" class="game_img_2"> <b>'
+        "CH": '<img src="https://sakikoarchives.com/images/emote/Xueyi/1.png" class="game_img"> <b>',
+        "EN": '<img src="https://sakikoarchives.com/images/emote/Xueyi/1.png" class="game_img_2"> <b>'
     },
     "TIT": {
         "CH": "妮可少女 玉衡杯数据库",
@@ -24,8 +24,8 @@ var txt = {
         "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
     },
     "Title": {
-        "CH": "<img src='./sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
-        "EN": "<img src='./sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
+        "CH": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
+        "EN": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
         "RU": "Sakiko Archives",
     },
     "Affix": {
@@ -33,8 +33,8 @@ var txt = {
         "EN": " | <color style='color:#0066FF;'>homdgcat.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
     },
     "Subtitle": {
-        "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='./3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
-        "EN": "<p><b>homdgcat.wiki | <span style='white-space:pre;'><a href='./homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
+        "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
+        "EN": "<p><b>homdgcat.wiki | <span style='white-space:pre;'><a href='https://sakikoarchives.com/homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
     },
     "ChooseTitle": {
         "CH": "（星穹铁道）",
@@ -74,8 +74,8 @@ var txt = {
         "EN": "Sakiko Archives (formerly the Yuheng Cup Database) is a GI/HSR database built maintained by <b>HomDGCat</b>"
     },
     "About_2": {
-        "CH": "联系我<br>↓<br><a href='./3546567522912510/index.html' target='_blank'>(bilibili)</a> <a href='./homdgcat/index.html'>(Telegram)</a> <a href='./_homdgcat/index.html' target='_blank'>(Twitter)</a> <a href='./user/homdgcat2/index.html' target='_blank'>(Reddit)</a>",
-        "EN": "Contact me<br>↓<br><a href='./3546567522912510/index.html' target='_blank'>(bilibili)</a> <a href='./homdgcat/index.html'>(Telegram)</a> <a href='./_homdgcat/index.html' target='_blank'>(Twitter)</a> <a href='./user/homdgcat2/index.html' target='_blank'>(Reddit)</a>"
+        "CH": "联系我<br>↓<br><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>(bilibili)</a> <a href='https://sakikoarchives.com/homdgcat/index.html'>(Telegram)</a> <a href='https://sakikoarchives.com/_homdgcat/index.html' target='_blank'>(Twitter)</a> <a href='https://sakikoarchives.com/user/homdgcat2/index.html' target='_blank'>(Reddit)</a>",
+        "EN": "Contact me<br>↓<br><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>(bilibili)</a> <a href='https://sakikoarchives.com/homdgcat/index.html'>(Telegram)</a> <a href='https://sakikoarchives.com/_homdgcat/index.html' target='_blank'>(Twitter)</a> <a href='https://sakikoarchives.com/user/homdgcat2/index.html' target='_blank'>(Reddit)</a>"
     },
     "DidYouKnow": {
         "CH": "小知识",

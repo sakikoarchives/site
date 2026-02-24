@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'GCG';
-    src: url('../fonts/GCG.woff');
+    src: url('https://sakikoarchives.com/fonts/GCG.woff');
 }
 
 .hover-shadow {
@@ -19,11 +19,11 @@ body {
 }
 
 .bg {
-    background: #29105a url('../images/bg.jpg') no-repeat right center/cover;
+    background: #29105a url('https://sakikoarchives.com/images/bg.jpg') no-repeat right center/cover;
 }
 
 .bg_2 {
-    background: url('../images/bg.jpg');
+    background: url('https://sakikoarchives.com/images/bg.jpg');
     background-repeat: repeat-y;
     height: auto;
 }
