@@ -241,10 +241,6 @@ $(function() {
         {
             img: imgpre + 'images/menu.png',
             class: '_menu_'
-        },
-        {
-            img: imgpre + 'images/translate.png',
-            class: '_translate_'
         }
     ]);
     $('body').on('click', '._menu_', function () {
