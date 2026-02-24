@@ -362,7 +362,7 @@ $(function () {
                     a: link,
                     t: [
                         {
-                            p: `<color style='color:rgb(255, 172, 255)'><b>` + h_data.name + `</b></color> ` +  i_data.title,
+                            p: `<color style='color:rgb(255, 112, 155)'><b>` + h_data.name + `</b></color> ` +  i_data.title,
                             class: 'rule_title'
                         },
                         {

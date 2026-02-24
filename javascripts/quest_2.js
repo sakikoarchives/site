@@ -122,7 +122,7 @@ $(function () {
                                                     style: {
                                                         'margin-top': '0px',
                                                         'margin-bottom': '15px',
-                                                        color: 'rgb(255, 172, 255)'
+                                                        color: 'rgb(255, 112, 155)'
                                                     }
                                                 },
                                                 {

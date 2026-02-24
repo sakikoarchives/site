@@ -3386,7 +3386,7 @@ $(function () {
                                         span: computer_.MiscText.Avatar_Buff[lang3],
                                         style: {
                                             padding: '5px 10px',
-                                            border: '2px solid rgb(255, 172, 255)',
+                                            border: '2px solid rgb(255, 112, 155)',
                                             'border-radius': '5px'
                                         },
                                         class: 'hover-shadow',
