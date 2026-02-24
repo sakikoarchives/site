@@ -20,7 +20,7 @@ container {
 .content {
     padding: 15px 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     min-height: 600px;
 }
 
@@ -28,7 +28,7 @@ popheader {
     height: 40px;
     line-height: 40px;
     background: #fff;
-    color: #333;
+    color: #33333300;
     font-size: 18px;
     font-weight: 600;
     overflow: hidden;
@@ -55,7 +55,7 @@ popdialog {
 .area_2 {
     padding: 15px 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     min-height: 600px;
     display: block;
 }
@@ -66,7 +66,7 @@ divv div {
 #back_2 {
     margin: 0;
     cursor: pointer;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     position: absolute;
     width: calc(100%);
     top: 0;
@@ -107,7 +107,7 @@ popbody::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa00;
     border-radius: 4px;
 }
 
@@ -161,7 +161,7 @@ schedule {
     border-radius: 5px;
     margin: 9px 0;
     line-height: 2;
-    background-color: #27363E;
+    background-color: #000000;
     color: #eeeeee;
     position: relative;
     text-align: center;
@@ -218,7 +218,7 @@ schedule {
 }
 
 .a_section {
-    background-color: #27363E;
+    background-color: #27363e00;
     color: #eeeeee;
     border-radius: 5px;
     padding: 0 12px;
