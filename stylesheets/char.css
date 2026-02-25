@@ -164,7 +164,7 @@ schedule {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #FF709B,
+    background-color: #FF709B;
     margin: 8px 0;
 }
 
