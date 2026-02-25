@@ -239,6 +239,10 @@ schedule.active{
     width: 30px;
     height: 30px;
     margin: auto 10px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    background-color: #ff719a;
 }
 
 .menu_CTRL, .menu_GI, .menu_SR {
