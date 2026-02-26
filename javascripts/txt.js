@@ -19,8 +19,8 @@ var txt = {
         "EN": "Sakiko Archives",
     },
     "PAGE_TITLE": {
-        "EN": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko妮可少女",
-        "RU": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko妮可少女",
+        "EN": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko",
+        "RU": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko",
     },
     "Title": {
         "CH": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
@@ -28,7 +28,7 @@ var txt = {
         "RU": "Sakiko Archives",
     },
     "Affix": {
-        "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
+        "CH": " | <color style='color:#0066FF;'>SAKIKO</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
         "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
     },
     "ChooseTitle": {

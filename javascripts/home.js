@@ -461,7 +461,7 @@ $(function() {
                                 }
                             },
                             {
-                                p: 'Please be aware that all information until 4.3 onwards is speculation only, data will be updated when more information is given',
+                                p: 'Please be aware that all information from 4.3 onwards is speculation only, data will be updated when more information is given',
                                 class: 'c2_ dir_subhead'
                         
                             },

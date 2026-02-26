@@ -1,11 +1,11 @@
-var SR_Stamp = 1774407600000
+var SR_Stamp = 1770994800000
 
 // Times = The duration of the previous patch = The interval between the previous patch release and the currect patch release
 
 var SR_Times = [
     {
         V: '4.2 - Elation MC (Possible Quantum), Silver Wolf SP (Possible Imaginary Elation) & Evansecia (Physical Elation)',
-        D: 56
+        D: 14
     },
     {
         V: '4.3 - Blade SP (Potential Erudition) & (potentially) Pearl',
