@@ -32,7 +32,7 @@ var computer_ = {
         "PAGE_TITLE": {
             "CH": "玉衡杯数据库 - 原神 崩坏星穹铁道 数据库 - 妮可少女 HomDGCat",
             "EN": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko 妮可少女",
-            "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
+            "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By Sakiko妮可少女",
         },
         "TITLE": {
             "CH": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
@@ -2146,7 +2146,7 @@ $('body').on('click', '._menu_', function () {
     poplayer({
         header: '<color style=\'color:#fff\'>HomDGCat</color>',
         class: 'yuhengcup',
-        width: '95%',
+        width: '30%',
         template: [
             {
                 h3: computer_.MiscText.Title[lang],

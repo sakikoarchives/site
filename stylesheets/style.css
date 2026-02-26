@@ -100,6 +100,7 @@ popheader {
     font-size: 18px;
     font-weight: 600;
     overflow: hidden;
+    width: 30%;
 }
 
 popbody {
@@ -172,11 +173,13 @@ schedule.active{
 .yuhengcup popbody {
     padding: 10px;
     max-height: calc(100% - 40px) !important;
-    overflow-x: hidden;
+    width: 95%;
 }
 
 .yuhengcup popdialog {
-    height: 95%
+    width: 95%;
+    left: calc(15%);
+    top: calc(32%);
 }
 
 .yuhengcup ::-webkit-scrollbar {

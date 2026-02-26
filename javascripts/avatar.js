@@ -6670,7 +6670,7 @@ $(function () {
         console.log(1)
         poplayer({
             header: computer_.MiscText.Avatar_Norm_Title[lang] + computer_.MiscText.Avatar_Table_Title_Extra[lang2],
-            width: '95%',
+            width: '30%',
             class: 'norm',
             template: [{
                 p: computer_.MiscText.Avatar_Norm_Info[lang],

@@ -222,7 +222,7 @@ $(function () {
     $('body').on('click', '.ver_text', function () {
         var pop = poplayer({
             header: '',
-            width: '95%',
+            width: '30%',
             template: [
                 {
                     div: function (k) {
