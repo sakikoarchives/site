@@ -30,9 +30,8 @@ var computer_ = {
             "EN": "<b>Back</b>"
         },
         "PAGE_TITLE": {
-            "CH": "玉衡杯数据库 - 原神 崩坏星穹铁道 数据库 - 妮可少女 HomDGCat",
             "EN": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko 妮可少女",
-            "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By Sakiko妮可少女",
+            "RU": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko妮可少女",
         },
         "TITLE": {
             "CH": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
@@ -48,11 +47,6 @@ var computer_ = {
             "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
             "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>",
             "RU": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
-        },
-        "Subtitle": {
-            "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
-            "EN": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='https://sakikoarchives.com/homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>",
-            "RU": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='https://sakikoarchives.com/homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
         },
         "Subtitle_": {
             "CH": "<p><b>玉衡杯数据库 - b站@妮可少女 | t.me/biwaleakshsr</b></p>",
@@ -72,7 +66,7 @@ var computer_ = {
         },
         "Abyss_Reminder3": {
             "CH": "<b>妮可少女的研究</b><br>玉衡杯数据库 yuhengcup.wiki",
-            "EN": "<b>HomDGCat's Notes</b><br>sakikoarchives.com | t.me/biwaleakshsr",
+            "EN": "<b>Sakiko's Notes</b><br>sakikoarchives.com | t.me/biwaleakshsr",
         },
         "Abyss_Reminder2": {
             "CH": "<color style='color:#0066FF;'>玉衡杯数据库 yuhengcup.wiki</color><br><color style='color:#cc0000;font-size:1.2em;'><b>玩家自创阵容</b></color>",
@@ -563,8 +557,8 @@ var computer_ = {
             },
             {
                 "CH": "妮可少女的研究",
-                "EN": "HomDGCat's Notes",
-                "RU": "Заметки HomDGCat"
+                "EN": "Sakiko's Notes",
+                "RU": "Заметки Sakiko"
             },
             {
                 "CH": "故事",
@@ -705,8 +699,8 @@ var computer_ = {
         },
         "Avatar_Data_Other": {
             "CH": "妮可少女的研究",
-            "EN": "HomDGCat's Notes",
-            "RU": "Заметки HomDGCat"
+            "EN": "Sakiko's Notes",
+            "RU": "Заметки Sakiko"
         },
         "ChangeLog_Other": {
             "CH": "其他",
@@ -1095,8 +1089,8 @@ var computer_ = {
         },
         "Avatar_Weapon_Extra": {
             "CH": "妮可少女的备注",
-            "EN": "HomDGCat's Notes",
-            "RU": "Заметки HomDGCat"
+            "EN": "Sakiko's Notes",
+            "RU": "Заметки Sakiko"
         },
         "Avatar_Norm_Title": {
             "CH": "> 模是啥嘞？",
@@ -1157,8 +1151,8 @@ var computer_ = {
         },
         "HN": {
             "CH": "妮可少女的研究",
-            "EN": "HomDGCat's Notes",
-            "RU": "Заметки HomDGCat"
+            "EN": "Sakiko's Notes",
+            "RU": "Заметки Sakiko"
         },
         "HD": {
             "CH": "未来情报",
@@ -1962,14 +1956,6 @@ var computer_ = {
     }
 }
 
-if (April_1st) {
-    Object.keys(computer_.MiscText).forEach(k => {
-        Object.keys(computer_.MiscText[k]).forEach(j => {
-            if (typeof computer_.MiscText[k][j] != 'string') return
-            computer_.MiscText[k][j] = computer_.MiscText[k][j].replaceAll('玉衡杯数据库', '库据数杯衡玉').replaceAll('Sakiko Archives', 'ikiW taCGDmoH').replaceAll('HomDGCat', 'taCGDmoH').replaceAll('妮可少女', '铌钶钞钕')
-        })
-    })
-}
 
 var links = {
     "Head": [
@@ -2144,7 +2130,7 @@ else { $('body').css('font-family', "'Microsoft YaHei', sans-serif") }
 
 $('body').on('click', '._menu_', function () {
     poplayer({
-        header: '<color style=\'color:#fff\'>HomDGCat</color>',
+        header: '<color style=\'color:#fff\'>Sakiko Archives</color>',
         class: 'yuhengcup',
         width: '30%',
         template: [

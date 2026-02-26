@@ -19,9 +19,8 @@ var txt = {
         "EN": "Sakiko Archives",
     },
     "PAGE_TITLE": {
-        "CH": "玉衡杯数据库 - 原神 崩坏星穹铁道 数据库 - 妮可少女 HomDGCat",
-        "EN": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By Sakiko妮可少女",
-        "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By Sakiko妮可少女",
+        "EN": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko妮可少女",
+        "RU": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko妮可少女",
     },
     "Title": {
         "CH": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
@@ -31,10 +30,6 @@ var txt = {
     "Affix": {
         "CH": " | <color style='color:#0066FF;'>妮可少女 玉衡杯数据库 yuhengcup.wiki</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
         "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
-    },
-    "Subtitle": {
-        "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
-        "EN": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='https://sakikoarchives.com/homdgcat/index.html' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
     },
     "ChooseTitle": {
         "CH": "（星穹铁道）",
@@ -70,12 +65,8 @@ var txt = {
         "EN": "About Me",
     },
     "About": {
-        "CH": "玉衡杯数据库由<b>妮可少女 HomDGCat</b>建立和维护，旨在为原神/星穹铁道玩家提供最全面准确的游戏数据",
-        "EN": "Sakiko Archives (formerly the Yuheng Cup Database) is a GI/HSR database built maintained by <b>HomDGCat</b>"
-    },
-    "About_2": {
-        "CH": "联系我<br>↓<br><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>(bilibili)</a> <a href='https://sakikoarchives.com/homdgcat/index.html'>(Telegram)</a> <a href='https://sakikoarchives.com/_homdgcat/index.html' target='_blank'>(Twitter)</a> <a href='https://sakikoarchives.com/user/homdgcat2/index.html' target='_blank'>(Reddit)</a>",
-        "EN": "Contact me<br>↓<br><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>(bilibili)</a> <a href='https://sakikoarchives.com/homdgcat/index.html'>(Telegram)</a> <a href='https://sakikoarchives.com/_homdgcat/index.html' target='_blank'>(Twitter)</a> <a href='https://sakikoarchives.com/user/homdgcat2/index.html' target='_blank'>(Reddit)</a>"
+        "CH": "玉衡杯数据库由<b>妮可少女 Sakiko</b>建立和维护，旨在为原神/星穹铁道玩家提供最全面准确的游戏数据",
+        "EN": "Sakiko Archives is a HSR database built maintained by <b>Sakiko</b>"
     },
     "DidYouKnow": {
         "CH": "小知识",
@@ -504,7 +495,7 @@ var txt = {
     },
     "DEV": {
         "CH": "文案：<color style='color:#f29e38'>妮可少女</color><br>仅供参考",
-        "EN": "Descriptions by <color style='color:#f29e38'>HomDGCat</color><br>Subject to change"
+        "EN": "Descriptions by <color style='color:#f29e38'>Sakiko</color><br>Subject to change"
     },
     "Item_New": [
         {
@@ -582,15 +573,6 @@ var txt = {
             "EN": "Conundrum",
         }
     ]
-}
-
-if (April_1st) {
-    Object.keys(txt).forEach(k => {
-        Object.keys(txt[k]).forEach(j => {
-            if (typeof txt[k][j] != 'string') return
-            txt[k][j] = txt[k][j].replaceAll('玉衡杯数据库', '库据数杯衡玉').replaceAll('Sakiko Archives', 'ikiW taCGDmoH').replaceAll('HomDGCat', 'taCGDmoH').replaceAll('妮可少女', '铌钶钞钕')
-        })
-    })
 }
 
 var elemcolor = {
@@ -955,7 +937,7 @@ var links = {
 
 function popLinks(l) {
     poplayer({
-        header: '<color style=\'color:#fff\'>HomDGCat</color>',
+        header: '<color style=\'color:#fff\'>SakikoArchives</color>',
         class: 'yuhengcup',
         width: '30%',
         template: [
