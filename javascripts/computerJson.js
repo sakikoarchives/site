@@ -2167,64 +2167,6 @@ $('body').on('click', '._menu_', function () {
                 section: [
                     {
                         schedule: {
-                            a: '/',
-                            t: {
-                                span: links.Head[0][lang2],
-                                style: {
-                                    'font-size': (lang == 'CH') ? '16px' : '15px',
-                                    'margin': 'auto'
-                                }
-                            },
-                        },
-                        style: {
-                            'border': '1.6px solid #7030A0'
-                        }
-                    },
-                    {
-                        schedule: {
-                            span: links.Head[1][lang2],
-                            style: {
-                                'font-size': '16px',
-                                'margin': 'auto'
-                            }
-                        },
-                        event: {
-                            click: function (d) {
-                                $('.menu_GI').show()
-                                $('.menu_SR').hide()
-                                $(d.sender).addClass('active')
-                                $(d.sender).siblings().removeClass('active')
-                            }
-                        },
-                        class: 'active'
-                    },
-                    {
-                        schedule: {
-                            span: links.Head[2][lang2],
-                            style: {
-                                'font-size': '16px',
-                                'margin': 'auto'
-                            }
-                        },
-                        event: {
-                            click: function (d) {
-                                $('.menu_GI').hide()
-                                $('.menu_SR').show()
-                                $(d.sender).addClass('active')
-                                $(d.sender).siblings().removeClass('active')
-                            }
-                        }
-                    },
-                ],
-                class: 'menu_CTRL',
-                style: {
-                    'margin-bottom': '30px'
-                }
-            },
-            {
-                section: [
-                    {
-                        schedule: {
                             a: '/sr/readable',
                             t: {
                                 span: (lang == 'CH') ? '阅读物搜索' : 'Readables Search',
@@ -2268,30 +2210,6 @@ $('body').on('click', '._menu_', function () {
                     'margin-top': '-13px',
                     'justify-content': 'center'
                 }
-            },
-            {
-                section: function (g) {
-                    links.GI.forEach(function (j) {
-                        if (!j.Name[lang2]) return
-                        $(g.container).render({
-                            template: {
-                                schedule: {
-                                    a: j.Link,
-                                    t: {
-                                        span: j.Name[lang2],
-                                        style: {
-                                            'font-size': '19px',
-                                            'margin': 'auto'
-                                        }
-                                    }
-                                },
-                                class: 'hover-shadow',
-                                when: (j.When == undefined) ? 1 : j.When
-                            }
-                        })
-                    })
-                },
-                class: 'menu_GI'
             },
             {
                 section: function (g) {
