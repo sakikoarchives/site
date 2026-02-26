@@ -233,7 +233,7 @@ $(function() {
     var GAME = default_game
     var GAME_DATE = $("#GAME").val()
     
-    $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 28px;'><br><b>" + VER_GI + " / " + VER_SR + "</b></color>")
+    $('h3 .title').html(txt.Title[lang] + "<color style='font-size: 28px;'><br><b>" + " / " + VER_SR + "</b></color>")
     
     var imgpre = $('#IMGPRE').val()
 
