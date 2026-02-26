@@ -22,6 +22,7 @@ $(function () {
     if (window.location.hash) window.location.hash = ''
 
     $('body').on('click', '._menu_', function () {
+        popLinks(lang)
         
     })
 

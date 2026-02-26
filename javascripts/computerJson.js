@@ -32,7 +32,7 @@ var computer_ = {
         "PAGE_TITLE": {
             "CH": "玉衡杯数据库 - 原神 崩坏星穹铁道 数据库 - 妮可少女 HomDGCat",
             "EN": "Sakiko Archives - Honkai Star Rail Wiki By Sakiko 妮可少女",
-            "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By HomDGCat 妮可少女",
+            "RU": "Sakiko Archives - Genshin Impact & Honkai Star Rail Wiki By Sakiko妮可少女",
         },
         "TITLE": {
             "CH": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_2.png' class='logo_img_yhb'>",
@@ -2146,7 +2146,7 @@ $('body').on('click', '._menu_', function () {
     poplayer({
         header: '<color style=\'color:#fff\'>HomDGCat</color>',
         class: 'yuhengcup',
-        width: '95%',
+        width: '30%',
         template: [
             {
                 h3: computer_.MiscText.Title[lang],
@@ -2161,64 +2161,6 @@ $('body').on('click', '._menu_', function () {
                     click: function () {
                         window.location.href = '/home'
                     }
-                }
-            },
-            {
-                section: [
-                    {
-                        schedule: {
-                            a: '/',
-                            t: {
-                                span: links.Head[0][lang2],
-                                style: {
-                                    'font-size': (lang == 'CH') ? '16px' : '15px',
-                                    'margin': 'auto'
-                                }
-                            },
-                        },
-                        style: {
-                            'border': '1.6px solid #7030A0'
-                        }
-                    },
-                    {
-                        schedule: {
-                            span: links.Head[1][lang2],
-                            style: {
-                                'font-size': '16px',
-                                'margin': 'auto'
-                            }
-                        },
-                        event: {
-                            click: function (d) {
-                                $('.menu_GI').show()
-                                $('.menu_SR').hide()
-                                $(d.sender).addClass('active')
-                                $(d.sender).siblings().removeClass('active')
-                            }
-                        },
-                        class: 'active'
-                    },
-                    {
-                        schedule: {
-                            span: links.Head[2][lang2],
-                            style: {
-                                'font-size': '16px',
-                                'margin': 'auto'
-                            }
-                        },
-                        event: {
-                            click: function (d) {
-                                $('.menu_GI').hide()
-                                $('.menu_SR').show()
-                                $(d.sender).addClass('active')
-                                $(d.sender).siblings().removeClass('active')
-                            }
-                        }
-                    },
-                ],
-                class: 'menu_CTRL',
-                style: {
-                    'margin-bottom': '30px'
                 }
             },
             {
@@ -2268,30 +2210,6 @@ $('body').on('click', '._menu_', function () {
                     'margin-top': '-13px',
                     'justify-content': 'center'
                 }
-            },
-            {
-                section: function (g) {
-                    links.GI.forEach(function (j) {
-                        if (!j.Name[lang2]) return
-                        $(g.container).render({
-                            template: {
-                                schedule: {
-                                    a: j.Link,
-                                    t: {
-                                        span: j.Name[lang2],
-                                        style: {
-                                            'font-size': '19px',
-                                            'margin': 'auto'
-                                        }
-                                    }
-                                },
-                                class: 'hover-shadow',
-                                when: (j.When == undefined) ? 1 : j.When
-                            }
-                        })
-                    })
-                },
-                class: 'menu_GI'
             },
             {
                 section: function (g) {

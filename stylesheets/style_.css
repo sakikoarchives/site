@@ -98,6 +98,7 @@ f3 span {
 
 popheader {
     background-color: #4488dd;
+    width: 30%;
 }
 
 label {
@@ -463,8 +464,8 @@ img {
 }
 
 ._menu_, ._translate_ {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     margin: auto 10px;
     white-space: pre;
 }
@@ -602,11 +603,14 @@ img {
 .yuhengcup popbody {
     padding: 10px;
     max-height: calc(100% - 40px) !important;
-    overflow-x: hidden;
+    position: static;
+    width: 95%;
 }
 
 .yuhengcup popdialog {
-    height: 95%
+    width: 95%;
+    left: calc(15%);
+    top: calc(32%);
 }
 
 .yuhengcup ::-webkit-scrollbar {
@@ -682,7 +686,7 @@ h3 .links {
     color: #df903b;
 }
 
-.menu_CTRL, .menu_GI, .menu_SR {
+.menu_SR {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -690,11 +694,11 @@ h3 .links {
     margin: 0px auto 60px;
 }
 
-.menu_GI_2, .menu_SR_2 {
+.menu_SR_2 {
     width: 100%;
 }
 
-.menu_CTRL .hover-shadow, .menu_GI .hover-shadow, .menu_SR .hover-shadow {
+.menu_SR .hover-shadow {
     text-align: center;
     border: 1px solid #333;
     border-radius: 5px;
@@ -703,14 +707,10 @@ h3 .links {
     padding: 10px 0;
 }
 
-.menu_CTRL a, .menu_GI a, .menu_SR a {
+.menu_SR a {
     display: block;
     text-decoration: none;
     color: black;
-}
-
-.yuhengcup popdialog {
-    width: 95% !important;
 }
 
 closeicon {
@@ -832,7 +832,7 @@ closeicon {
     width: auto;
 }
 
-.menu_CTRL .panelw, .menu_GI .panelw, .menu_SR .panelw {
+.menu_SR .panelw {
     padding: 6px 8px!important;
     margin: 5px 3px;
     border: 1.5px solid #f29e38;
@@ -865,7 +865,7 @@ closeicon {
     .panel {
         font-size: 14px;
     }
-    .menu_CTRL .panelw, .menu_GI .panelw, .menu_SR .panelw {
+    .menu_SR .panelw {
         padding: 8px 10px!important;
         margin: 5px 4px;
         border: 1.5px solid #f29e38;
@@ -881,7 +881,7 @@ closeicon {
     .panel {
         font-size: 15px;
     }
-    .menu_CTRL .panelw, .menu_GI .panelw, .menu_SR .panelw {
+    .menu_SR .panelw {
         padding: 10px 12px!important;
         margin: 5px 5px;
         border: 2px solid #f29e38;
