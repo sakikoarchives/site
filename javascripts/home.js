@@ -271,8 +271,7 @@ $(function() {
                             'display': 'flex',
                             'justify-content': 'center',
                             'flex-direction': 'column',
-                            'line-height': '1.7',
-                            'border': '1.6px solid #FFC0CB'
+                            'line-height': '1.7'
                         },
                         id: 'date_schedule'
                     },
