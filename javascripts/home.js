@@ -48,12 +48,9 @@ $(function() {
         countdown_time_2 = 0
         countdown_note_1 = ""
         countdown_note_2 = ""
-        if (SR_DATES[VER_SR] && GI_DATES[VER_GI]) {
-            countdown_ver_1 = GI_DATES[VER_GI][0]
-            countdown_time_1 = GI_DATES[VER_GI][1]
+        if (SR_DATES[VER_SR]) {
             countdown_ver_2 = SR_DATES[VER_SR][0]
             countdown_time_2 = SR_DATES[VER_SR][1]
-            if (GI_DATES[VER_GI][2] != undefined) countdown_note_1 = "<br>" + GI_DATES[VER_GI][2][(lang == 'CH') ? 0 : 1]
             if (SR_DATES[VER_SR][2] != undefined) countdown_note_2 = "<br>" + SR_DATES[VER_SR][2][(lang == 'CH') ? 0 : 1]
             cntd_0()
             setInterval(cntd_0, 1000)
