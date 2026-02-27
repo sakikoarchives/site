@@ -159,31 +159,7 @@ $(function () {
                                         img: '/images/emote/Xueyi/3.png',
                                         when: window.innerWidth >= 600
                                     },
-                                    {
-                                        img: '/images/emote/Keqing/1.png'
-                                    },
-                                    {
-                                        img: '/images/emote/Keqing/2.png',
-                                        when: window.innerWidth >= 600
-                                    },
-                                    {
-                                        img: '/images/emote/Keqing/3.png',
-                                        when: window.innerWidth >= 600
-                                    },
-                                    {
-                                        img: '/images/emote/Keqing/6.png'
-                                    },
-                                    {
-                                        img: '/images/emote/Keqing/18.png'
-                                    },
-                                    {
-                                        img: '/images/emote/Keqing/19.png',
-                                        when: window.innerWidth >= 600
-                                    },
-                                    {
-                                        img: '/images/emote/Keqing/20.png',
-                                        when: window.innerWidth >= 600
-                                    },
+                                
                                 ],
                                 class: 'emotes'
                             },
