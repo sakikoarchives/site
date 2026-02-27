@@ -5,8 +5,9 @@ var SR_Stamp = 1770994800000
 var SR_Times = [
     {
         V: '4.2 - Elation MC (Possible Quantum), Silver Wolf SP (Possible Imaginary Elation) & Evansecia (Physical Elation)',
-        D: 14
-    },
+        T: 'Beta',
+        D: "2026-03-02"
+    }/*
     {
         V: '4.3 - Blade SP (Potential Erudition) & (potentially) Pearl',
         D: 42
@@ -38,7 +39,7 @@ var SR_Times = [
     {
         V: '5.1',
         D: 42
-    },
+    },*/
 ]
 
 var didyouknow = []

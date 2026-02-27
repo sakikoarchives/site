@@ -142,7 +142,7 @@ $(function() {
         }
     }
 
-    function start_fntd(start_timestamp, time_list, output_table, offset, birthday_stamp, birthday_image, char_name) {
+    function start_fntd(time_list, output_table, birthday_stamp, birthday_image, char_name) {
 
         var _now = Date.now()
 
@@ -156,31 +156,11 @@ $(function() {
         })
         
         var data_list = []
-        var cumulated_stamp = start_timestamp
         for (const ver_data of time_list) {
-            var custom_offset = 0
-            if (ver_data.V != '4.0') {
-                data_list.push({
-                    stamp: cumulated_stamp + offset[0] * 3600000,
-                    time: new Date(cumulated_stamp + offset[0] * 3600000).toISOString().substring(0, 10),
-                    text: "<color style='color:rgb(255, 112, 155'><b>" + ver_data.V + '</b></color>' + (lang == 'CH' ? ' 测试服' : ' Beta')
-                })  
-            }
             data_list.push({
-                stamp: cumulated_stamp + offset[1] * 3600000,
-                time: new Date(cumulated_stamp + offset[1] * 3600000).toISOString().substring(0, 10),
-                text: "<color style='color:rgb(255, 112, 155'><b>" + ver_data.V + '</b></color>' + (lang == 'CH' ? ' 角色立绘' : ' Drip Marketing')
-            })
-            cumulated_stamp += ver_data.D * 86400000
-            data_list.push({
-                stamp: cumulated_stamp,
-                time: new Date(cumulated_stamp).toISOString().substring(0, 10),
-                text: "<color style='color:rgb(255, 112, 155'><b>" + ver_data.V + '</b></color>' + (lang == 'CH' ? ' 开启' : ' Live')
-            })
-            data_list.push({
-                stamp: cumulated_stamp + offset[2] * 3600000,
-                time: new Date(cumulated_stamp + offset[2] * 3600000).toISOString().substring(0, 10),
-                text: "<color style='color:rgb(255, 112, 155'><b>" + ver_data.V + '</b></color>' + (lang == 'CH' ? ' 前瞻特别节目' : ' Special Program')
+                stamp: Date.parse(ver_data.D),
+                time: ver_data.D,
+                text: "<color style='color:rgb(255, 112, 155'><b>" + ver_data.V + '</b></color>' + " " + ver_data.T
             })
         }
         data_list.sort(compare)
@@ -490,7 +470,7 @@ $(function() {
     })
 
     // Used to be -41 (18:00 on Monday); now it's 127 (18:00 on the next Monday)
-    start_fntd(SR_Stamp, SR_Times, '.table_sr', [-25, -359, -279.5], 1722394800000, '/images/emote/Xueyi/1.png', (lang == 'CH') ? '云璃' : 'Xueyi')
+    start_fntd(SR_Times, '.table_sr', 1722394800000, '/images/emote/Xueyi/1.png', (lang == 'CH') ? '云璃' : 'Xueyi')
     start_cntd()
 
     if (GAME == 'SR') renderSR()
