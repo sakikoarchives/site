@@ -1,7 +1,6 @@
-var SR_Stamp = 1770994800000
-
-// Times = The duration of the previous patch = The interval between the previous patch release and the currect patch release
-
+// V - version name
+// T - type (beta/live/drip marketing/special program)
+// D - date (ISO format)
 var SR_Times = [
     {
         V: '4.2 - Elation MC (Possible Quantum), Silver Wolf SP (Possible Imaginary Elation) & Evansecia (Physical Elation)',
