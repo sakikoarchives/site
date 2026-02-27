@@ -27,6 +27,10 @@ var txt = {
         "EN": "<img src='https://sakikoarchives.com/sakiko-res/UI/_logo_3.png' class='logo_img_yhb'>",
         "RU": "Sakiko Archives",
     },
+    "Subtitle": {
+        "CH": "<p><b>yuhengcup.wiki | <span style='white-space:pre;'><a href='https://sakikoarchives.com/3546567522912510/index.html' target='_blank'>b站@妮可少女</a></span></b></p>",
+        "EN": "<p><b>sakikoarchives.com | <span style='white-space:pre;'><a href='https://t.me/biwaleakshsr' target='_blank'>t.me/biwaleakshsr</a></span></b></p>"
+    },
     "Affix": {
         "CH": " | <color style='color:#0066FF;'>SAKIKO</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color> | <color style='color:#0066FF;'>b站@妮可少女</color>",
         "EN": " | <color style='color:#0066FF;'>sakikoarchives.com</color> | <color style='color:#0066FF;'>t.me/biwaleakshsr</color>"
