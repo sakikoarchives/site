@@ -91,14 +91,21 @@ a.translate_ {
 }
 
 .dir {
-    background-color: #00000000;
-    border-radius: 10px;
-    margin: 4px 0px;
-    padding: 20px;
-    cursor: pointer;
-    color: #27000c;
-    line-height: 2;
-    width: calc(100% - 56px);
+    letter-spacing: normal;
+    line-height: 28.799999px;
+    padding-bottom: 14.006px;
+    padding-left: 25.993999px;
+    padding-right: 25.993999px;
+    padding-top: 14.006px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: 0.68985px;
+    text-transform: uppercase;
+    text-underline-offset: 2.25px;
+    width: 312.6875px;
+    background-color: #242321;
+    color: #eeeeee;
 }
 
 .dir_head {
