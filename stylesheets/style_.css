@@ -699,18 +699,27 @@ h3 .links {
 }
 
 .menu_SR .hover-shadow {
+    letter-spacing: normal;
+    line-height: 28.799999px;
+    padding-bottom: 14.006px;
+    padding-left: 25.993999px;
+    padding-right: 25.993999px;
+    padding-top: 14.006px;
     text-align: center;
-    border: 1px solid #333;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-    padding: 10px 0;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: 0.68985px;
+    text-transform: uppercase;
+    text-underline-offset: 2.25px;
+    width: 312.6875px;
+    background-color: #242321;
+    color: #eeeeee;
 }
 
 .menu_SR a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: #eeeeee;
 }
 
 closeicon {
